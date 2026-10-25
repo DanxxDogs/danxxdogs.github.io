@@ -1,0 +1,8 @@
+[
+ {"id":"AL-002","title":"Torch (TORCH) whale dump","date":"2026-10-24","project":"Legit project · not a rug",
+  "facts":["3 wallets (0xecee…f01d, 0x7b04…1516, 0xe33e…08a5) sold ~23M TORCH (~2.3% of supply) for ~95 ETH","Sells landed between 4:12 and 5:34 AM CT, Oct 24 2026","Liquidity ~2.2M USD intact; whale selling, not a rug"],
+  "post":"https://x.com/DanxxDogs/status/2114015928660988192"},
+ {"id":"AL-001","title":"Artificial Inu (AI) whale exit","date":"2026-10-23","project":"Legit project · not a rug",
+  "facts":["~5:56 PM CT: wallet 0xb8f305f2…04ea sold 20.06M AI (~2% supply) for ~461 WETH (~1.09M USD)","Open-market buyer since July, not the dev; now holds 0 AI","Liquidity intact (~2.55M USD top pool)"],
+  "post":"https://x.com/DanxxDogs/status/2113773726093517164"}
+]
