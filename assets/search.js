@@ -67,10 +67,22 @@
   root.DDSearch = { search: search, MISS: MISS };
   if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', function () {
     var entries = fromDom(document);
-    if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
+    var grid = document.querySelector('#db .dbgrid'), btn = document.querySelector('#db .dbmore'), wrap = btn && btn.parentNode;
+    var total = grid ? grid.querySelectorAll('article.db').length : 0, expanded = false;
+    function setExp(v) { expanded = v; if (!grid) return; grid.classList.toggle('show-all', v);
+      if (btn) { btn.setAttribute('aria-expanded', v ? 'true' : 'false'); btn.textContent = v ? 'Show fewer' : 'Show all ' + total + ' entries'; } }
+    function searching(on) { if (!grid) return; if (on) grid.classList.add('show-all'); else grid.classList.toggle('show-all', expanded); if (wrap) wrap.style.display = on ? 'none' : ''; }
+    function reveal(id) { var t = id && document.getElementById(id); if (!t) return;
+      if (t.classList.contains('db-more') && !grid.classList.contains('show-all')) setExp(true); t.scrollIntoView(); }
+    if (grid && !grid.querySelector('.db-more') && wrap) wrap.style.display = 'none';
+    setExp(false);
+    if (btn) btn.addEventListener('click', function () { var was = expanded; setExp(!was); if (was) document.getElementById('db').scrollIntoView(); });
+    window.addEventListener('hashchange', function () { reveal(decodeURIComponent(location.hash.slice(1))); });
+    document.addEventListener('click', function (ev) { var a = ev.target.closest && ev.target.closest('a[href^="#dd-"]'); if (a) { var id = a.getAttribute('href').slice(1); if (location.hash === '#' + id) { ev.preventDefault(); reveal(id); } else setTimeout(function () { reveal(id); }, 0); } });
+    if (location.hash) reveal(decodeURIComponent(location.hash.slice(1)));
     document.querySelectorAll('form.ddsearch').forEach(function (f) {
       var inp = f.querySelector('input'), box = f.parentNode.querySelector('.sr-results');
-      var run = function () { render(search(entries, inp.value), box); };
+      var run = function () { render(search(entries, inp.value), box); searching(!!inp.value.trim()); };
       f.addEventListener('submit', function (ev) { ev.preventDefault(); run(); });
       inp.addEventListener('input', run);
       var p = new URLSearchParams(location.search).get('q'); if (p) { inp.value = p; run(); }
