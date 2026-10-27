@@ -1,8 +1,50 @@
 [
- {"id":"AL-002","title":"Torch (TORCH) whale dump","date":"2026-10-24","project":"Legit project · not a rug",
-  "facts":["3 wallets (0xecee…f01d, 0x7b04…1516, 0xe33e…08a5) sold ~23M TORCH (~2.3% of supply) for ~95 ETH","Sells landed between 4:12 and 5:34 AM CT, Oct 24 2026","Liquidity ~2.2M USD intact; whale selling, not a rug"],
-  "post":"https://x.com/DanxxDogs/status/2114015928660988192"},
- {"id":"AL-001","title":"Artificial Inu (AI) whale exit","date":"2026-10-23","project":"Legit project · not a rug",
-  "facts":["~5:56 PM CT: wallet 0xb8f305f2…04ea sold 20.06M AI (~2% supply) for ~461 WETH (~1.09M USD)","Open-market buyer since July, not the dev; now holds 0 AI","Liquidity intact (~2.55M USD top pool)"],
-  "post":"https://x.com/DanxxDogs/status/2113773726093517164"}
+ {
+  "id": "AL-004",
+  "title": "Anthropic (ANT) bundle dump",
+  "date": "2026-10-26",
+  "project": "Flagged · not affiliated with Anthropic",
+  "facts": [
+   "~94% of supply bought in the launch tx",
+   "About an hour later, 159 wallets sold within 5 seconds and drained ~20.7 ETH",
+   "Price -99.6% · DB entry DD-030"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2114745807840960698"
+ },
+ {
+  "id": "AL-003",
+  "title": "Million Dollar Homepage (1M) coordinated dump",
+  "date": "2026-10-26",
+  "project": "Flagged · not a proven rug",
+  "facts": [
+   "About 30 min after a paid DEX boost, 11 fresh wallets dumped ~18% of supply in 41 seconds",
+   "Price -90%; dev wallet was not a seller",
+   "DB entry DD-029"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2114734313270898868"
+ },
+ {
+  "id": "AL-002",
+  "title": "Torch (TORCH) whale dump",
+  "date": "2026-10-24",
+  "project": "Legit project · not a rug",
+  "facts": [
+   "3 wallets (0xecee…f01d, 0x7b04…1516, 0xe33e…08a5) sold ~23M TORCH (~2.3% of supply) for ~95 ETH",
+   "Sells landed between 4:12 and 5:34 AM CT, Oct 24 2026",
+   "Liquidity ~2.2M USD intact; whale selling, not a rug"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2114015928660988192"
+ },
+ {
+  "id": "AL-001",
+  "title": "Artificial Inu (AI) whale exit",
+  "date": "2026-10-23",
+  "project": "Legit project · not a rug",
+  "facts": [
+   "~5:56 PM CT: wallet 0xb8f305f2…04ea sold 20.06M AI (~2% supply) for ~461 WETH (~1.09M USD)",
+   "Open-market buyer since July, not the dev; now holds 0 AI",
+   "Liquidity intact (~2.55M USD top pool)"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2113773726093517164"
+ }
 ]
