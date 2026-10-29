@@ -1,5 +1,18 @@
 [
  {
+  "id": "AL-008",
+  "title": "Binance hot wallet drain: receipts",
+  "date": "2026-10-29",
+  "project": "Exchange hack · Ethereum · DB entry DD-039",
+  "facts": [
+   "Trigger wallet 0x7C86…5CA0 funded via Tornado Cash",
+   "Main receiver 0x5227…2f8c: Tether + Circle froze ~1.8B in stables",
+   "195,460 ETH parked untouched in 0x8532…43D4; ~122,310 ETH (from swapped USDT) in 0xc887…286A",
+   "Watch for fake 'Binance refund' links and lookalike/poisoned addresses"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2115935303873474835"
+ },
+ {
   "id": "AL-007",
   "title": "Fake FLOP: there is no FLOP token",
   "date": "2026-10-29",
