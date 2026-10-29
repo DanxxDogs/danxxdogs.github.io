@@ -1,5 +1,17 @@
 [
  {
+  "id": "AL-005",
+  "title": "ROBINHOOD copycat #2 bundle dump",
+  "date": "2026-10-29",
+  "project": "Flagged · copycat name",
+  "facts": [
+   "6 wallets, deployer included, bought 83.87% of supply in the launch tx",
+   "Deployer sold its 16.66% in 13 sells over ~90 seconds; all six out within ~9 minutes",
+   "LP not pulled · DB entry DD-035"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2115685328703078634"
+ },
+ {
   "id": "AL-004",
   "title": "Anthropic (ANT) bundle dump",
   "date": "2026-10-26",
