@@ -1,5 +1,17 @@
 [
  {
+  "id": "AL-007",
+  "title": "Fake FLOP: there is no FLOP token",
+  "date": "2026-10-29",
+  "project": "Flagged · not affiliated with Flop Labs",
+  "facts": [
+   "Arthur Hayes / Flop Labs: there is no FLOP token",
+   "Deployer got ~4.8% of supply in the launch tx and sold it all in 34 sells in about a minute",
+   "Pushed with a 'claim' link reported as a wallet drainer · DB entry DD-037"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2115844495187018068"
+ },
+ {
   "id": "AL-006",
   "title": "Free Mika (MIKA) copycats: LP pulled",
   "date": "2026-10-29",
