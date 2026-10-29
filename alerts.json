@@ -1,5 +1,17 @@
 [
  {
+  "id": "AL-006",
+  "title": "Free Mika (MIKA) copycats: LP pulled",
+  "date": "2026-10-29",
+  "project": "Flagged · copycat name",
+  "facts": [
+   "9 'Free Mika' copies launched on Robinhood Chain Oct 28, 12:58 to 2:08 PM CT, copying the Solana pump.fun meme",
+   "On 3 traced copies the deployer added LP and pulled 100% of it 8 to 10 minutes after launch",
+   "All 9 pools have 0 active liquidity; DexScreener shows stale numbers · DB entry DD-036"
+  ],
+  "post": "https://x.com/DanxxDogs/status/2115741331586740347"
+ },
+ {
   "id": "AL-005",
   "title": "ROBINHOOD copycat #2 bundle dump",
   "date": "2026-10-29",
