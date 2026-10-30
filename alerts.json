@@ -1,5 +1,24 @@
 [
  {
+  "id": "AL-010",
+  "title": "SAFU Fund: liquidity pulled in 40 minutes",
+  "date": "2026-10-30",
+  "project": "Liquidity pull \u00b7 Robinhood Chain",
+  "facts": [
+   "Token 0x3b44619f18277D9Bd4a59cc432DE9F05AE9CAA83, deployer 0x9364CDa3376F1C3703174B6E45507D70f7262f01",
+   "Launched 9:48 AM CT Oct 30; LP added 8 seconds later",
+   "10:28 AM CT: deployer called modifyLiquidities and pulled 15.70 ETH (~35K USD) plus 24% of supply",
+   "12 seconds later it forwarded 15.77 ETH to unidentified contract 0xF341c935599822f1Bc1ec29E27606724FBbF6595",
+   "Deployer now at ~0 ETH after 5 txs; 282 holders left"
+  ],
+  "receipts": {
+   "deploy": "https://robinhoodchain.blockscout.com/tx/0xd9197e20a07ae94f48168b739ff4ab33f775bad08eb4cc605ee1ef3e24403d54",
+   "pull": "https://robinhoodchain.blockscout.com/tx/0x1e50e1c734f026ef0a26e0f90692fbceec1250ffc264c11f6b13d51ae497fdd2",
+   "forward": "https://robinhoodchain.blockscout.com/tx/0xae532107f92933b513645144e3df674931a26da1fb7a975bb5be9ba516c0181d"
+  },
+  "img": "assets/safu_fund_rug_1030.jpg"
+ },
+ {
   "id": "AL-009",
   "title": "Binance-bait SAFU sweep: 7 LP pulls",
   "date": "2026-10-30",
