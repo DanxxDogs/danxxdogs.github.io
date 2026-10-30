@@ -1,0 +1,667 @@
+{
+ "project": "Danxx Dogs",
+ "updated_ct": "2026-10-30",
+ "note": "Verified facts from the Danxx Dogs scam DB, alerts and Repeat Deployer Ledger. Not an accusation; nothing here means a token is safe. NFA/DYOR.",
+ "explorer": "https://robinhoodchain.blockscout.com/",
+ "count": 27,
+ "deployers": [
+  {
+   "id": "DP-001",
+   "address": "0x498b1bee7a146a4d10514f2d8eb1201b447ad384",
+   "full_address": true,
+   "label": "Bot deployer (serial clones)",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "DANXXDOGS (fake)",
+     "address": "0xcF4Bd61581e7554B7a96fC63536A783c70a37777",
+     "ref": "DD-001"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Serial bot deployer: ~120 tokens in 12h, 4,050 txs, still deploying as of Oct 29. Copycat of our name. No victim damage measured (7-day: unclear).",
+   "refs": [
+    "DD-001",
+    "DD-002"
+   ],
+   "source": "scamdb + scorecard"
+  },
+  {
+   "id": "DP-002",
+   "address": "0xe991fc98c8d9b74324679e85d5891add64c2ebfc",
+   "full_address": true,
+   "label": "baldcat deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "baldcat",
+     "address": "0xA5b527868dc7701c7F795750cbAc70B33D742479",
+     "ref": "DD-011"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Got all 1B supply, seeded the Uniswap v3 pool with it, then removed 100% of the position (~9.17 WETH) about 3.5h later. 7-day: hit.",
+   "refs": [
+    "DD-011"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-003",
+   "address": "0x062671916127c259acc1e0ab43d3bdec9bc1f580",
+   "full_address": true,
+   "label": "Copycat TRCH deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "TRCH (copycat Torch)",
+     "address": "0xe323a5Cc2fbe7eF6d7ba12dE80BEDE0Fc9BB4724",
+     "ref": "DD-033"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Deployer and sole LP: added 100% of liquidity 1:14 PM CT Oct 26, removed all of it 3:30 PM CT. Price -95% in an hour.",
+   "refs": [
+    "DD-033"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-004",
+   "address": "0x2a72a48d77238120f86a93b9d55b5b2ea406cb21",
+   "full_address": true,
+   "label": "RUMP deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "RUMP",
+     "address": "0x7eD7bEB3265ff628F834348beb4c0159f7619C15",
+     "ref": "DD-034"
+    }
+   ],
+   "linked_wallets": [
+    {
+     "address": "0x672687CA46d3719c7d542EA4a795fd3e4C65205c",
+     "role": "pool"
+    }
+   ],
+   "pattern": "Deployer pulled liquidity.",
+   "refs": [
+    "DD-034"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-005",
+   "address": "0x5ac5c0e4b6539734cba6d4b9954e698ff98591cd",
+   "full_address": true,
+   "label": "ROBINHOOD copycat #2 deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "ROBINHOOD (copycat #2)",
+     "address": "0xe04F57626AD29F871CE97798A7e24620650099f9",
+     "ref": "DD-035"
+    }
+   ],
+   "linked_wallets": [
+    {
+     "address": "0xbb78b0b2ebe8da53034c00e352c92e52478cd176",
+     "role": "launch tx sender (5.2 ETH)"
+    }
+   ],
+   "pattern": "Launch bundle: 6 wallets incl. the deployer bought 83.87% in the launch tx; deployer sold its 16.66% in 13 sells over ~90s; all six out in ~9 min. LP not pulled; we can't prove who controls the six wallets.",
+   "refs": [
+    "DD-035",
+    "AL-005"
+   ],
+   "source": "scamdb + alerts.json"
+  },
+  {
+   "id": "DP-006",
+   "address": "0x7578f8af63970ba4437c79f074929897e6815bd5",
+   "full_address": true,
+   "label": "Fake DANXXDOGS #3 creator",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "DANXXDOGS (fake #3)",
+     "address": "0x680b52a6a3092a93c220d4171813b8b3790c2790",
+     "ref": "DD-027"
+    }
+   ],
+   "linked_wallets": [
+    {
+     "address": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+     "role": "launcher contract"
+    },
+    {
+     "address": "0xc5e6722e1d4822c61771959d9498e5dc5a2d74c2",
+     "role": "bonding/pool"
+    }
+   ],
+   "pattern": "Copycat of our name. Creator bought ~21.7% of supply for 0.4705 ETH at launch; 15 same-block sellers followed.",
+   "refs": [
+    "DD-027"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-007",
+   "address": "0x21853863aeec000ebfa52e46b366fdf2ac02ca6b",
+   "full_address": true,
+   "label": "Fake DANXX #2 launcher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "DANXX (fake #2)",
+     "address": "0xF06f89388E84e43beEf2F1E911c0ab6Ca91E7777",
+     "ref": "DD-025"
+    }
+   ],
+   "linked_wallets": [
+    {
+     "address": "0x7Ca1916df820103e10aB56799f6489f28cb13881",
+     "role": "pair"
+    }
+   ],
+   "pattern": "Copycat of our name on flap.sh.",
+   "refs": [
+    "DD-025"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-008",
+   "address": "0x532c499b3ab5c96411f25f296fc3625630a75545",
+   "full_address": true,
+   "label": "GIGATENEV clone deployer / airdropper",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "GIGATENEV clone",
+     "address": "0x99d50338fd3c646dd57d122f53383fc40c45024d",
+     "ref": "DD-032"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Fake-liquidity clone: DexScreener showed ~278,100 USD liquidity while the pool held ~3 USD of WETH.",
+   "refs": [
+    "DD-032"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-009",
+   "address": "0x9364CDa3376F1C3703174B6E45507D70f7262f01",
+   "full_address": true,
+   "label": "SAFU Fund deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "SAFU Fund",
+     "address": "0x3b44619f18277D9Bd4a59cc432DE9F05AE9CAA83",
+     "ref": "AL-010"
+    }
+   ],
+   "linked_wallets": [
+    {
+     "address": "0xF341c935599822f1Bc1ec29E27606724FBbF6595",
+     "role": "received 15.77 ETH 12s after the pull (unidentified contract)"
+    }
+   ],
+   "pattern": "Launched 9:48 AM CT Oct 30, LP 8s later; 40 min later pulled 15.70 ETH (~35K USD) plus 24% of supply and forwarded 15.77 ETH onward.",
+   "refs": [
+    "AL-010"
+   ],
+   "source": "alerts.json"
+  },
+  {
+   "id": "DP-010",
+   "address": "0xe7135de2c217271d9e830cd0ddb55ba0ca4faf64",
+   "full_address": true,
+   "label": "SAFU (0xB2bd) deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "SAFU",
+     "address": "0xB2bdDcfb1D8aC2f063cBFBaa630C0A9D5Afd0E8e",
+     "ref": "AL-009"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Binance-bait name. LP added 5:06 PM, pulled 5:09 PM CT Oct 29; deployer holds 82.5%.",
+   "refs": [
+    "AL-009"
+   ],
+   "source": "alerts.json + sweep scan"
+  },
+  {
+   "id": "DP-011",
+   "address": "0x26421f73d044a90e638613b21185b5f4392599c0",
+   "full_address": true,
+   "label": "SAFU (0x8b3D) deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "SAFU",
+     "address": "0x8b3D1cc12D3dE59F8a9b2d60C2256858fBE606c1",
+     "ref": "AL-009"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Binance-bait name. LP added 5:11 PM, pulled 5:28 PM CT Oct 29; deployer holds 51.7%.",
+   "refs": [
+    "AL-009"
+   ],
+   "source": "alerts.json + sweep scan"
+  },
+  {
+   "id": "DP-012",
+   "address": "0xddf265eca7cde2a919a8ae542af5bf8ba2a88596",
+   "full_address": true,
+   "label": "\"The Hacker PARK JIN HYOK\" deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "HACKER",
+     "address": "0x794F789746233e014c00A477BAc7f53Ba1A57D65",
+     "ref": "AL-009"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Binance-bait name. LP added 8:24 PM, removed 8:30 PM CT Oct 29 by the deployer, which still holds 58.8%.",
+   "refs": [
+    "AL-009"
+   ],
+   "source": "alerts.json + sweep scan"
+  },
+  {
+   "id": "DP-013",
+   "address": "0x1cbaf24d53fe930fce8eff149fa797d2611da149",
+   "full_address": true,
+   "label": "SAFU factory family (4 tokens, one factory)",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "SAFU",
+     "address": "0xbEcfC44f9CA853F28130B58C12c28DcED41fA59C",
+     "ref": "AL-009"
+    },
+    {
+     "symbol": "SAFU",
+     "address": "0x5b4489aCe8d3651CAfd996388a9c43c7B94518fB",
+     "ref": "AL-009"
+    },
+    {
+     "symbol": "SAFU",
+     "address": "0xe4d8b53BE371aC808f6b78D4a05a84dd4D903B87",
+     "ref": "AL-009"
+    },
+    {
+     "symbol": "SAFU",
+     "address": "0x39D4bA6e511Bb4EF3726eb0FcB1A466D03c08b3a",
+     "ref": "AL-009"
+    }
+   ],
+   "linked_wallets": [
+    {
+     "address": "0x5bdd0dd59d79087512b798ca0546cfc9df68d96f",
+     "role": "creator of SAFU 0xbEcf…A59C"
+    },
+    {
+     "address": "0x37506d1558a39152798e37d16d1114ea6a5ff630",
+     "role": "creator of SAFU 0x5b44…18fB"
+    },
+    {
+     "address": "0xb71cd67b9da2cf74dd021ba2c71b6e612f8dbec2",
+     "role": "creator of SAFU 0xe4d8…3B87"
+    },
+    {
+     "address": "0xf8c6c16d063cceed278eebaf0a888e0424383d22",
+     "role": "creator of SAFU 0x39D4…8b3a"
+    }
+   ],
+   "pattern": "Four SAFU tokens from one factory contract: LP in, deployer sells 22.1% of supply, LP out 9 to 10 min later (2:28 to 4:37 AM CT Oct 30).",
+   "refs": [
+    "AL-009"
+   ],
+   "source": "alerts.json + sweep scan"
+  },
+  {
+   "id": "DP-014",
+   "address": "0xc5a8776e…d960",
+   "full_address": false,
+   "label": "DEVIN deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "DEVIN",
+     "address": "0xE147378c0EAb11018Fad52d0190a502D3C956B6E",
+     "ref": "DD-024"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Added liquidity 7:13 AM CT Oct 23 and removed 100% at 7:44 AM CT; holds 44% of supply.",
+   "refs": [
+    "DD-024"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-015",
+   "address": "0x733b…5396",
+   "full_address": false,
+   "label": "Fake FLOP deployer",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "FLOP (fake)",
+     "address": "0x4C719272B7336f2bA1dFDf86c33894086967d97A",
+     "ref": "DD-037"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "No official FLOP token exists. Deployer got ~4.8% in the launch tx and sold it all in 34 sells in about a minute.",
+   "refs": [
+    "DD-037"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-016",
+   "address": "0x6c21…9419",
+   "full_address": false,
+   "label": "FUCK pool creator",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "FUCK",
+     "address": "0x0642C6D67F32467CFe577E68FbcaacF43De62f0e",
+     "ref": "DD-028"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Pool creator removed 100% of liquidity (9:56 AM CT).",
+   "refs": [
+    "DD-028"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-017",
+   "address": "0xad9f…36a6",
+   "full_address": false,
+   "label": "AMERIICANTRUMP dev",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "AMERIICANTRUMP",
+     "address": "0xa5917Df0DbA46a00eb19382C095CE88d0358DeaF",
+     "ref": "DD-009"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Fake liquidity: DexScreener ~286K USD vs pool <1 USD. 7-day: hit.",
+   "refs": [
+    "DD-009"
+   ],
+   "source": "scamdb"
+  },
+  {
+   "id": "DP-018",
+   "address": "0x4020052d61a2ef4f4f110afadb9c701315149b1d",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "HH",
+     "address": "0x7976c1fac1d00f246bbefe186a6464e0aa999955",
+     "ref": "RL-001"
+    },
+    {
+     "symbol": "KAT",
+     "address": "0x4f68b75905c2e705c6d4309a7acc31000414a079",
+     "ref": "RL-001"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-001"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-019",
+   "address": "0xe11493628f33ebf3c8b42b6ab1be9eb2c2b96799",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "POTATO",
+     "address": "0xce8630b5b24276cec4aa8a1c6697dde5f3307339",
+     "ref": "RL-002"
+    },
+    {
+     "symbol": "SCREAM",
+     "address": "0x6f383de16a77f2d2c270541d789b0140686709a0",
+     "ref": "RL-002"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-002"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-020",
+   "address": "0x9c021742351dde522e2bcd0c97008d4d1ecd6170",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "BAMBO",
+     "address": "0xe26a4c318d55cd1fd97e0afcbc85798d1d4112e5",
+     "ref": "RL-003"
+    },
+    {
+     "symbol": "BABYTROLL",
+     "address": "0x95b11310bf39ceaa166f54a5a71fa0d1065a6622",
+     "ref": "RL-003"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-003"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-021",
+   "address": "0x1ce3382a2f987d331ef6fcacd56a7b45c6e6813f",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "ABDO",
+     "address": "0x9e2d32bc38050c677271846b492b7f80c7eed3fd",
+     "ref": "RL-004"
+    },
+    {
+     "symbol": "SPACEX",
+     "address": "0xa6d813c39f45bded913d525da2124271bb0548cc",
+     "ref": "RL-004"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-004"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-022",
+   "address": "0xf1c71d5da3751ed4bda25c9df6a71c554a24f605",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "METAPA",
+     "address": "0xdfe1bdb3a040757948429cb665074d25d1f8f4d1",
+     "ref": "RL-005"
+    },
+    {
+     "symbol": "NULL",
+     "address": "0x14d3ff2b5214c9be7efbae6a088876ba356ab81b",
+     "ref": "RL-005"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-005"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-023",
+   "address": "0x1efaaffaa68bd1e49f79b84b27077c568532a035",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "MOON",
+     "address": "0xe1852ed7347310b17d65096a888b53dd33024540",
+     "ref": "RL-006"
+    },
+    {
+     "symbol": "CAT",
+     "address": "0x5b7af3185685297ea7b98c071a87b3cfd64f87a9",
+     "ref": "RL-006"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-006"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-024",
+   "address": "0x487a79fe61ceaa16429e4491cb52f628df3c9466",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "CAILLOU",
+     "address": "0x4dc0667fc769e97b46cdbb0257acbcac9bebc021",
+     "ref": "RL-007"
+    },
+    {
+     "symbol": "CAILLOU",
+     "address": "0xeebf4663337e92112efcd005462725d678dc2cb1",
+     "ref": "RL-007"
+    },
+    {
+     "symbol": "HEWER",
+     "address": "0x36ecca39949496e0fb73ad8ad5fd56bd01f3f1b0",
+     "ref": "RL-007"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-007"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-025",
+   "address": "0x1dae635a1f541b044c48b500a5ab1a83c8fb9f00",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "HCRAFT",
+     "address": "0x2763a3dfc26d90bf536be1b665ce904a754fc474",
+     "ref": "RL-008"
+    },
+    {
+     "symbol": "PI",
+     "address": "0x2a60e406e6d9c260613fa31f5063b66a36ad81b4",
+     "ref": "RL-008"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-008"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-026",
+   "address": "0x69479736b4e6d8ff19a79c5db61cc7489e80cbcd",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "GC",
+     "address": "0x624fddb53fc64f9d3cbf6cee910a3d42aac4e067",
+     "ref": "RL-009"
+    },
+    {
+     "symbol": "MWAF",
+     "address": "0xc4139f3363e14a15b4875e38b8a85ee29fcbeb96",
+     "ref": "RL-009"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-009"
+   ],
+   "source": "ledger.html"
+  },
+  {
+   "id": "DP-027",
+   "address": "0xd1615a54c9ccb97c959cc0c0ce70a145cc5eb4e9",
+   "full_address": true,
+   "label": "Repeat relauncher",
+   "chain": "Robinhood Chain",
+   "tokens": [
+    {
+     "symbol": "CORBIE",
+     "address": "0x14d5a68efed8ce63748fb1f1c7d1e56534dc7b27",
+     "ref": "RL-010"
+    },
+    {
+     "symbol": "CORBIE",
+     "address": "0x823b8d7ed0f6f3ade9246c7058ee712b3049e714",
+     "ref": "RL-010"
+    }
+   ],
+   "linked_wallets": [],
+   "pattern": "Created a token, removed its Uniswap v3 LP, then created a new token (Repeat Deployer Ledger). Not an accusation: devs relaunch for many reasons.",
+   "refs": [
+    "RL-010"
+   ],
+   "source": "ledger.html"
+  }
+ ]
+}
