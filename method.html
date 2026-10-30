@@ -51,6 +51,16 @@ h1.pg{font-size:2.2rem;color:var(--gold)}h1.pg span{color:var(--g)}</style><scri
 <li>Every flag gets a 7-day check. Until that's written up, it stays <b>pending</b>.</li>
 <li><b>Hit:</b> the flagged risk happened on-chain. <b>Miss:</b> it didn't, or we got it wrong. Otherwise it's marked <b>unclear</b>.</li>
 <li>Misses stay up. That's the point.</li></ul>
+<h2 id="sniffbot">What's new in the Sniff bot</h2>
+<p>In the Dip Club, type <b>/sniff</b> and a Robinhood Chain contract address. <b>@DanxxDogsSniffBot</b> reads public on-chain data and replies with a risk score and the flags behind it. It never trades and never touches keys.</p>
+<p><b>What it checks:</b> how much the deployer holds and whether it sold into the pool; bundle buys at launch and whether those wallets dumped; top holders; real pool WETH vs the liquidity DexScreener shows (fake liquidity); LP pulled from its peak; mass airdrops of identical amounts; copycat names and symbols; known mass-launcher wallets; and contract facts (verified source, proxy, owner mint and control functions).</p>
+<p><b>What the Oct 24 upgrade added:</b></p>
+<ul><li><b>Two-step reply:</b> a quick read first, then the same message updates with the deep check, usually in under a minute.</li>
+<li><b>Deployer history:</b> it looks at the deployer's other launches and flags a <b>serial deployer</b> when two or more of them are now dead or drained.</li>
+<li><b>Scam DB match:</b> it flags a token or deployer that matches a high-risk entry in our database.</li>
+<li><b>Missing data counts:</b> if a check can't run (no pair, no deployer history), it adds points and lists it as "unchecked" instead of staying quiet.</li>
+<li><b>Source check</b> on Blockscout as well as Sourcify.</li></ul>
+<p><b>How the score reads:</b> each flag adds points. 40+ or any single big flag = 🚩 HIGH RISK. Any flag or 15+ = ⚠️ Sniff carefully. Otherwise it says "No red flags sniffed (not a guarantee)" or "Not enough data". It never says "safe". Limit: 3 sniffs per hour per person. NFA/DYOR.</p>
 <h2>6. Post-mortems</h2>
 <p>Hits and misses both get a short write-up showing what we saw and what happened, starting with the Nov 5 checks.</p>
 <p class="muted">NFA/DYOR. Public data only. We never DM first.</p></section></div><footer><p><a href="https://x.com/DanxxDogs" target="_blank" rel="noopener">X @DanxxDogs</a> · <a href="https://t.me/danxxdogs" target="_blank" rel="noopener">Telegram: Dip Club</a></p><p class="nfa">NFA/DYOR. Public data only. We never DM first.</p></footer><script>/* mobile-fix */document.querySelectorAll('table.facts').forEach(function(t){var h=t.rows[0];if(!h)return;var L=[].map.call(h.cells,function(c){return c.textContent.trim()});for(var i=1;i<t.rows.length;i++)[].forEach.call(t.rows[i].cells,function(c,j){if(L[j])c.setAttribute('data-label',L[j])})});</script>
