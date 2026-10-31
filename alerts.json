@@ -1,136 +1,158 @@
 [
- {
-  "id": "AL-010",
-  "title": "SAFU Fund: liquidity pulled in 40 minutes",
-  "date": "2026-10-30",
-  "project": "Liquidity pull \u00b7 Robinhood Chain",
-  "facts": [
-   "Token 0x3b44619f18277D9Bd4a59cc432DE9F05AE9CAA83, deployer 0x9364CDa3376F1C3703174B6E45507D70f7262f01",
-   "Launched 9:48 AM CT Oct 30; LP added 8 seconds later",
-   "10:28 AM CT: deployer called modifyLiquidities and pulled 15.70 ETH (~35K USD) plus 24% of supply",
-   "12 seconds later it forwarded 15.77 ETH to unidentified contract 0xF341c935599822f1Bc1ec29E27606724FBbF6595",
-   "Deployer now at ~0 ETH after 5 txs; 282 holders left"
-  ],
-  "receipts": {
-   "deploy": "https://robinhoodchain.blockscout.com/tx/0xd9197e20a07ae94f48168b739ff4ab33f775bad08eb4cc605ee1ef3e24403d54",
-   "pull": "https://robinhoodchain.blockscout.com/tx/0x1e50e1c734f026ef0a26e0f90692fbceec1250ffc264c11f6b13d51ae497fdd2",
-   "forward": "https://robinhoodchain.blockscout.com/tx/0xae532107f92933b513645144e3df674931a26da1fb7a975bb5be9ba516c0181d"
+  {
+    "id": "AL-011",
+    "title": "Fake Dacity Coin Airdrop: rugged, then relaunched with the same ETH",
+    "date": "2026-10-31",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0x4899CE47FF349c229624B5Bef933a5432746cAaA \"Dacity Coin Airdrop\", deployer 0xc85f016dC85cCAdFbb3128F780cA865Ae4FD5Fba",
+      "8:45 AM CT Oct 31: 11 ETH LP added; 40 seconds later the deployer switched on a blacklist",
+      "8:53 AM CT: deployer called modifyLiquidities and pulled 11.91 ETH (0.91 more than it put in)",
+      "7 seconds later 12.05 ETH went to 0xeFdB1e339f4544A9dcDf0764aAA055764752e636, then 11.05 ETH via 0x6A4cb05982177A624BE07F2D56Bf2C928c85e54b to new deployer 0x6E1B745B916A4ad7133D6C0dC56DC3570311c233",
+      "8:54 AM CT: that deployer launched \"Dacity Coin\" 0x69F8ab433B6e4de57306C194678A96042C1d04aE with 11 ETH LP; LP still in as of 10:05 AM CT, but 30+ blacklist calls since",
+      "Neither token is the GTA6 DACITY memecoin trending on X"
+    ],
+    "receipts": {
+      "deploy": "https://robinhoodchain.blockscout.com/tx/0xb827ef62390c24fac28d432dc706a50114bf03cf5454a71400f61ed98ce58565",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x946a8a53085c0eaaeb982e3f57b3711fdd92fa78665832030fc82bbe6c70a27a",
+      "forward": "https://robinhoodchain.blockscout.com/tx/0xb72ad72c4c8adef024476a0b23d616381815717722a99d42985c69c0d1a0c107",
+      "relaunch": "https://robinhoodchain.blockscout.com/tx/0x5f7b70aaaaeb91ad51363d1387cc2a2320bf9d2d98ac2622c8acb19b986ee534"
+    },
+    "post": "https://x.com/DanxxDogs/status/2116547763965919463",
+    "img": "assets/dacity_rug_1031.jpg"
   },
-  "post": "https://x.com/DanxxDogs/status/2116246208935039404",
-  "img": "assets/safu_fund_rug_1030.jpg"
- },
- {
-  "id": "AL-009",
-  "title": "Binance-bait SAFU sweep: 7 LP pulls",
-  "date": "2026-10-30",
-  "project": "Flagged \u00b7 liquidity pulled by deployers",
-  "facts": [
-   "Since 3 PM CT Oct 29: 11 launches with SAFU, CZ, HACKER, DRAIN or CLAIM in the name; 7 had pool liquidity pulled by the deploying wallet, most within 3 to 17 minutes",
-   "SAFU 0xB2bd\u20260e8e: LP added 5:06 PM, pulled 5:09 PM CT; deployer holds 82.5% (remove tx 0x4c2d683a\u2026a1ca)",
-   "SAFU 0x8b3D\u202606c1: LP added 5:11 PM, pulled 5:28 PM CT; deployer holds 51.7% (remove tx 0x4f434256\u2026ab15)",
-   "Four more SAFUs (0xbEcf\u2026a59C, 0x5b44\u202618fB, 0xe4d8\u20263B87, 0x39D4\u20268b3a) from one factory 0x1cba\u2026a149: LP in, deployer sells 22.1% of supply, LP out 9\u201310 min later (2:28 to 4:37 AM CT Oct 30)",
-   "\"The Hacker PARK JIN HYOK\" 0x794F\u20267D65: LP added 8:24 PM, removed 8:30 PM CT by the deployer (0xd1863498\u2026e9f6), which still holds 58.8%",
-   "CZ, a second HACKER, DRAIN and CLAIMDAY are still live with small pools; no claim or approval-grab functions found",
-   "Binance says there is nothing to claim. If a \"refund\" token or page asks you to sign, don't"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2116193973664637051",
-  "img": "assets/safu_bait_sweep_1030.jpg"
- },
- {
-  "id": "AL-008",
-  "title": "Binance hot wallet drain: receipts",
-  "date": "2026-10-29",
-  "project": "Exchange hack \u00b7 Ethereum \u00b7 DB entry DD-039",
-  "facts": [
-   "Trigger wallet 0x7C86\u20265CA0 funded via Tornado Cash",
-   "Main receiver 0x5227\u20262f8c: Tether + Circle froze ~1.8B in stables",
-   "195,460 ETH parked untouched in 0x8532\u202643D4; ~122,310 ETH (from swapped USDT) in 0xc887\u2026286A",
-   "Watch for fake 'Binance refund' links and lookalike/poisoned addresses"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2115935303873474835"
- },
- {
-  "id": "AL-007",
-  "title": "Fake FLOP: there is no FLOP token",
-  "date": "2026-10-29",
-  "project": "Flagged \u00b7 not affiliated with Flop Labs",
-  "facts": [
-   "Arthur Hayes / Flop Labs: there is no FLOP token",
-   "Deployer got ~4.8% of supply in the launch tx and sold it all in 34 sells in about a minute",
-   "Pushed with a 'claim' link reported as a wallet drainer \u00b7 DB entry DD-037"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2115844495187018068"
- },
- {
-  "id": "AL-006",
-  "title": "Free Mika (MIKA) copycats: LP pulled",
-  "date": "2026-10-29",
-  "project": "Flagged \u00b7 copycat name",
-  "facts": [
-   "9 'Free Mika' copies launched on Robinhood Chain Oct 28, 12:58 to 2:08 PM CT, copying the Solana pump.fun meme",
-   "On 3 traced copies the deployer added LP and pulled 100% of it 8 to 10 minutes after launch",
-   "All 9 pools have 0 active liquidity; DexScreener shows stale numbers \u00b7 DB entry DD-036"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2115741331586740347"
- },
- {
-  "id": "AL-005",
-  "title": "ROBINHOOD copycat #2 bundle dump",
-  "date": "2026-10-29",
-  "project": "Flagged \u00b7 copycat name",
-  "facts": [
-   "6 wallets, deployer included, bought 83.87% of supply in the launch tx",
-   "Deployer sold its 16.66% in 13 sells over ~90 seconds; all six out within ~9 minutes",
-   "LP not pulled \u00b7 DB entry DD-035"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2115685328703078634"
- },
- {
-  "id": "AL-004",
-  "title": "Anthropic (ANT) bundle dump",
-  "date": "2026-10-26",
-  "project": "Flagged \u00b7 not affiliated with Anthropic",
-  "facts": [
-   "~94% of supply bought in the launch tx",
-   "About an hour later, 159 wallets sold within 5 seconds and drained ~20.7 ETH",
-   "Price -99.6% \u00b7 DB entry DD-030"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2114745807840960698"
- },
- {
-  "id": "AL-003",
-  "title": "Million Dollar Homepage (1M) coordinated dump",
-  "date": "2026-10-26",
-  "project": "Flagged \u00b7 not a proven rug",
-  "facts": [
-   "About 30 min after a paid DEX boost, 11 fresh wallets dumped ~18% of supply in 41 seconds",
-   "Price -90%; dev wallet was not a seller",
-   "DB entry DD-029"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2114734313270898868"
- },
- {
-  "id": "AL-002",
-  "title": "Torch (TORCH) whale dump",
-  "date": "2026-10-24",
-  "project": "Legit project \u00b7 not a rug",
-  "facts": [
-   "3 wallets (0xecee\u2026f01d, 0x7b04\u20261516, 0xe33e\u202608a5) sold ~23M TORCH (~2.3% of supply) for ~95 ETH",
-   "Sells landed between 4:12 and 5:34 AM CT, Oct 24 2026",
-   "Liquidity ~2.2M USD intact; whale selling, not a rug"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2114015928660988192"
- },
- {
-  "id": "AL-001",
-  "title": "Artificial Inu (AI) whale exit",
-  "date": "2026-10-23",
-  "project": "Legit project \u00b7 not a rug",
-  "facts": [
-   "~5:56 PM CT: wallet 0xb8f305f2\u202604ea sold 20.06M AI (~2% supply) for ~461 WETH (~1.09M USD)",
-   "Open-market buyer since July, not the dev; now holds 0 AI",
-   "Liquidity intact (~2.55M USD top pool)"
-  ],
-  "post": "https://x.com/DanxxDogs/status/2113773726093517164"
- }
+  {
+    "id": "AL-010",
+    "title": "SAFU Fund: liquidity pulled in 40 minutes",
+    "date": "2026-10-30",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0x3b44619f18277D9Bd4a59cc432DE9F05AE9CAA83, deployer 0x9364CDa3376F1C3703174B6E45507D70f7262f01",
+      "Launched 9:48 AM CT Oct 30; LP added 8 seconds later",
+      "10:28 AM CT: deployer called modifyLiquidities and pulled 15.70 ETH (~35K USD) plus 24% of supply",
+      "12 seconds later it forwarded 15.77 ETH to unidentified contract 0xF341c935599822f1Bc1ec29E27606724FBbF6595",
+      "Deployer now at ~0 ETH after 5 txs; 282 holders left"
+    ],
+    "receipts": {
+      "deploy": "https://robinhoodchain.blockscout.com/tx/0xd9197e20a07ae94f48168b739ff4ab33f775bad08eb4cc605ee1ef3e24403d54",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x1e50e1c734f026ef0a26e0f90692fbceec1250ffc264c11f6b13d51ae497fdd2",
+      "forward": "https://robinhoodchain.blockscout.com/tx/0xae532107f92933b513645144e3df674931a26da1fb7a975bb5be9ba516c0181d"
+    },
+    "post": "https://x.com/DanxxDogs/status/2116246208935039404",
+    "img": "assets/safu_fund_rug_1030.jpg"
+  },
+  {
+    "id": "AL-009",
+    "title": "Binance-bait SAFU sweep: 7 LP pulls",
+    "date": "2026-10-30",
+    "project": "Flagged · liquidity pulled by deployers",
+    "facts": [
+      "Since 3 PM CT Oct 29: 11 launches with SAFU, CZ, HACKER, DRAIN or CLAIM in the name; 7 had pool liquidity pulled by the deploying wallet, most within 3 to 17 minutes",
+      "SAFU 0xB2bd…0e8e: LP added 5:06 PM, pulled 5:09 PM CT; deployer holds 82.5% (remove tx 0x4c2d683a…a1ca)",
+      "SAFU 0x8b3D…06c1: LP added 5:11 PM, pulled 5:28 PM CT; deployer holds 51.7% (remove tx 0x4f434256…ab15)",
+      "Four more SAFUs (0xbEcf…a59C, 0x5b44…18fB, 0xe4d8…3B87, 0x39D4…8b3a) from one factory 0x1cba…a149: LP in, deployer sells 22.1% of supply, LP out 9–10 min later (2:28 to 4:37 AM CT Oct 30)",
+      "\"The Hacker PARK JIN HYOK\" 0x794F…7D65: LP added 8:24 PM, removed 8:30 PM CT by the deployer (0xd1863498…e9f6), which still holds 58.8%",
+      "CZ, a second HACKER, DRAIN and CLAIMDAY are still live with small pools; no claim or approval-grab functions found",
+      "Binance says there is nothing to claim. If a \"refund\" token or page asks you to sign, don't"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2116193973664637051",
+    "img": "assets/safu_bait_sweep_1030.jpg"
+  },
+  {
+    "id": "AL-008",
+    "title": "Binance hot wallet drain: receipts",
+    "date": "2026-10-29",
+    "project": "Exchange hack · Ethereum · DB entry DD-039",
+    "facts": [
+      "Trigger wallet 0x7C86…5CA0 funded via Tornado Cash",
+      "Main receiver 0x5227…2f8c: Tether + Circle froze ~1.8B in stables",
+      "195,460 ETH parked untouched in 0x8532…43D4; ~122,310 ETH (from swapped USDT) in 0xc887…286A",
+      "Watch for fake 'Binance refund' links and lookalike/poisoned addresses"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2115935303873474835"
+  },
+  {
+    "id": "AL-007",
+    "title": "Fake FLOP: there is no FLOP token",
+    "date": "2026-10-29",
+    "project": "Flagged · not affiliated with Flop Labs",
+    "facts": [
+      "Arthur Hayes / Flop Labs: there is no FLOP token",
+      "Deployer got ~4.8% of supply in the launch tx and sold it all in 34 sells in about a minute",
+      "Pushed with a 'claim' link reported as a wallet drainer · DB entry DD-037"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2115844495187018068"
+  },
+  {
+    "id": "AL-006",
+    "title": "Free Mika (MIKA) copycats: LP pulled",
+    "date": "2026-10-29",
+    "project": "Flagged · copycat name",
+    "facts": [
+      "9 'Free Mika' copies launched on Robinhood Chain Oct 28, 12:58 to 2:08 PM CT, copying the Solana pump.fun meme",
+      "On 3 traced copies the deployer added LP and pulled 100% of it 8 to 10 minutes after launch",
+      "All 9 pools have 0 active liquidity; DexScreener shows stale numbers · DB entry DD-036"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2115741331586740347"
+  },
+  {
+    "id": "AL-005",
+    "title": "ROBINHOOD copycat #2 bundle dump",
+    "date": "2026-10-29",
+    "project": "Flagged · copycat name",
+    "facts": [
+      "6 wallets, deployer included, bought 83.87% of supply in the launch tx",
+      "Deployer sold its 16.66% in 13 sells over ~90 seconds; all six out within ~9 minutes",
+      "LP not pulled · DB entry DD-035"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2115685328703078634"
+  },
+  {
+    "id": "AL-004",
+    "title": "Anthropic (ANT) bundle dump",
+    "date": "2026-10-26",
+    "project": "Flagged · not affiliated with Anthropic",
+    "facts": [
+      "~94% of supply bought in the launch tx",
+      "About an hour later, 159 wallets sold within 5 seconds and drained ~20.7 ETH",
+      "Price -99.6% · DB entry DD-030"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2114745807840960698"
+  },
+  {
+    "id": "AL-003",
+    "title": "Million Dollar Homepage (1M) coordinated dump",
+    "date": "2026-10-26",
+    "project": "Flagged · not a proven rug",
+    "facts": [
+      "About 30 min after a paid DEX boost, 11 fresh wallets dumped ~18% of supply in 41 seconds",
+      "Price -90%; dev wallet was not a seller",
+      "DB entry DD-029"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2114734313270898868"
+  },
+  {
+    "id": "AL-002",
+    "title": "Torch (TORCH) whale dump",
+    "date": "2026-10-24",
+    "project": "Legit project · not a rug",
+    "facts": [
+      "3 wallets (0xecee…f01d, 0x7b04…1516, 0xe33e…08a5) sold ~23M TORCH (~2.3% of supply) for ~95 ETH",
+      "Sells landed between 4:12 and 5:34 AM CT, Oct 24 2026",
+      "Liquidity ~2.2M USD intact; whale selling, not a rug"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2114015928660988192"
+  },
+  {
+    "id": "AL-001",
+    "title": "Artificial Inu (AI) whale exit",
+    "date": "2026-10-23",
+    "project": "Legit project · not a rug",
+    "facts": [
+      "~5:56 PM CT: wallet 0xb8f305f2…04ea sold 20.06M AI (~2% supply) for ~461 WETH (~1.09M USD)",
+      "Open-market buyer since July, not the dev; now holds 0 AI",
+      "Liquidity intact (~2.55M USD top pool)"
+    ],
+    "post": "https://x.com/DanxxDogs/status/2113773726093517164"
+  }
 ]
