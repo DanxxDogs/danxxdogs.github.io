@@ -1,5 +1,30 @@
 [
   {
+    "id": "AL-013",
+    "title": "Mr Veto rugged twice: 22.2 ETH pulled, sent to the Собака hub",
+    "date": "2026-11-01",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Two tokens named \"Mr Veto\" (VETO) launched Nov 1 riding the Trump \"Mr. Veto\" headlines: 0x91A5c1Cc7f495d0E47Be2281720a6c079d42Ff21 and 0x4e1802249b5ce4D231c9ae8e33eB21Ee9850d818",
+      "VETO #1: deployer 0x9e774EC5602454e3848D58Ef7895182e2b6eE2Db got 1.19 ETH at 11:20 AM CT, sent 1.09 ETH to hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD, deployed at 11:21 AM, then pulled the pool at 11:34 AM CT for 5.57 ETH",
+      "19 seconds later it sent 5.67 ETH to fresh wallet 0xd5BadcA1484D31Cf4e157f9a3079b02d0AE2C633, which forwarded 5.574 ETH to the same hub and deployed VETO #2 at 11:36 AM CT",
+      "VETO #2 did about 588K USD volume with 422 holders (DexScreener / Blockscout), then at 1:42 PM CT the deployer pulled 16.67 ETH plus about 26% of supply",
+      "45 seconds later 16.77 ETH went to blank wallet 0x95357237E4F42b35A941dEc11A6a44031CefCfdE, then 16.67 ETH to the hub, which split it out via disperseEther 10 seconds later",
+      "Same hub 0x8896…33AD received the Собака pull on Oct 31 (AL-012). It also called setBuyableToken on 0x84021dc22Cf77fB6bA5665CF247C743fE05BEB7d within seconds of each VETO launch and each pull"
+    ],
+    "receipts": {
+      "deploy_1": "https://robinhoodchain.blockscout.com/tx/0x5946183fb25ed5fa65f774e2c09311a39a2f54e65432b80793d5b44d9e40457f",
+      "pull_1": "https://robinhoodchain.blockscout.com/tx/0x673ce31fae8ba13a63b48b7a456b53d823c7590bb38312048d1f126b1daf808f",
+      "relaunch": "https://robinhoodchain.blockscout.com/tx/0xbe3be3c6403c336574660f80d3149c46a0eaf7bfd6ea978766bf6c958981be24",
+      "pull_2": "https://robinhoodchain.blockscout.com/tx/0x4690f64f3c62c3af948b3b4e22091f686db7ce0f5179e27c668ea87b1080a46a",
+      "forward": "https://robinhoodchain.blockscout.com/tx/0x2e4b54b7f8261a84ac65481ce8eb089ab489e6c89d65eeca52a719c5b81ef8ca",
+      "hub": "https://robinhoodchain.blockscout.com/tx/0xd74d2cbd28fe24f6841968ac7da7f364e0eadab60bd6b9c98f6176bdeb805abf",
+      "split": "https://robinhoodchain.blockscout.com/tx/0x33cc83f6ff689d3ecead81f9fc44c8995717fb81fca82ebd30aa252382099e97"
+    },
+    "post": "https://x.com/DanxxDogs/status/2116987172360204675",
+    "img": "assets/veto_rug_1101.jpg"
+  },
+  {
     "id": "AL-012",
     "title": "Собака: 0-ETH pool, 4.36 ETH pulled, sent to a hub wallet",
     "date": "2026-10-31",
