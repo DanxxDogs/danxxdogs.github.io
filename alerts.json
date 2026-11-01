@@ -1,5 +1,27 @@
 [
   {
+    "id": "AL-012",
+    "title": "Собака: 0-ETH pool, 4.36 ETH pulled, sent to a hub wallet",
+    "date": "2026-10-31",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0xd91ea00dff121a9A510113C5B2a5248644e87668 \"Собака\" (Russian for \"dog\"), deployer 0xf75091fd200c6Db5C527EBfBA875f9aA1F26AaBF",
+      "4:41 PM CT Oct 31: deployer funded with 0.1 ETH by 0xe241FA0297f0c41dBd941d2FdEA9F696EDcEE278, deployed 12 seconds later, then put 100% of supply into a Uniswap pool with 0 ETH",
+      "About 583K USD volume and 201 holders before the pull (DexScreener / Blockscout)",
+      "7:26 PM CT: deployer pulled the liquidity and took 4.36 ETH plus 58% of supply",
+      "46 seconds later 4.46 ETH went to blank wallet 0xD4487EB91500F7833B32EB39a53897be0866B545, then 4.36 ETH to hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD (1,786 txs), which split it out via disperseEther",
+      "The same hub received 4.01 ETH from the deployer's funder 0xe241…E278 at 4:08 PM CT"
+    ],
+    "receipts": {
+      "deploy": "https://robinhoodchain.blockscout.com/tx/0x40bca05d711ad4b85907213afbb637f3c83d000e1d762b3a077901cc6cc0ec39",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0xc9eb901594e08cc2ea3fef01173cc567d01564175cab70ccd2f67c5e3788fc75",
+      "forward": "https://robinhoodchain.blockscout.com/tx/0x466cea8b92e5f1aef54c5f478ae60221cf75f5424be4ea8e7887cb058a3ec562",
+      "hub": "https://robinhoodchain.blockscout.com/tx/0xc0197ae679791e047fefd03aaa5274c314eb51d54aceec7d68180877ab924f0c"
+    },
+    "post": "https://x.com/DanxxDogs/status/2116700711157182562",
+    "img": "assets/sobaka_rug_1031.jpg"
+  },
+  {
     "id": "AL-011",
     "title": "Fake Dacity Coin Airdrop: rugged, then relaunched with the same ETH",
     "date": "2026-10-31",
