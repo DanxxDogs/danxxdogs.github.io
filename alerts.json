@@ -1,5 +1,25 @@
 [
   {
+    "id": "AL-016",
+    "title": "Bankcoin clone: deployer pulled 4.60 ETH after morning 0-pull flag",
+    "date": "2026-11-05",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0x494f139322fE4238BcBAD052Be40CD47dD30E834 \"Bankcoin\" clone, deployer 0x375e2121bebf8bffe5cd3213ea6fe3face523b9a — distinct from AL-014 Bankcoin 0xb849…3132",
+      "Created ~7:05 AM CT Nov 5; morning rug watch flagged 0 LP pulls while Dex liquidity was still ~$28k",
+      "~1:50 PM CT: LP pull via multicall sent 4.6047 ETH plus a large token raw amount back toward the deployer (lpcheck OK)",
+      "~1:53 PM CT (~3 min later): 4.7045 ETH left the deployer to 0x0fcd…b650",
+      "Other same-name Bankcoin CAs (0xD1a4…, 0x7581…) still had liquidity at scan under different deployers — always match the full CA",
+      "DexScreener can still show residual/other-LP liquidity after a v4 position pull; verify the deployer exit txs"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x818f122ed33c08eaa7df79a643a2baeff2817e8bb3806caf90f6503680f98f7f",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0xfa85c6d15ab4dd558202c80354b6194e037207f086220edd42265c6cc659d388"
+    },
+    "post": "https://x.com/DanxxDogs/status/2118436477004808215",
+    "img": "assets/bankcoin_clone_494f_1105.jpg"
+  },
+  {
     "id": "AL-014",
     "title": "Bankcoin: deployer pulled 16.05 ETH in ~41 minutes, swept via known forwarder",
     "date": "2026-11-05",
