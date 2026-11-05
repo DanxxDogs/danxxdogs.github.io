@@ -1,5 +1,45 @@
 [
   {
+    "id": "AL-017",
+    "title": "TOPFLOOR clone: serial remover pulled 1.92 ETH (in-window)",
+    "date": "2026-11-05",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0xC0B70Ea0C87c17c1F7805aD9310E2Ad67eafddE9 \"TOPFLOOR\" clone, deployer 0xb591e598e0dcde43d0e25ab3184518b72d2d71e0",
+      "Pair created ~10:58 AM CT Nov 5; Dex residual liquidity ~$0 after pull (vol24 ~$38k)",
+      "~2:20 PM CT: removeLiquidityETHSupportingFeeOnTransferTokens pulled 1.9178 ETH plus a large token raw amount (lpcheck OK)",
+      "Remover from 0x89e5db8b5aa49aa85ac63f691524311aeb649eba — same serial remover as sibling AL-018",
+      "~40s later (~2:21 PM CT): 1.9327 ETH left the deployer to 0x8e9ef328486554674b0e7a20216046b8c30fa997",
+      "Same-name TOPFLOOR CAs still listed at scan with LP intact under other deployers — always match the full CA"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x1feffa5a00380c6ed7b4055a10fc4d8550e5ea2708416a206fad0fffb1f153ee",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x91907d4582d2ee349fc50e22a417ca58b17258bac49f01c8ed9ea4552ea046eb"
+    },
+    "post": "https://x.com/DanxxDogs/status/2118466243514552773",
+    "img": "assets/topfloor_serial_1105.jpg"
+  },
+  {
+    "id": "AL-018",
+    "title": "TOPFLOOR clone: serial remover pulled 2.98 ETH (catch-up)",
+    "date": "2026-11-05",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0x045F342B63e6320F9428Ea43b4Ac185f512C39ad \"TOPFLOOR\" clone, deployer 0xcae63fca7c97a6b8a39f0adf276bf85b93000df8",
+      "Pair created ~11:05 AM CT Nov 5; Dex residual liquidity ~$0 after pull (vol24 ~$5k)",
+      "~12:49 PM CT: same removeLiquidityETHSupportingFeeOnTransferTokens path pulled 2.9774 ETH (lpcheck OK)",
+      "Remover from 0x89e5db8b5aa49aa85ac63f691524311aeb649eba — same serial remover as AL-017",
+      "~30s later: 2.9981 ETH left the deployer to 0x57f1bb2359f5151f69840d3c7d8881dea08ae171",
+      "Pull landed between noon and 2 PM rug watches but was absent from prior keyword pair sets — catch-up posting with on-chain receipts"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x9be8eeb55efb1feb4113ceda0306df0a39ef539048d9644524b2aa6ebdfd0df1",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x82999942cad45eb1fa52c628ca06788fd86a8b070a7609f4a2df213212d0131f"
+    },
+    "post": "https://x.com/DanxxDogs/status/2118466243514552773",
+    "img": "assets/topfloor_serial_1105.jpg"
+  },
+  {
     "id": "AL-016",
     "title": "Bankcoin clone: deployer pulled 4.60 ETH after morning 0-pull flag",
     "date": "2026-11-05",
