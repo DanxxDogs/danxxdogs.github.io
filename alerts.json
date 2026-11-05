@@ -1,5 +1,47 @@
 [
   {
+    "id": "AL-014",
+    "title": "Bankcoin: deployer pulled 16.05 ETH in ~41 minutes, swept via known forwarder",
+    "date": "2026-11-05",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0xb84915857Ac8AcCDcB6c434722ca55b66dE93132 \"Bankcoin\", deployer 0x7d757d9351ae3e2c29e223aae5af62af4babd249",
+      "Created ~6:25 AM CT Nov 5 with 1B supply; LP set via Uniswap v4 POSM about 40 seconds later",
+      "7:07:08 AM CT (~41 min after create): deployer called modifyLiquidities and pulled 16.0472 ETH plus about 38.4% of supply back to itself (lpcheck OK)",
+      "25 seconds later it batchSendETH'd 16.56 ETH through forwarder 0xF341c935…6595 (same contract used on the Nov 3 fake ORENO pulls) to fresh wallet 0x1ffc…30af",
+      "Other same-name Bankcoin contracts were still pumping at scan time under different deployers — always match the full CA",
+      "DexScreener can still show residual/other-LP liquidity after a v4 position pull; verify the deployer exit txs"
+    ],
+    "receipts": {
+      "deploy": "https://robinhoodchain.blockscout.com/tx/0xee5d1f82206fb83e89d9313f327ef558c7292fba76c031f0dba4eeb7eb9a4480",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x327809d64010cea2608966c8a11b82bd706e2d9d73ad2152170ac437bb6a01d0",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x026df06f93eb8c5496a2a74ecb56634e56193a51c9275fb2cc13970edbd05607"
+    },
+    "post": "https://x.com/DanxxDogs/status/2118347932181098846",
+    "img": "assets/bankcoin_rug_1105.jpg"
+  },
+  {
+    "id": "AL-015",
+    "title": "I / Inu: deploy to LP pull in 15 minutes, deployer walked with 8.42 ETH",
+    "date": "2026-11-05",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0x3FFD2210B452689360B391A3B48d8C763551C276 \"I\" / Inu, deployer 0xa5db86950e1d3bdd1f32b10474afeb7a5253333c",
+      "Wallet funded with ~4.35 ETH at 1:57:21 AM CT Nov 5; token created 13 seconds later (10B supply)",
+      "2:12:34 AM CT (~15 min after create): deployer called modifyLiquidities and pulled 8.4192 ETH plus about 27.3% of supply back to itself (lpcheck OK)",
+      "33 seconds later it sent 8.52 ETH straight to 0xe7b9…d648",
+      "DexScreener can still show leftover/other-LP liquidity after a v4 position pull — don't trust the chart alone"
+    ],
+    "receipts": {
+      "fund": "https://robinhoodchain.blockscout.com/tx/0x3a9b02affe87674e7d79f4ca6eb5c62b2735342b5751e9bccc0a1c236f9ea0de",
+      "deploy": "https://robinhoodchain.blockscout.com/tx/0x66313235630ef04b7391033ff39e2868e4104f2196d545a9f625553157481c9d",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0xbb4420cc86cbe3d6e7f37187821992b0a472388ab7057b11844dbcaffeb0353d",
+      "out": "https://robinhoodchain.blockscout.com/tx/0xf0381a539fabf2f9df6bbb8f3f1f3fe9b6536f897386db1959cf6bcbb494784b"
+    },
+    "post": "https://x.com/DanxxDogs/status/2118349386346348563",
+    "img": "assets/inu_rug_1105.jpg"
+  },
+  {
     "id": "AL-013",
     "title": "Mr Veto rugged twice: 22.2 ETH pulled, sent to the Собака hub",
     "date": "2026-11-01",
