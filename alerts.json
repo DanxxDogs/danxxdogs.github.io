@@ -1,5 +1,48 @@
 [
   {
+    "id": "AL-019",
+    "title": "TOPFLOOR clone v4: PositionManager pulled 12.36 ETH (catch-up)",
+    "date": "2026-11-05",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0xDF3cd8eAee0FEeb2DB56820d9f52DADdB2A1DD98 \"TOPFLOOR\" clone, deployer 0xa53ffee433864fff855c76b80ef1d1cdd047d6e6",
+      "Uniswap v4; Dex residual quote ~12.35 ETH after pull treated as phantom (= ETH pulled)",
+      "~2:22 PM CT: modifyLiquidities pulled 12.3558 ETH (lpcheck OK)",
+      "PositionManager 0x58daec3116aae6d93017baaea7749052e8a04fa7",
+      "~14s later (~2:23 PM CT): 12.5821 ETH left the deployer to 0xf341c935599822f1bc1ec29e27606724fbbf6595 (same 0xF341 address used on Bankcoin AL-014)",
+      "Catch-up: present in 4 PM pairs.json but never lpchecked/posted; confirmed in 6 PM watch",
+      "Same-name TOPFLOOR CAs still listed at scan with LP intact under other deployers — always match the full CA"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x28ac9cbf33452bda3d8be84c68132d2f91d2d24293ab8a3ddae68d78967c12e3",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x8011fbdf7e884532e670be66267c3e93ff6b996b0e6630dd0259e38547ad7ad5"
+    },
+    "post": "https://x.com/DanxxDogs/status/2118497782353019084",
+    "img": "assets/topfloor_v4_1105.jpg",
+    "scamdb": "DD-047"
+  },
+  {
+    "id": "AL-020",
+    "title": "TOPFLOOR clone v4: PositionManager pulled 5.15 ETH (catch-up)",
+    "date": "2026-11-05",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Token 0x9EDbACeb92D7c1444d4f342BbF6fF10838Ea7E3d \"TOPFLOOR\" clone, deployer 0x659632f5c18c6d8bd435be171689a1844a911950",
+      "Uniswap v4; Dex quote exactly 5.1485 ETH (= pulled) treated as phantom residual",
+      "~1:26 PM CT: LP pull 5.1485 ETH (lpcheck OK)",
+      "~56s later: 5.2485 ETH → 0x4a4e2885e3740e9a23c9525223eb826d8a2dce74",
+      "Same v4 PositionManager pattern as AL-019; never posted before 6 PM catch-up",
+      "Same-name TOPFLOOR ≠ same contract — always match the full CA"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0xacb004fd2fb572aba767520c3dec63890c1bbae19775f18f89916aab1e0d30f5",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x43d969f1158686b74658b5063058ec77412f8509aa3a5e18817ee51b38243a1d"
+    },
+    "post": "https://x.com/DanxxDogs/status/2118497782353019084",
+    "img": "assets/topfloor_v4_1105.jpg",
+    "scamdb": "DD-048"
+  },
+  {
     "id": "AL-017",
     "title": "TOPFLOOR clone: serial remover pulled 1.92 ETH (in-window)",
     "date": "2026-11-05",
