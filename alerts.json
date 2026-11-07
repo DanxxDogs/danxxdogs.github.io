@@ -1,5 +1,27 @@
 [
  {
+  "id": "AL-028",
+  "title": "Based Dog: removeLiquidityETH pulled 2.19 ETH",
+  "date": "2026-11-06",
+  "project": "Liquidity pull \u00b7 Robinhood Chain",
+  "facts": [
+   "Token 0x58EA5b6E8Fd7D07BC7EF57f2619A145c959e407d \"BASE\" / Based Dog, deployer 0x5c1114ca4fc04865e08d46b7390231ac246a26fe",
+   "~1:28 PM CT Nov 6: token created (create tx 0x09a58981\u2026e827)",
+   "~1:39:52 PM CT: removeLiquidityETH via UniswapV2Router02 0x89e5\u20269eba \u2014 2.194258 ETH to deployer (WETH unwrap confirmed in receipt logs; RPC status 0x1)",
+   "~1:40:03 PM CT: 2.214173 ETH left deployer \u2192 0x4a6dbb33bc962c48db40e5eac91edf5ba316fe70",
+   "Dex residual ~$0.02 / h6\u221299.98%; lifespan ~11 minutes. Different CA from overnight dog AL-026 0x828D\u2026",
+   "Note: lpcheck.py address internal-tx index returned 0 (false negative); confirmation is tx-level RPC + Blockscout links"
+  ],
+  "receipts": {
+   "pull": "https://robinhoodchain.blockscout.com/tx/0x8b2ffccfe8dad1c0f8d1780164d272aef1bac2e69da37c46e9af9fc3f11c9311",
+   "sweep": "https://robinhoodchain.blockscout.com/tx/0xb9a1b0599add0814d101b7ff484a70f4e91a59e3b4478677e00d4198e9ed2025",
+   "create": "https://robinhoodchain.blockscout.com/tx/0x09a58981db7c25c166e1e333251146bbf08174ed5ecd91c60ad098a1ce36e827"
+  },
+  "post": "https://x.com/DanxxDogs/status/2118859855263883530",
+  "img": "assets/alerts/based_dog_rug_1106.jpg",
+  "dd": "DD-056"
+ },
+ {
   "id": "AL-022",
   "title": "coin 0x5D26: PositionManager pulled 35.18 ETH, swept to F341 hub",
   "date": "2026-11-06",
