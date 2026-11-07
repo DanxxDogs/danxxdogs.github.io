@@ -1,5 +1,47 @@
 [
   {
+    "id": "AL-030",
+    "title": "DiamondPepe69 (PEPE69): V4 LP pull 11.80 ETH",
+    "date": "2026-11-07",
+    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "facts": [
+      "Token 0x431425C1E0249640C443Cd46f3Dabd011ea2ec2c \"PEPE69\" / DiamondPepe69, deployer 0x54732ba327902b81b6c08566d63bbc00b4653eaa",
+      "Noon ~12:04 PM CT Nov 7: Dex liq ~$52,620; pair ~1h old",
+      "~12:58:59 PM CT: Uniswap V4 PositionManager multicall \u2014 11.8028 ETH pulled to deployer",
+      "~1:00:35 PM CT: 11.9136 ETH left deployer \u2192 0x5ddc9418d7975d66281ca788926731596517dfe8",
+      "Dex liq collapsed ~$52k \u2192 ~$16.51; lpcheck SUMMARY: 1 LP pull; ETH to deployer 11.8028; onward 11.9136"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x380ccdfe5d157b8591f12aed5688e9f99fbb1cf7648d77bb5816a303325e6f33",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x1a31d30f932c29fd10e4c574993bcc9b86dbcfdc574776ae7c69c11d96b7f01d",
+      "create": "https://robinhoodchain.blockscout.com/tx/0xad3a9228d98890b60877b46fcae8ecef089576de1a688ac645b7151a35aeb062"
+    },
+    "post": "https://x.com/DanxxDogs/status/2119162585279070605",
+    "img": "assets/alerts/pepe69_rug_1107.jpg",
+    "dd": "DD-058"
+  },
+  {
+    "id": "AL-031",
+    "title": "debtdog: V4 LP pull 2.82 ETH",
+    "date": "2026-11-07",
+    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "facts": [
+      "Token 0xFF8E65cf4DEFc0583bc736F30a8De9AaC341e2A7 \"debtdog\", deployer 0x6a6b858c2f5ec779312c72e733213007ea55c33b",
+      "Noon ~12:04 PM CT Nov 7: Dex liq ~$21,674; pair ~1h old",
+      "~1:53:38 PM CT: Uniswap V4 PositionManager multicall \u2014 2.8161 ETH pulled to deployer",
+      "~1:55 PM CT: 2.9 ETH \u2192 0x1e1519a26c35a4966ecc42e43147257932d01773 + 0.1098 ETH \u2192 0x087fd551f5afd6bc64917be896917da1c98e9b51 (onward ~3.0098 ETH)",
+      "Dex liq collapsed ~$21k \u2192 ~$12.66; lpcheck SUMMARY: 1 LP pull; ETH to deployer 2.8161; onward 3.0098"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x0e2557ca1885b13873d4946a278b4803e692c3bb545ee4330d33523716192d12",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0xb741a7f7fdc09206fb4f0fd62b007bd28a0d5fa905d681c255e4764a20b5d600",
+      "create": "https://robinhoodchain.blockscout.com/tx/0xa858878d50ffa91553a7086a6ab0431f29be0740125b8affdc6bfe6ec9012a75"
+    },
+    "post": "https://x.com/DanxxDogs/status/2119164431582331012",
+    "img": "assets/alerts/debtdog_rug_1107.jpg",
+    "dd": "DD-059"
+  },
+  {
     "id": "AL-029",
     "title": "Squirrelcoin (SQRL): V4 decreaseLiquidity pulled 14.48 WETH",
     "date": "2026-11-06",
