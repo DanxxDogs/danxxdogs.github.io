@@ -1,5 +1,28 @@
 [
   {
+    "id": "AL-032",
+    "title": "Overnight LP-pull wave via forwarder 0xF341\u20266595: ~241 ETH pulled by 41 deployers",
+    "date": "2026-11-09",
+    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "facts": [
+      "Since midnight CT Nov 9, 41 deployer wallets pulled about 241 ETH of LP and each sent exit ETH to forwarder contract 0xf341c935599822f1bc1ec29e27606724fbbf6595 (lpcheck per deployer)",
+      "AGI \"Artificial Girlfriend Inu\" 0xa048257118d9266003776a3cc93a37a1b7fbaa69, deployer 0xd971e940f110f31c93482ff739c3fb4d12fa9188: LP added with 0 ETH ~3:27 AM CT, 31.0722 ETH pulled ~4:37 AM CT, 939 holders",
+      "LETRO \"Letronna\" 0x750b0ca4aacd7ea4bfc1ee75558422b0223bbca7, deployer 0xf4b08e82302d330ae5af90e84b77c1a63bbc9000: LP added with 0 ETH ~4:36 AM CT, 26.9798 ETH pulled ~5:47 AM CT, 32.8631 ETH to forwarder, 766 holders",
+      "ORGENT \"Orbio Agents\" 0x38ce2f410cb89d924b639e574b2be4d8339ac00c, deployer 0xb4bfbada04fb43039adf1fe281f12ccb90af139e: 15.3014 ETH pulled ~4:27 AM CT, 780 holders",
+      "REMORA 0xc6d0a16e529175755ca385c3b2fe77409020c009, deployer 0x8bc0900c47d0ec4d823b43a3a63b36e0ae0fca7e: 12.1283 ETH pulled ~7:43 AM CT, 786 holders",
+      "Dex can still show stale liquidity after a Uniswap v4 pull; verify on-chain"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x565b4068367f9dedbf0b41b40f0f0c722db58595a5a9929defa6db8e2c8be075",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x930d5a3fff208ed12d2d39df4b42bc23355e9d214b5826bdbd7fc43709c8d47d",
+      "create": "https://robinhoodchain.blockscout.com/tx/0xff44434951f941ef612a93bd811e44f87325d049726baae539da39b6c8336351"
+    },
+    "post": "https://x.com/DanxxDogs/status/2119800984096612820",
+    "img": "assets/alerts/f341_wave_1109.jpg",
+    "dd": "DD-060",
+    "article": "https://x.com/DanxxDogs/status/2120228511470256283"
+  },
+  {
     "id": "AL-030",
     "title": "DiamondPepe69 (PEPE69): V4 LP pull 11.80 ETH",
     "date": "2026-11-07",
