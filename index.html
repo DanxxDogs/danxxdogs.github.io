@@ -60,7 +60,21 @@ Verdict: <span class="flag">HIGH RISK · score 100</span><br>
 <span class="flag">⚠ UNVERIFIED:</span> source not verified<br>
 <span class="flag">⚠ COPYCAT:</span> name/symbol matches an older DEVIN token<br><br>
 <span class="ok">Checks:</span> copycat names · LP pulls · deployer bags · verified code · holders · liquidity · Danxx Dogs scam DB<br><br>
-A low score is never a guarantee. NFA/DYOR.</div></section>
+A low score is never a guarantee. NFA/DYOR.</div>
+<h3 id="new-checks" style="margin-top:28px">NEW CHECKS <span class="pill g">NOV 11</span></h3>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+<div class="card ag"><span class="pill g">IN EVERY SNIFF</span><h3>🪪 Declared team wallets</h3>
+<p>On launchpad v2, a creator can list wallets that skip the launch-second snipe tax. That is the team declaring its own opening-buy wallets. We read the list from the launch transaction and confirm every wallet on-chain on the token's curve contract.</p>
+<ul><li>How many wallets were declared, with short addresses</li><li>The share of supply they bought at launch vs what they hold now</li><li>A flag when the exact same list shows up on other launches</li></ul>
+<p class="muted">We call them "declared", not scam. Declaring is allowed and visible on-chain. We only say "dumped" when those wallets sold what they bought.</p>
+<p class="muted">Example from Nov 11: <code>0x8f38…ad6b</code> declared 31 wallets, all 31 confirmed on-chain. 30 of them bought 33.4% of supply at launch and now hold 0.0%. The exact same 31-wallet list was declared on 7 other launches.</p></div>
+<div class="card rg"><span class="pill y">RUG WATCH</span><h3>🔁 Creator Change watch</h3>
+<p>After a launchpad v2 launch, only a few settings can still change. We scan for them every rug watch:</p>
+<ul><li>Buybacks switched on or off, flagged when a token turns them on and then off again</li><li>Fee-wallet moves, flagged when one wallet takes over fees on several tokens</li><li>Takeover proposals: timelocked fee-wallet overrides, with the date they take effect</li></ul>
+<p class="muted">We call these "changed", not rugged. A change can have a normal reason, so we check it before we flag anything.</p>
+<p class="muted">From the Nov 10–11 scan (24h): 5 tokens switched buybacks on and then off, including <code>0x8736…2546</code>. No takeover proposals.</p></div>
+</div>
+<p class="muted">On-chain read only. Not a guarantee either way. NFA/DYOR.</p></section>
 
 <section id="db"><h2>PUBLIC SCAM <span>DATABASE</span></h2><p class="muted">Tokens we've called out, with on-chain evidence and links to our posts. Facts only. Last updated 2026-11-10 8:59 PM CT. NFA/DYOR.</p>
 <div class="searchbox"><form class="ddsearch" role="search" action="#db"><label for="ddq2">🔎 Was this coin reported? Search our scam DB</label><input id="ddq2" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Paste a contract address, $TICKER or name" aria-describedby="ddh2"><button type="submit">Search</button></form><p id="ddh2" class="muted" style="margin:0;font-size:.85rem">Searches the entries on this page. A match or a miss is never a green light. NFA/DYOR.</p><div class="sr-results" aria-live="polite"></div></div>
