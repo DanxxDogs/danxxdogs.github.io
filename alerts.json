@@ -1,5 +1,29 @@
 [
   {
+    "id": "AL-033",
+    "title": "Fake CASHCAT (Cash Cat) copycat: V4 LP pull 7.57 ETH",
+    "date": "2026-11-10",
+    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "facts": [
+      "Token 0xC8d4A5E46201B5FA5a7612E3b3557832a458bCb4 Cash Cat / CASHCAT, unverified source, deployer 0x7950256161A8dEB6d755a69d862f9Ce00c8A00C8. Copycat of real CASHCAT 0x020bfC650A365f8BB26819deAAbF3E21291018b4, which is not affected",
+      "Launched in Uniswap v4 ETH pool 0xcc44c27ec388766019891f9d16c995247a77f1b0066c57edd7f3b873f7da72c9 at 8:06:06 PM CT Nov 10",
+      "Before launch, deployer sent 15 ETH to collector 0x8E967d8Edeb883913103fCfE5774ECeA00CCDb1D: https://robinhoodchain.blockscout.com/tx/0x841f8fa3d490e20757ef218cd2e1ffc163fd0feb64d9bc5cab1f21811051b785",
+      "Sniff: HIGH RISK 45/100 at ~8:11 PM CT",
+      "8:36:48 PM CT: Uniswap v4 LP pull 7.570984 ETH (~15.6k USD), burned LP NFT 4259145: https://robinhoodchain.blockscout.com/tx/0xba8f0f393917a0a6d90b5dcca56b63eaadef882e1f0d94485b894b985ef5ffaf",
+      "8:37:18 PM CT: 7.602789 ETH left deployer through F341 forwarder 0xf341c935599822f1bc1ec29e27606724fbbf6595: https://robinhoodchain.blockscout.com/tx/0x7291ebaf8491d6192a4bfd1f9465d36d055dea29797c9e3769fff341ddd85ec2",
+      "Then to 0xb9f0398011cd65d5D6241B88ecaeEAc145C13ec0, then 7 ETH to collector 0x8E967d8Edeb883913103fCfE5774ECeA00CCDb1D: https://robinhoodchain.blockscout.com/tx/0x3d6ddaaccd6299b53e25fa2a9e512b2582964a1e458ac35ea2b6dfd0a658802e, then 7 ETH to 0xd6d35b56237a05afd4cd7e441226fefc3f78c4e6: https://robinhoodchain.blockscout.com/tx/0x479be8b06990419a4e9684357d8379027d5d82a9bd0a52499221ce096e4ba107",
+      "After the pull the deployer holds 56.95% of supply across 173 holders"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0xba8f0f393917a0a6d90b5dcca56b63eaadef882e1f0d94485b894b985ef5ffaf",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0x7291ebaf8491d6192a4bfd1f9465d36d055dea29797c9e3769fff341ddd85ec2",
+      "fund": "https://robinhoodchain.blockscout.com/tx/0x841f8fa3d490e20757ef218cd2e1ffc163fd0feb64d9bc5cab1f21811051b785"
+    },
+    "post": "https://x.com/DanxxDogs/status/2120345586599891236",
+    "img": "assets/alerts/fake_cashcat_rug_1110.jpg",
+    "dd": "DD-063"
+  },
+  {
     "id": "AL-032",
     "title": "Overnight LP-pull wave via forwarder 0xF341\u20266595: ~241 ETH pulled by 41 deployers",
     "date": "2026-11-09",
