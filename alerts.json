@@ -1,5 +1,26 @@
 [
   {
+    "id": "AL-035",
+    "title": "Fake \"USDG\" (US Global Dollar): phantom balances sprayed to 443,160 wallets",
+    "date": "2026-11-11",
+    "project": "Flagged · impersonation · not Paxos's USDG",
+    "facts": [
+      "Token 0x98b2EDE2D3966d1EbedCeb7A43f03978dB9383e8 \"US Global Dollar\" / USDG, deployer 0x8dCFe1d66849c68D68f3d7B6be8b4eda69104608, created Nov 8. It is not Paxos's USDG",
+      "Sprayed to 443,160 wallets. Its balanceOf() adds a deployer-set \"virtualAmount\" to every wallet, so the tokens people see were never actually sent",
+      "~9:40 AM CT Nov 11: deployer pulled its own LP (0.0922 ETH + ~80M fake USDG): https://robinhoodchain.blockscout.com/tx/0x3b334e9b2fdfbaf04d219890da939b13a4cb0ee9452078dc20bcc75e1a1750e8",
+      "Then 0.29 ETH onward to 0x3e72d2f92861ea99286cdb861d29641214d820c7 within 2 minutes: https://robinhoodchain.blockscout.com/tx/0xcd9c0b3f20d7af9e77830503004befd366e8e0df78b0b696c48cd2572a111477",
+      "Always check the contract address before you trust a stablecoin balance. Don't trade it, don't chase any claim link. NFA/DYOR"
+    ],
+    "receipts": {
+      "token": "https://robinhoodchain.blockscout.com/address/0x98b2EDE2D3966d1EbedCeb7A43f03978dB9383e8",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x3b334e9b2fdfbaf04d219890da939b13a4cb0ee9452078dc20bcc75e1a1750e8",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0xcd9c0b3f20d7af9e77830503004befd366e8e0df78b0b696c48cd2572a111477"
+    },
+    "post": "https://x.com/DanxxDogs/status/2120639063611064715",
+    "img": "assets/alerts/fake_usdg_1111.jpg",
+    "dd": "DD-065"
+  },
+  {
     "id": "AL-034",
     "title": "Rug relay: Max coin and X Coin LP pulls (5.42 ETH), third launch funded by the pulled ETH",
     "date": "2026-11-11",
