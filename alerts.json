@@ -1,9 +1,31 @@
 [
   {
+    "id": "AL-034",
+    "title": "Rug relay: Max coin and X Coin LP pulls (5.42 ETH), third launch funded by the pulled ETH",
+    "date": "2026-11-11",
+    "project": "Liquidity pull · Robinhood Chain",
+    "facts": [
+      "Max coin 0x68557f5263aE1ba6B161CB76c4c324CAEBAC28cE, unverified source, deployer 0xe9eF204003Dab740649B2F39861A83F8BC471890 (funded 1.433 ETH), launched 5:24 PM CT Nov 11",
+      "7:26 PM CT: deployer pulled 1.3311 ETH of LP from pair 0x8d06D1C18d52467fca983e83eC7c9BF72508470E; liquidity fell to about 45 USD: https://robinhoodchain.blockscout.com/tx/0xa7e32fe53bda6cbff5070f66a169e263b7e5fdd812dd115b435e3602a7220dee",
+      "7:27 PM CT: 2.764 ETH left the deployer: https://robinhoodchain.blockscout.com/tx/0xadf5d780390fa787224cd82f532a6924ba4a9ac6d5f1eebef9ab7cb8c6990a30 and hopped 0xb635140509eF0466bF134A70A2ECCaC40e664fb2, 0xbaBF2d2912cAD0DAF928C8d656c8D6aDaf7cd529, 0xC45862Cc1fb87a4dF73206e53aed86e5bBdD2877 to 0xACD3BBb401a6CB1CD8d5C2333507b6b42B0Eb8eD",
+      "0xACD3…B8eD deployed X Coin 0x3E290a25DEAc7D86cDd8e649eb1882503d7dC56B at 7:30 PM CT and pulled 4.0849 ETH of Uniswap v4 LP at 7:38 PM CT, 8 minutes later: https://robinhoodchain.blockscout.com/tx/0x4d8a509ef135e20e52793def9d658555d42b40e255a03ef31c415bfc190e42e8",
+      "7:38 PM CT: 6.8485 ETH left 0xACD3…B8eD: https://robinhoodchain.blockscout.com/tx/0x810155a10f89ecf866139dc2f9315f5282ff3b5d2fef7d710e2786e2364ccb35, then ran through 17 single-use wallets in about 13 minutes",
+      "7:51 PM CT: 6.847 ETH arrived at 0x74A409BEC7Af78Acc7eA29Fb146CCa3D57e5aF37 (https://robinhoodchain.blockscout.com/tx/0xe7ea15fa9e30476a63bfce653d012fcb283697e627ff9c00b1ec75866d6f34fd), which deployed a new Max coin 0x939B6B98CbA55D87C337127B2eb1Ce4341C614aD the same minute: https://robinhoodchain.blockscout.com/tx/0x45de0756867408638ae53e734891717ca380a4c810fdcd3f99070a53db24bee8. It was live and flagged at about 8:00 PM CT (no LP pull yet)"
+    ],
+    "receipts": {
+      "pull": "https://robinhoodchain.blockscout.com/tx/0xa7e32fe53bda6cbff5070f66a169e263b7e5fdd812dd115b435e3602a7220dee",
+      "pull2": "https://robinhoodchain.blockscout.com/tx/0x4d8a509ef135e20e52793def9d658555d42b40e255a03ef31c415bfc190e42e8",
+      "next_launch": "https://robinhoodchain.blockscout.com/tx/0x45de0756867408638ae53e734891717ca380a4c810fdcd3f99070a53db24bee8"
+    },
+    "post": "https://x.com/DanxxDogs/status/2120700954651898086",
+    "img": "assets/alerts/max_relay_rug_1111.jpg",
+    "dd": "DD-064"
+  },
+  {
     "id": "AL-033",
     "title": "Fake CASHCAT (Cash Cat) copycat: V4 LP pull 7.57 ETH",
     "date": "2026-11-10",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0xC8d4A5E46201B5FA5a7612E3b3557832a458bCb4 Cash Cat / CASHCAT, unverified source, deployer 0x7950256161A8dEB6d755a69d862f9Ce00c8A00C8. Copycat of real CASHCAT 0x020bfC650A365f8BB26819deAAbF3E21291018b4, which is not affected",
       "Launched in Uniswap v4 ETH pool 0xcc44c27ec388766019891f9d16c995247a77f1b0066c57edd7f3b873f7da72c9 at 8:06:06 PM CT Nov 10",
@@ -25,9 +47,9 @@
   },
   {
     "id": "AL-032",
-    "title": "Overnight LP-pull wave via forwarder 0xF341\u20266595: ~241 ETH pulled by 41 deployers",
+    "title": "Overnight LP-pull wave via forwarder 0xF341…6595: ~241 ETH pulled by 41 deployers",
     "date": "2026-11-09",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Since midnight CT Nov 9, 41 deployer wallets pulled about 241 ETH of LP and each sent exit ETH to forwarder contract 0xf341c935599822f1bc1ec29e27606724fbbf6595 (lpcheck per deployer)",
       "AGI \"Artificial Girlfriend Inu\" 0xa048257118d9266003776a3cc93a37a1b7fbaa69, deployer 0xd971e940f110f31c93482ff739c3fb4d12fa9188: LP added with 0 ETH ~3:27 AM CT, 31.0722 ETH pulled ~4:37 AM CT, 939 holders",
@@ -50,13 +72,13 @@
     "id": "AL-030",
     "title": "DiamondPepe69 (PEPE69): V4 LP pull 11.80 ETH",
     "date": "2026-11-07",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x431425C1E0249640C443Cd46f3Dabd011ea2ec2c \"PEPE69\" / DiamondPepe69, deployer 0x54732ba327902b81b6c08566d63bbc00b4653eaa",
       "Noon ~12:04 PM CT Nov 7: Dex liq ~$52,620; pair ~1h old",
-      "~12:58:59 PM CT: Uniswap V4 PositionManager multicall \u2014 11.8028 ETH pulled to deployer",
-      "~1:00:35 PM CT: 11.9136 ETH left deployer \u2192 0x5ddc9418d7975d66281ca788926731596517dfe8",
-      "Dex liq collapsed ~$52k \u2192 ~$16.51; lpcheck SUMMARY: 1 LP pull; ETH to deployer 11.8028; onward 11.9136"
+      "~12:58:59 PM CT: Uniswap V4 PositionManager multicall — 11.8028 ETH pulled to deployer",
+      "~1:00:35 PM CT: 11.9136 ETH left deployer → 0x5ddc9418d7975d66281ca788926731596517dfe8",
+      "Dex liq collapsed ~$52k → ~$16.51; lpcheck SUMMARY: 1 LP pull; ETH to deployer 11.8028; onward 11.9136"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x380ccdfe5d157b8591f12aed5688e9f99fbb1cf7648d77bb5816a303325e6f33",
@@ -71,13 +93,13 @@
     "id": "AL-031",
     "title": "debtdog: V4 LP pull 2.82 ETH",
     "date": "2026-11-07",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0xFF8E65cf4DEFc0583bc736F30a8De9AaC341e2A7 \"debtdog\", deployer 0x6a6b858c2f5ec779312c72e733213007ea55c33b",
       "Noon ~12:04 PM CT Nov 7: Dex liq ~$21,674; pair ~1h old",
-      "~1:53:38 PM CT: Uniswap V4 PositionManager multicall \u2014 2.8161 ETH pulled to deployer",
-      "~1:55 PM CT: 2.9 ETH \u2192 0x1e1519a26c35a4966ecc42e43147257932d01773 + 0.1098 ETH \u2192 0x087fd551f5afd6bc64917be896917da1c98e9b51 (onward ~3.0098 ETH)",
-      "Dex liq collapsed ~$21k \u2192 ~$12.66; lpcheck SUMMARY: 1 LP pull; ETH to deployer 2.8161; onward 3.0098"
+      "~1:53:38 PM CT: Uniswap V4 PositionManager multicall — 2.8161 ETH pulled to deployer",
+      "~1:55 PM CT: 2.9 ETH → 0x1e1519a26c35a4966ecc42e43147257932d01773 + 0.1098 ETH → 0x087fd551f5afd6bc64917be896917da1c98e9b51 (onward ~3.0098 ETH)",
+      "Dex liq collapsed ~$21k → ~$12.66; lpcheck SUMMARY: 1 LP pull; ETH to deployer 2.8161; onward 3.0098"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x0e2557ca1885b13873d4946a278b4803e692c3bb545ee4330d33523716192d12",
@@ -92,14 +114,14 @@
     "id": "AL-029",
     "title": "Squirrelcoin (SQRL): V4 decreaseLiquidity pulled 14.48 WETH",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x9346A493Fa39C478D2265449c37edb471b7F7cFC \"SQRL\" / Squirrelcoin, deployer 0x687fc6791f39e1192a03e4b6bdf75878f97d7892",
-      "~4:53 PM CT Nov 6: token created + LP added (create tx 0xe8b50a17\u2026dab29; add-liq 0xdc22c79c\u20262d8e)",
-      "~8:45:50 PM CT: Uniswap V4 PositionManager multicall decreaseLiquidity (0x0c49ccbe) \u2014 14.477347 WETH from pool 0x98837d21\u2026451b \u2192 PM \u2192 unwrap",
-      "~8:48:51 PM CT: 14.827940 ETH left deployer \u2192 0x700a195436334bc55196eb589a0b27df3a9a186a",
-      "Dex liq collapsed ~$70k (earlier tonight) \u2192 ~$35.57; vol24 still ~$1.17M",
-      "Note: lpcheck.py returned UNCHECKED (deployer history unavailable \u2014 false negative, same class as AL-028); confirmation is tx-level Blockscout token-transfers + onward ETH"
+      "~4:53 PM CT Nov 6: token created + LP added (create tx 0xe8b50a17…dab29; add-liq 0xdc22c79c…2d8e)",
+      "~8:45:50 PM CT: Uniswap V4 PositionManager multicall decreaseLiquidity (0x0c49ccbe) — 14.477347 WETH from pool 0x98837d21…451b → PM → unwrap",
+      "~8:48:51 PM CT: 14.827940 ETH left deployer → 0x700a195436334bc55196eb589a0b27df3a9a186a",
+      "Dex liq collapsed ~$70k (earlier tonight) → ~$35.57; vol24 still ~$1.17M",
+      "Note: lpcheck.py returned UNCHECKED (deployer history unavailable — false negative, same class as AL-028); confirmation is tx-level Blockscout token-transfers + onward ETH"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x31867eef2371b732d4c9ceaf5047a42687fb5d4148645912a0d3c0ee0a84fc11",
@@ -114,13 +136,13 @@
     "id": "AL-028",
     "title": "Based Dog: removeLiquidityETH pulled 2.19 ETH",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x58EA5b6E8Fd7D07BC7EF57f2619A145c959e407d \"BASE\" / Based Dog, deployer 0x5c1114ca4fc04865e08d46b7390231ac246a26fe",
-      "~1:28 PM CT Nov 6: token created (create tx 0x09a58981\u2026e827)",
-      "~1:39:52 PM CT: removeLiquidityETH via UniswapV2Router02 0x89e5\u20269eba \u2014 2.194258 ETH to deployer (WETH unwrap confirmed in receipt logs; RPC status 0x1)",
-      "~1:40:03 PM CT: 2.214173 ETH left deployer \u2192 0x4a6dbb33bc962c48db40e5eac91edf5ba316fe70",
-      "Dex residual ~$0.02 / h6\u221299.98%; lifespan ~11 minutes. Different CA from overnight dog AL-026 0x828D\u2026",
+      "~1:28 PM CT Nov 6: token created (create tx 0x09a58981…e827)",
+      "~1:39:52 PM CT: removeLiquidityETH via UniswapV2Router02 0x89e5…9eba — 2.194258 ETH to deployer (WETH unwrap confirmed in receipt logs; RPC status 0x1)",
+      "~1:40:03 PM CT: 2.214173 ETH left deployer → 0x4a6dbb33bc962c48db40e5eac91edf5ba316fe70",
+      "Dex residual ~$0.02 / h6−99.98%; lifespan ~11 minutes. Different CA from overnight dog AL-026 0x828D…",
       "Note: lpcheck.py address internal-tx index returned 0 (false negative); confirmation is tx-level RPC + Blockscout links"
     ],
     "receipts": {
@@ -136,13 +158,13 @@
     "id": "AL-022",
     "title": "coin 0x5D26: PositionManager pulled 35.18 ETH, swept to F341 hub",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x5D264648B0E387EaacaC89466a3Fe84944a47857 \"coin\", deployer 0xaab511c767c0fe7d52eece7862506243f686d6b0",
       "~8:42 PM CT Nov 5: Uniswap v4 modifyLiquidities pulled 35.1786 ETH via PositionManager 0x58daec3116aae6d93017baaea7749052e8a04fa7 (lpcheck OK)",
-      "Seconds later 36.0262 ETH left the deployer \u2192 0xf341c935599822f1bc1ec29e27606724fbbf6595 (same hub as Bankcoin AL-014 / fake ORENO)",
+      "Seconds later 36.0262 ETH left the deployer → 0xf341c935599822f1bc1ec29e27606724fbbf6595 (same hub as Bankcoin AL-014 / fake ORENO)",
       "Part of overnight three-coin F341 cluster with AL-023 and AL-024",
-      "Dex residual after v4 treated as phantom \u2014 verify on-chain"
+      "Dex residual after v4 treated as phantom — verify on-chain"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x33c29ba6d289bec85bbe1566cdf6d2f23494996e86c3c19847707f5896fe9f6b",
@@ -155,11 +177,11 @@
     "id": "AL-023",
     "title": "coin 0x6F2b: PositionManager pulled 12.66 ETH, swept to F341 hub",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x6F2b0864Cb873F1B8BC35296b43E9bFe16F055Dd \"coin\", deployer 0xe6012334e75b93b1ce4a16eeb073111ef7bad738",
-      "~10:22 PM CT Nov 5: LP pull 12.6640 ETH via PositionManager 0x58da\u20264fa7 (lpcheck OK)",
-      "Then 21.0280 ETH left the deployer \u2192 0xf341c935\u20266595 (same F341 hub as AL-022/AL-024)",
+      "~10:22 PM CT Nov 5: LP pull 12.6640 ETH via PositionManager 0x58da…4fa7 (lpcheck OK)",
+      "Then 21.0280 ETH left the deployer → 0xf341c935…6595 (same F341 hub as AL-022/AL-024)",
       "Part of overnight three-coin F341 cluster"
     ],
     "receipts": {
@@ -173,11 +195,11 @@
     "id": "AL-024",
     "title": "coin 0x43E4: PositionManager pulled 7.51 ETH, swept to F341 hub",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x43E45E68D61A40F7F3bc3Bc61dA48C69909bF928 \"coin\", deployer 0x2d62871247d9e3af9d8d2d9b1ef7ef77724e4c46",
-      "~10:01 PM CT Nov 5: LP pull 7.5115 ETH via PositionManager 0x58da\u20264fa7 (lpcheck OK)",
-      "Then 8.3642 ETH \u2192 0xf341c935\u20266595 (same F341 hub as AL-022/AL-023)",
+      "~10:01 PM CT Nov 5: LP pull 7.5115 ETH via PositionManager 0x58da…4fa7 (lpcheck OK)",
+      "Then 8.3642 ETH → 0xf341c935…6595 (same F341 hub as AL-022/AL-023)",
       "Part of overnight three-coin F341 cluster"
     ],
     "receipts": {
@@ -191,11 +213,11 @@
     "id": "AL-025",
     "title": "coin 0xf9ff: overnight LP pull 11.71 ETH",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0xf9fff47a9840f12F66292a0AF61cB9d2375C74c1 \"coin\", deployer 0xfc2ecb5dbf7f76f1fe708db0cf34ce10fcd0a6f4",
       "~3:09 AM CT Nov 6: modifyLiquidities pulled 11.7137 ETH via 0x8366a39cc670b4001a1121b8f6a443a643e40951 (lpcheck OK)",
-      "Onward split: 10 ETH \u2192 0xa40a5c2c\u2026388e and 1.7426 ETH \u2192 0xab47d959\u20268fba",
+      "Onward split: 10 ETH → 0xa40a5c2c…388e and 1.7426 ETH → 0xab47d959…8fba",
       "Part of overnight coin/dog/inu wave with AL-026 and AL-027"
     ],
     "receipts": {
@@ -210,11 +232,11 @@
     "id": "AL-026",
     "title": "dog 0x828D: overnight LP pull 10.37 ETH",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x828D3A41E56aF130c245305C352A08D78cb98644 \"dog\", deployer 0x0bcb70efe4891751dfdd8c3c9470b7bc9ccf8c90",
-      "~12:31 AM CT Nov 6: LP pull 10.3650 ETH via 0x8366\u20260951 (lpcheck OK)",
-      "Then 10.4650 ETH \u2192 0xa1d48641\u2026116a",
+      "~12:31 AM CT Nov 6: LP pull 10.3650 ETH via 0x8366…0951 (lpcheck OK)",
+      "Then 10.4650 ETH → 0xa1d48641…116a",
       "Part of overnight coin/dog/inu wave with AL-025 and AL-027"
     ],
     "receipts": {
@@ -228,11 +250,11 @@
     "id": "AL-027",
     "title": "inu 0xdED0: overnight LP pull 5.20 ETH",
     "date": "2026-11-06",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0xdED033D05BAc968002054C464C09fE87D782389c \"inu\", deployer 0x4b71c830ed0daa8507bef255aae0f9e8cb2950b7",
-      "~10:29 PM CT Nov 5: LP pull 5.2013 ETH via 0x8366\u20260951 (lpcheck OK)",
-      "Then 5.3013 ETH \u2192 0x7dcb9302\u202687b1",
+      "~10:29 PM CT Nov 5: LP pull 5.2013 ETH via 0x8366…0951 (lpcheck OK)",
+      "Then 5.3013 ETH → 0x7dcb9302…87b1",
       "Part of overnight coin/dog/inu wave with AL-025 and AL-026"
     ],
     "receipts": {
@@ -246,15 +268,15 @@
     "id": "AL-021",
     "title": "Bankcoin clone: PositionManager pulled 14.94 ETH (flagged liquid earlier)",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
-      "Token 0xD1a41672B17e4b9309d60235C5b5cF068E18471d \"Bankcoin\" clone, deployer 0xcbc2169fe806b2ba71f28879db26ee2c53a09151 \u2014 distinct from AL-014 Bankcoin 0xb849\u20263132 and AL-016 clone 0x494f\u2026E834",
+      "Token 0xD1a41672B17e4b9309d60235C5b5cF068E18471d \"Bankcoin\" clone, deployer 0xcbc2169fe806b2ba71f28879db26ee2c53a09151 — distinct from AL-014 Bankcoin 0xb849…3132 and AL-016 clone 0x494f…E834",
       "AL-016 afternoon post flagged this CA still liquid under a different deployer",
       "~6:03 PM CT: Uniswap v4 modifyLiquidities pulled 14.9360 ETH (lpcheck OK)",
       "PositionManager 0x58daec3116aae6d93017baaea7749052e8a04fa7 (same tooling cluster as TOPFLOOR AL-019)",
-      "~6:05 PM CT (~2.5 min later): 15.0358 ETH left the deployer to 0xbaca\u2026d9ac",
+      "~6:05 PM CT (~2.5 min later): 15.0358 ETH left the deployer to 0xbaca…d9ac",
       "Dex residual quote ~14.93 ETH after pull treated as v4 phantom (= ETH pulled)",
-      "Sibling Bankcoin CA 0x7581\u2026 still had liquidity at scan under a different deployer \u2014 always match the full CA"
+      "Sibling Bankcoin CA 0x7581… still had liquidity at scan under a different deployer — always match the full CA"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x8b153ace12a5a9c639afbaa7172b1ec6103012fe6a92335c0a6be0c351b2241a",
@@ -268,7 +290,7 @@
     "id": "AL-019",
     "title": "TOPFLOOR clone v4: PositionManager pulled 12.36 ETH (catch-up)",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0xDF3cd8eAee0FEeb2DB56820d9f52DADdB2A1DD98 \"TOPFLOOR\" clone, deployer 0xa53ffee433864fff855c76b80ef1d1cdd047d6e6",
       "Uniswap v4; Dex residual quote ~12.35 ETH after pull treated as phantom (= ETH pulled)",
@@ -276,7 +298,7 @@
       "PositionManager 0x58daec3116aae6d93017baaea7749052e8a04fa7",
       "~14s later (~2:23 PM CT): 12.5821 ETH left the deployer to 0xf341c935599822f1bc1ec29e27606724fbbf6595 (same 0xF341 address used on Bankcoin AL-014)",
       "Catch-up: present in 4 PM pairs.json but never lpchecked/posted; confirmed in 6 PM watch",
-      "Same-name TOPFLOOR CAs still listed at scan with LP intact under other deployers \u2014 always match the full CA"
+      "Same-name TOPFLOOR CAs still listed at scan with LP intact under other deployers — always match the full CA"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x28ac9cbf33452bda3d8be84c68132d2f91d2d24293ab8a3ddae68d78967c12e3",
@@ -290,14 +312,14 @@
     "id": "AL-020",
     "title": "TOPFLOOR clone v4: PositionManager pulled 5.15 ETH (catch-up)",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x9EDbACeb92D7c1444d4f342BbF6fF10838Ea7E3d \"TOPFLOOR\" clone, deployer 0x659632f5c18c6d8bd435be171689a1844a911950",
       "Uniswap v4; Dex quote exactly 5.1485 ETH (= pulled) treated as phantom residual",
       "~1:26 PM CT: LP pull 5.1485 ETH (lpcheck OK)",
-      "~56s later: 5.2485 ETH \u2192 0x4a4e2885e3740e9a23c9525223eb826d8a2dce74",
+      "~56s later: 5.2485 ETH → 0x4a4e2885e3740e9a23c9525223eb826d8a2dce74",
       "Same v4 PositionManager pattern as AL-019; never posted before 6 PM catch-up",
-      "Same-name TOPFLOOR \u2260 same contract \u2014 always match the full CA"
+      "Same-name TOPFLOOR ≠ same contract — always match the full CA"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0xacb004fd2fb572aba767520c3dec63890c1bbae19775f18f89916aab1e0d30f5",
@@ -311,14 +333,14 @@
     "id": "AL-017",
     "title": "TOPFLOOR clone: serial remover pulled 1.92 ETH (in-window)",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0xC0B70Ea0C87c17c1F7805aD9310E2Ad67eafddE9 \"TOPFLOOR\" clone, deployer 0xb591e598e0dcde43d0e25ab3184518b72d2d71e0",
       "Pair created ~10:58 AM CT Nov 5; Dex residual liquidity ~$0 after pull (vol24 ~$38k)",
       "~2:20 PM CT: removeLiquidityETHSupportingFeeOnTransferTokens pulled 1.9178 ETH plus a large token raw amount (lpcheck OK)",
-      "Remover from 0x89e5db8b5aa49aa85ac63f691524311aeb649eba \u2014 same serial remover as sibling AL-018",
+      "Remover from 0x89e5db8b5aa49aa85ac63f691524311aeb649eba — same serial remover as sibling AL-018",
       "~40s later (~2:21 PM CT): 1.9327 ETH left the deployer to 0x8e9ef328486554674b0e7a20216046b8c30fa997",
-      "Same-name TOPFLOOR CAs still listed at scan with LP intact under other deployers \u2014 always match the full CA"
+      "Same-name TOPFLOOR CAs still listed at scan with LP intact under other deployers — always match the full CA"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x1feffa5a00380c6ed7b4055a10fc4d8550e5ea2708416a206fad0fffb1f153ee",
@@ -331,14 +353,14 @@
     "id": "AL-018",
     "title": "TOPFLOOR clone: serial remover pulled 2.98 ETH (catch-up)",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x045F342B63e6320F9428Ea43b4Ac185f512C39ad \"TOPFLOOR\" clone, deployer 0xcae63fca7c97a6b8a39f0adf276bf85b93000df8",
       "Pair created ~11:05 AM CT Nov 5; Dex residual liquidity ~$0 after pull (vol24 ~$5k)",
       "~12:49 PM CT: same removeLiquidityETHSupportingFeeOnTransferTokens path pulled 2.9774 ETH (lpcheck OK)",
-      "Remover from 0x89e5db8b5aa49aa85ac63f691524311aeb649eba \u2014 same serial remover as AL-017",
+      "Remover from 0x89e5db8b5aa49aa85ac63f691524311aeb649eba — same serial remover as AL-017",
       "~30s later: 2.9981 ETH left the deployer to 0x57f1bb2359f5151f69840d3c7d8881dea08ae171",
-      "Pull landed between noon and 2 PM rug watches but was absent from prior keyword pair sets \u2014 catch-up posting with on-chain receipts"
+      "Pull landed between noon and 2 PM rug watches but was absent from prior keyword pair sets — catch-up posting with on-chain receipts"
     ],
     "receipts": {
       "pull": "https://robinhoodchain.blockscout.com/tx/0x9be8eeb55efb1feb4113ceda0306df0a39ef539048d9644524b2aa6ebdfd0df1",
@@ -351,13 +373,13 @@
     "id": "AL-016",
     "title": "Bankcoin clone: deployer pulled 4.60 ETH after morning 0-pull flag",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
-      "Token 0x494f139322fE4238BcBAD052Be40CD47dD30E834 \"Bankcoin\" clone, deployer 0x375e2121bebf8bffe5cd3213ea6fe3face523b9a \u2014 distinct from AL-014 Bankcoin 0xb849\u20263132",
+      "Token 0x494f139322fE4238BcBAD052Be40CD47dD30E834 \"Bankcoin\" clone, deployer 0x375e2121bebf8bffe5cd3213ea6fe3face523b9a — distinct from AL-014 Bankcoin 0xb849…3132",
       "Created ~7:05 AM CT Nov 5; morning rug watch flagged 0 LP pulls while Dex liquidity was still ~$28k",
       "~1:50 PM CT: LP pull via multicall sent 4.6047 ETH plus a large token raw amount back toward the deployer (lpcheck OK)",
-      "~1:53 PM CT (~3 min later): 4.7045 ETH left the deployer to 0x0fcd\u2026b650",
-      "Other same-name Bankcoin CAs (0xD1a4\u2026, 0x7581\u2026) still had liquidity at scan under different deployers \u2014 always match the full CA",
+      "~1:53 PM CT (~3 min later): 4.7045 ETH left the deployer to 0x0fcd…b650",
+      "Other same-name Bankcoin CAs (0xD1a4…, 0x7581…) still had liquidity at scan under different deployers — always match the full CA",
       "DexScreener can still show residual/other-LP liquidity after a v4 position pull; verify the deployer exit txs"
     ],
     "receipts": {
@@ -371,13 +393,13 @@
     "id": "AL-014",
     "title": "Bankcoin: deployer pulled 16.05 ETH in ~41 minutes, swept via known forwarder",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0xb84915857Ac8AcCDcB6c434722ca55b66dE93132 \"Bankcoin\", deployer 0x7d757d9351ae3e2c29e223aae5af62af4babd249",
       "Created ~6:25 AM CT Nov 5 with 1B supply; LP set via Uniswap v4 POSM about 40 seconds later",
       "7:07:08 AM CT (~41 min after create): deployer called modifyLiquidities and pulled 16.0472 ETH plus about 38.4% of supply back to itself (lpcheck OK)",
-      "25 seconds later it batchSendETH'd 16.56 ETH through forwarder 0xF341c935\u20266595 (same contract used on the Nov 3 fake ORENO pulls) to fresh wallet 0x1ffc\u202630af",
-      "Other same-name Bankcoin contracts were still pumping at scan time under different deployers \u2014 always match the full CA",
+      "25 seconds later it batchSendETH'd 16.56 ETH through forwarder 0xF341c935…6595 (same contract used on the Nov 3 fake ORENO pulls) to fresh wallet 0x1ffc…30af",
+      "Other same-name Bankcoin contracts were still pumping at scan time under different deployers — always match the full CA",
       "DexScreener can still show residual/other-LP liquidity after a v4 position pull; verify the deployer exit txs"
     ],
     "receipts": {
@@ -392,13 +414,13 @@
     "id": "AL-015",
     "title": "I / Inu: deploy to LP pull in 15 minutes, deployer walked with 8.42 ETH",
     "date": "2026-11-05",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x3FFD2210B452689360B391A3B48d8C763551C276 \"I\" / Inu, deployer 0xa5db86950e1d3bdd1f32b10474afeb7a5253333c",
       "Wallet funded with ~4.35 ETH at 1:57:21 AM CT Nov 5; token created 13 seconds later (10B supply)",
       "2:12:34 AM CT (~15 min after create): deployer called modifyLiquidities and pulled 8.4192 ETH plus about 27.3% of supply back to itself (lpcheck OK)",
-      "33 seconds later it sent 8.52 ETH straight to 0xe7b9\u2026d648",
-      "DexScreener can still show leftover/other-LP liquidity after a v4 position pull \u2014 don't trust the chart alone"
+      "33 seconds later it sent 8.52 ETH straight to 0xe7b9…d648",
+      "DexScreener can still show leftover/other-LP liquidity after a v4 position pull — don't trust the chart alone"
     ],
     "receipts": {
       "fund": "https://robinhoodchain.blockscout.com/tx/0x3a9b02affe87674e7d79f4ca6eb5c62b2735342b5751e9bccc0a1c236f9ea0de",
@@ -411,16 +433,16 @@
   },
   {
     "id": "AL-013",
-    "title": "Mr Veto rugged twice: 22.2 ETH pulled, sent to the \u0421\u043e\u0431\u0430\u043a\u0430 hub",
+    "title": "Mr Veto rugged twice: 22.2 ETH pulled, sent to the Собака hub",
     "date": "2026-11-01",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Two tokens named \"Mr Veto\" (VETO) launched Nov 1 riding the Trump \"Mr. Veto\" headlines: 0x91A5c1Cc7f495d0E47Be2281720a6c079d42Ff21 and 0x4e1802249b5ce4D231c9ae8e33eB21Ee9850d818",
       "VETO #1: deployer 0x9e774EC5602454e3848D58Ef7895182e2b6eE2Db got 1.19 ETH at 11:20 AM CT, sent 1.09 ETH to hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD, deployed at 11:21 AM, then pulled the pool at 11:34 AM CT for 5.57 ETH",
       "19 seconds later it sent 5.67 ETH to fresh wallet 0xd5BadcA1484D31Cf4e157f9a3079b02d0AE2C633, which forwarded 5.574 ETH to the same hub and deployed VETO #2 at 11:36 AM CT",
       "VETO #2 did about 588K USD volume with 422 holders (DexScreener / Blockscout), then at 1:42 PM CT the deployer pulled 16.67 ETH plus about 26% of supply",
       "45 seconds later 16.77 ETH went to blank wallet 0x95357237E4F42b35A941dEc11A6a44031CefCfdE, then 16.67 ETH to the hub, which split it out via disperseEther 10 seconds later",
-      "Same hub 0x8896\u202633AD received the \u0421\u043e\u0431\u0430\u043a\u0430 pull on Oct 31 (AL-012). It also called setBuyableToken on 0x84021dc22Cf77fB6bA5665CF247C743fE05BEB7d within seconds of each VETO launch and each pull"
+      "Same hub 0x8896…33AD received the Собака pull on Oct 31 (AL-012). It also called setBuyableToken on 0x84021dc22Cf77fB6bA5665CF247C743fE05BEB7d within seconds of each VETO launch and each pull"
     ],
     "receipts": {
       "deploy_1": "https://robinhoodchain.blockscout.com/tx/0x5946183fb25ed5fa65f774e2c09311a39a2f54e65432b80793d5b44d9e40457f",
@@ -436,16 +458,16 @@
   },
   {
     "id": "AL-012",
-    "title": "\u0421\u043e\u0431\u0430\u043a\u0430: 0-ETH pool, 4.36 ETH pulled, sent to a hub wallet",
+    "title": "Собака: 0-ETH pool, 4.36 ETH pulled, sent to a hub wallet",
     "date": "2026-10-31",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
-      "Token 0xd91ea00dff121a9A510113C5B2a5248644e87668 \"\u0421\u043e\u0431\u0430\u043a\u0430\" (Russian for \"dog\"), deployer 0xf75091fd200c6Db5C527EBfBA875f9aA1F26AaBF",
+      "Token 0xd91ea00dff121a9A510113C5B2a5248644e87668 \"Собака\" (Russian for \"dog\"), deployer 0xf75091fd200c6Db5C527EBfBA875f9aA1F26AaBF",
       "4:41 PM CT Oct 31: deployer funded with 0.1 ETH by 0xe241FA0297f0c41dBd941d2FdEA9F696EDcEE278, deployed 12 seconds later, then put 100% of supply into a Uniswap pool with 0 ETH",
       "About 583K USD volume and 201 holders before the pull (DexScreener / Blockscout)",
       "7:26 PM CT: deployer pulled the liquidity and took 4.36 ETH plus 58% of supply",
       "46 seconds later 4.46 ETH went to blank wallet 0xD4487EB91500F7833B32EB39a53897be0866B545, then 4.36 ETH to hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD (1,786 txs), which split it out via disperseEther",
-      "The same hub received 4.01 ETH from the deployer's funder 0xe241\u2026E278 at 4:08 PM CT"
+      "The same hub received 4.01 ETH from the deployer's funder 0xe241…E278 at 4:08 PM CT"
     ],
     "receipts": {
       "deploy": "https://robinhoodchain.blockscout.com/tx/0x40bca05d711ad4b85907213afbb637f3c83d000e1d762b3a077901cc6cc0ec39",
@@ -460,7 +482,7 @@
     "id": "AL-011",
     "title": "Fake Dacity Coin Airdrop: rugged, then relaunched with the same ETH",
     "date": "2026-10-31",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x4899CE47FF349c229624B5Bef933a5432746cAaA \"Dacity Coin Airdrop\", deployer 0xc85f016dC85cCAdFbb3128F780cA865Ae4FD5Fba",
       "8:45 AM CT Oct 31: 11 ETH LP added; 40 seconds later the deployer switched on a blacklist",
@@ -482,7 +504,7 @@
     "id": "AL-010",
     "title": "SAFU Fund: liquidity pulled in 40 minutes",
     "date": "2026-10-30",
-    "project": "Liquidity pull \u00b7 Robinhood Chain",
+    "project": "Liquidity pull · Robinhood Chain",
     "facts": [
       "Token 0x3b44619f18277D9Bd4a59cc432DE9F05AE9CAA83, deployer 0x9364CDa3376F1C3703174B6E45507D70f7262f01",
       "Launched 9:48 AM CT Oct 30; LP added 8 seconds later",
@@ -502,13 +524,13 @@
     "id": "AL-009",
     "title": "Binance-bait SAFU sweep: 7 LP pulls",
     "date": "2026-10-30",
-    "project": "Flagged \u00b7 liquidity pulled by deployers",
+    "project": "Flagged · liquidity pulled by deployers",
     "facts": [
       "Since 3 PM CT Oct 29: 11 launches with SAFU, CZ, HACKER, DRAIN or CLAIM in the name; 7 had pool liquidity pulled by the deploying wallet, most within 3 to 17 minutes",
-      "SAFU 0xB2bd\u20260e8e: LP added 5:06 PM, pulled 5:09 PM CT; deployer holds 82.5% (remove tx 0x4c2d683a\u2026a1ca)",
-      "SAFU 0x8b3D\u202606c1: LP added 5:11 PM, pulled 5:28 PM CT; deployer holds 51.7% (remove tx 0x4f434256\u2026ab15)",
-      "Four more SAFUs (0xbEcf\u2026a59C, 0x5b44\u202618fB, 0xe4d8\u20263B87, 0x39D4\u20268b3a) from one factory 0x1cba\u2026a149: LP in, deployer sells 22.1% of supply, LP out 9\u201310 min later (2:28 to 4:37 AM CT Oct 30)",
-      "\"The Hacker PARK JIN HYOK\" 0x794F\u20267D65: LP added 8:24 PM, removed 8:30 PM CT by the deployer (0xd1863498\u2026e9f6), which still holds 58.8%",
+      "SAFU 0xB2bd…0e8e: LP added 5:06 PM, pulled 5:09 PM CT; deployer holds 82.5% (remove tx 0x4c2d683a…a1ca)",
+      "SAFU 0x8b3D…06c1: LP added 5:11 PM, pulled 5:28 PM CT; deployer holds 51.7% (remove tx 0x4f434256…ab15)",
+      "Four more SAFUs (0xbEcf…a59C, 0x5b44…18fB, 0xe4d8…3B87, 0x39D4…8b3a) from one factory 0x1cba…a149: LP in, deployer sells 22.1% of supply, LP out 9–10 min later (2:28 to 4:37 AM CT Oct 30)",
+      "\"The Hacker PARK JIN HYOK\" 0x794F…7D65: LP added 8:24 PM, removed 8:30 PM CT by the deployer (0xd1863498…e9f6), which still holds 58.8%",
       "CZ, a second HACKER, DRAIN and CLAIMDAY are still live with small pools; no claim or approval-grab functions found",
       "Binance says there is nothing to claim. If a \"refund\" token or page asks you to sign, don't"
     ],
@@ -519,11 +541,11 @@
     "id": "AL-008",
     "title": "Binance hot wallet drain: receipts",
     "date": "2026-10-29",
-    "project": "Exchange hack \u00b7 Ethereum \u00b7 DB entry DD-039",
+    "project": "Exchange hack · Ethereum · DB entry DD-039",
     "facts": [
-      "Trigger wallet 0x7C86\u20265CA0 funded via Tornado Cash",
-      "Main receiver 0x5227\u20262f8c: Tether + Circle froze ~1.8B in stables",
-      "195,460 ETH parked untouched in 0x8532\u202643D4; ~122,310 ETH (from swapped USDT) in 0xc887\u2026286A",
+      "Trigger wallet 0x7C86…5CA0 funded via Tornado Cash",
+      "Main receiver 0x5227…2f8c: Tether + Circle froze ~1.8B in stables",
+      "195,460 ETH parked untouched in 0x8532…43D4; ~122,310 ETH (from swapped USDT) in 0xc887…286A",
       "Watch for fake 'Binance refund' links and lookalike/poisoned addresses"
     ],
     "post": "https://x.com/DanxxDogs/status/2115935303873474835"
@@ -532,11 +554,11 @@
     "id": "AL-007",
     "title": "Fake FLOP: there is no FLOP token",
     "date": "2026-10-29",
-    "project": "Flagged \u00b7 not affiliated with Flop Labs",
+    "project": "Flagged · not affiliated with Flop Labs",
     "facts": [
       "Arthur Hayes / Flop Labs: there is no FLOP token",
       "Deployer got ~4.8% of supply in the launch tx and sold it all in 34 sells in about a minute",
-      "Pushed with a 'claim' link reported as a wallet drainer \u00b7 DB entry DD-037"
+      "Pushed with a 'claim' link reported as a wallet drainer · DB entry DD-037"
     ],
     "post": "https://x.com/DanxxDogs/status/2115844495187018068"
   },
@@ -544,11 +566,11 @@
     "id": "AL-006",
     "title": "Free Mika (MIKA) copycats: LP pulled",
     "date": "2026-10-29",
-    "project": "Flagged \u00b7 copycat name",
+    "project": "Flagged · copycat name",
     "facts": [
       "9 'Free Mika' copies launched on Robinhood Chain Oct 28, 12:58 to 2:08 PM CT, copying the Solana pump.fun meme",
       "On 3 traced copies the deployer added LP and pulled 100% of it 8 to 10 minutes after launch",
-      "All 9 pools have 0 active liquidity; DexScreener shows stale numbers \u00b7 DB entry DD-036"
+      "All 9 pools have 0 active liquidity; DexScreener shows stale numbers · DB entry DD-036"
     ],
     "post": "https://x.com/DanxxDogs/status/2115741331586740347"
   },
@@ -556,11 +578,11 @@
     "id": "AL-005",
     "title": "ROBINHOOD copycat #2 bundle dump",
     "date": "2026-10-29",
-    "project": "Flagged \u00b7 copycat name",
+    "project": "Flagged · copycat name",
     "facts": [
       "6 wallets, deployer included, bought 83.87% of supply in the launch tx",
       "Deployer sold its 16.66% in 13 sells over ~90 seconds; all six out within ~9 minutes",
-      "LP not pulled \u00b7 DB entry DD-035"
+      "LP not pulled · DB entry DD-035"
     ],
     "post": "https://x.com/DanxxDogs/status/2115685328703078634"
   },
@@ -568,11 +590,11 @@
     "id": "AL-004",
     "title": "Anthropic (ANT) bundle dump",
     "date": "2026-10-26",
-    "project": "Flagged \u00b7 not affiliated with Anthropic",
+    "project": "Flagged · not affiliated with Anthropic",
     "facts": [
       "~94% of supply bought in the launch tx",
       "About an hour later, 159 wallets sold within 5 seconds and drained ~20.7 ETH",
-      "Price -99.6% \u00b7 DB entry DD-030"
+      "Price -99.6% · DB entry DD-030"
     ],
     "post": "https://x.com/DanxxDogs/status/2114745807840960698"
   },
@@ -580,7 +602,7 @@
     "id": "AL-003",
     "title": "Million Dollar Homepage (1M) coordinated dump",
     "date": "2026-10-26",
-    "project": "Flagged \u00b7 not a proven rug",
+    "project": "Flagged · not a proven rug",
     "facts": [
       "About 30 min after a paid DEX boost, 11 fresh wallets dumped ~18% of supply in 41 seconds",
       "Price -90%; dev wallet was not a seller",
@@ -592,9 +614,9 @@
     "id": "AL-002",
     "title": "Torch (TORCH) whale dump",
     "date": "2026-10-24",
-    "project": "Legit project \u00b7 not a rug",
+    "project": "Legit project · not a rug",
     "facts": [
-      "3 wallets (0xecee\u2026f01d, 0x7b04\u20261516, 0xe33e\u202608a5) sold ~23M TORCH (~2.3% of supply) for ~95 ETH",
+      "3 wallets (0xecee…f01d, 0x7b04…1516, 0xe33e…08a5) sold ~23M TORCH (~2.3% of supply) for ~95 ETH",
       "Sells landed between 4:12 and 5:34 AM CT, Oct 24 2026",
       "Liquidity ~2.2M USD intact; whale selling, not a rug"
     ],
@@ -604,9 +626,9 @@
     "id": "AL-001",
     "title": "Artificial Inu (AI) whale exit",
     "date": "2026-10-23",
-    "project": "Legit project \u00b7 not a rug",
+    "project": "Legit project · not a rug",
     "facts": [
-      "~5:56 PM CT: wallet 0xb8f305f2\u202604ea sold 20.06M AI (~2% supply) for ~461 WETH (~1.09M USD)",
+      "~5:56 PM CT: wallet 0xb8f305f2…04ea sold 20.06M AI (~2% supply) for ~461 WETH (~1.09M USD)",
       "Open-market buyer since July, not the dev; now holds 0 AI",
       "Liquidity intact (~2.55M USD top pool)"
     ],
