@@ -1,5 +1,33 @@
 [
   {
+    "id": "AL-036",
+    "title": "Two fake Cash Cat copycats rugged on Robinhood Chain: LP pulls of 4.75 ETH and 1.80 ETH, second launch funded by the first deployer",
+    "date": "2026-11-14",
+    "project": "Liquidity pull · impersonation of Cash Cat · Robinhood Chain",
+    "facts": [
+      "Two tokens named \"Cash Cat\" / CASHCAT: fake #1 0xAcb5Dc79BeA408c6CF82AeDcD5e21c8D490918b4 and fake #2 0xEFbdf70c9800b5224E148b28F266a21111Bc18B4. Both end in 18B4 like the real Cash Cat 0x020bfC650A365f8BB26819deAAbF3E21291018b4, but neither is the real contract",
+      "10:50 AM CT Nov 14: deployer 1 0x9C2D7277EAD91Eefb601CFFdd2958d89F041F6aA deployed fake #1: https://robinhoodchain.blockscout.com/tx/0xe1768c7ec7a9bcb26356e7e59a476d81e844b77f155003d8e7f200c97833b867",
+      "LP added 10:52 AM CT, pulled 10:53 AM CT for 4.7545 ETH (~8.7k USD at ETH 1,823.77): https://robinhoodchain.blockscout.com/tx/0xfc65c093e03d19a6d592d36f7cd525cc697cca0e01660d0d0d6389dfa0e1833c. DexScreener showed 77 buys, 0 sells",
+      "55 seconds later 4.7564 ETH went to 0xa40a5C2c0aaF37Ef603046D6203f9b4E1e10388e: https://robinhoodchain.blockscout.com/tx/0xbf2c91dd9ef8e23805041898c14e14aefaf94cffa760bff325a27fbf73f34546",
+      "10:54 AM CT: deployer 1 sent 0.02 ETH gas to deployer 2 0x8Dc2093844d778840BFCa0857CC4c617a1Feaa67: https://robinhoodchain.blockscout.com/tx/0x0e1ae7f9867dd223838e1ae6d123389566198f5355fe226bda0fac8b2128e83f. 22 seconds later deployer 2 deployed fake #2: https://robinhoodchain.blockscout.com/tx/0xbe1763aebd864bcc4464c2a38200b2d8b733864c0837345e8fa9cc8b3d53f26a",
+      "Fake #2 traded ~443k USD volume, 512 holders (Blockscout). 1:47 PM CT: deployer 2 pulled LP for 1.803 ETH: https://robinhoodchain.blockscout.com/tx/0x1ada5ac6c11bb9a5611f635c7514f52bfa9775adc167660e1b1495167fd56e0a",
+      "19 seconds later 1.8230 ETH went to 0x18AaBA9178e0e3eB1a1D9A4681EDfbAf5C3f323F: https://robinhoodchain.blockscout.com/tx/0x5a0c9d4df9b2a7c196d55c3f648d973cf638cbff5c252fa3757643779d818cc6",
+      "Check the full contract address, not just the ending. NFA/DYOR"
+    ],
+    "receipts": {
+      "token1": "https://robinhoodchain.blockscout.com/address/0xAcb5Dc79BeA408c6CF82AeDcD5e21c8D490918b4",
+      "token2": "https://robinhoodchain.blockscout.com/address/0xEFbdf70c9800b5224E148b28F266a21111Bc18B4",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0xfc65c093e03d19a6d592d36f7cd525cc697cca0e01660d0d0d6389dfa0e1833c",
+      "sweep": "https://robinhoodchain.blockscout.com/tx/0xbf2c91dd9ef8e23805041898c14e14aefaf94cffa760bff325a27fbf73f34546",
+      "fund": "https://robinhoodchain.blockscout.com/tx/0x0e1ae7f9867dd223838e1ae6d123389566198f5355fe226bda0fac8b2128e83f",
+      "pull2": "https://robinhoodchain.blockscout.com/tx/0x1ada5ac6c11bb9a5611f635c7514f52bfa9775adc167660e1b1495167fd56e0a",
+      "sweep2": "https://robinhoodchain.blockscout.com/tx/0x5a0c9d4df9b2a7c196d55c3f648d973cf638cbff5c252fa3757643779d818cc6"
+    },
+    "post": "https://x.com/DanxxDogs/status/2121702832030269651",
+    "img": "assets/alerts/fake_cashcat_pair_1114.jpg",
+    "dd": "DD-066"
+  },
+  {
     "id": "AL-035",
     "title": "Fake \"USDG\" (US Global Dollar): phantom balances sprayed to 443,160 wallets",
     "date": "2026-11-11",
