@@ -1,5 +1,30 @@
 [
   {
+    "id": "AL-037",
+    "title": "Rug relay on Robinhood Chain: 52 one-use wallets ran 50 LP pulls totalling 76.16 ETH, and 84 ETH was banked",
+    "date": "2026-11-15",
+    "project": "Liquidity pull · rug relay · Robinhood Chain",
+    "facts": [
+      "Robinhood Chain rug relay, Nov 14 9:49 PM CT to Nov 15 12:00 AM CT (2h 11m). 52 one-use wallets each received ETH, deployed a token, added LP, pulled it, and forwarded everything to the next fresh wallet. 50 LP pulls totalling 76.16 ETH",
+      "Seeded with 8.44 ETH: 0x89faE3CdC8c9A00aaF0DAbAc64acBB714192193e funded the first wallet 0xdcB8581666DD23E026ee138e4ca44840877ECbe0, which made SIA 0x65987eD655dE5BA5cD33c0450035BC78952e070d. First pull was 2.00 ETH: https://robinhoodchain.blockscout.com/tx/0x68466b3e08296a2aabc14061245fe3170f51f62302d01a8548dd3ed86bb4902f",
+      "Fastest: Nyajira 0x1dbc41DfeFc775dBff364e1E8C7DAb6A39b1A669. The LP was pulled 34 seconds after it was added, for 1.09 ETH, after 30 buys: https://robinhoodchain.blockscout.com/tx/0x15479b741053983e29ad2f506f5394c1ad592396a6c04283672bc8234efd35eb",
+      "Biggest single pull: 8.64 ETH at 11:45 PM CT: https://robinhoodchain.blockscout.com/tx/0x0f01aac4e73d542e5b0c7340d9cb580e9503d2b2ea99e514ac5669bf03406f58",
+      "84 ETH was banked in three drops (17, 33, 34) to 0xe8841e9dff76E63E9716faD4355b397AC9BDf69C. The last 34 ETH: https://robinhoodchain.blockscout.com/tx/0xa8be14e389c0549728062782970b9560fdf09158ff8860e4c7b5d3c76ae744d2. That wallet then sent 34 ETH on to 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C. NFA/DYOR"
+    ],
+    "receipts": {
+      "sia": "https://robinhoodchain.blockscout.com/address/0x65987eD655dE5BA5cD33c0450035BC78952e070d",
+      "nyajira": "https://robinhoodchain.blockscout.com/address/0x1dbc41DfeFc775dBff364e1E8C7DAb6A39b1A669",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x68466b3e08296a2aabc14061245fe3170f51f62302d01a8548dd3ed86bb4902f",
+      "fastest": "https://robinhoodchain.blockscout.com/tx/0x15479b741053983e29ad2f506f5394c1ad592396a6c04283672bc8234efd35eb",
+      "biggest": "https://robinhoodchain.blockscout.com/tx/0x0f01aac4e73d542e5b0c7340d9cb580e9503d2b2ea99e514ac5669bf03406f58",
+      "bank": "https://robinhoodchain.blockscout.com/tx/0xa8be14e389c0549728062782970b9560fdf09158ff8860e4c7b5d3c76ae744d2",
+      "bank_wallet": "https://robinhoodchain.blockscout.com/address/0xe8841e9dff76E63E9716faD4355b397AC9BDf69C"
+    },
+    "post": "https://x.com/DanxxDogs/status/2121977736197791964",
+    "img": "assets/alerts/rug_relay_1115.jpg",
+    "dd": "DD-067"
+  },
+  {
     "id": "AL-036",
     "title": "Two fake Cash Cat copycats rugged on Robinhood Chain: LP pulls of 4.75 ETH and 1.80 ETH, second launch funded by the first deployer",
     "date": "2026-11-14",
