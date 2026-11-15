@@ -1,5 +1,29 @@
 [
   {
+    "id": "AL-038",
+    "title": "Rug relay, last coin: Lord Aura (AURA) LP pulled for 3.07 ETH after 13h 40m live, and the crew switched off its trading contract the same second",
+    "date": "2026-11-15",
+    "project": "Liquidity pull · rug relay · Robinhood Chain",
+    "facts": [
+      "Lord Aura (AURA) 0x9b366C41c810761A6C8689546BFaAb5D2F85b9c3 on Robinhood Chain was deployed at 12:00 AM CT Nov 15 by 0xBe2FCc14437864Ca9DA28575A363D4042bA2B141, the last wallet of the overnight 52-wallet rug relay (AL-037): https://robinhoodchain.blockscout.com/tx/0xdf511e0ef02bf138a27a188e498ede50b5a4fcd6f38eac7ba9abc21433e82ab6",
+      "12:00:32 AM CT: the relay bank wallet 0xe8841e9dff76E63E9716faD4355b397AC9BDf69C called setBuyableToken(AURA, true) on its contract 0x80114879f80d156C8003676557324c518BAbD194: https://robinhoodchain.blockscout.com/tx/0xa0c98a3b8b67ced788eaa87fda19d0db16b97579808abbd68617bc6707a65dbf",
+      "1:40:46 PM CT Nov 15 (13h 40m later): LP pulled to the deployer for 3.0747 ETH plus about 497.7M AURA (about half the 1B supply): https://robinhoodchain.blockscout.com/tx/0x9c08fbd86ac0d28671568c920aa2e6f37c8d43e7941f14747b38562cd376288c",
+      "Same second, 1:40:46 PM CT: the bank wallet called setBuyableToken(AURA, false): https://robinhoodchain.blockscout.com/tx/0x48b4378a9cc1af188f44a2771e82d1e248f7db2ed1d1b9b1a4030a8b35c379c5",
+      "At the time of the pull AURA had 715 holders (Blockscout) and about 1.69M USD 24h volume on DexScreener; liquidity left afterwards was about 10 USD. NFA/DYOR"
+    ],
+    "receipts": {
+      "token": "https://robinhoodchain.blockscout.com/address/0x9b366C41c810761A6C8689546BFaAb5D2F85b9c3",
+      "deploy": "https://robinhoodchain.blockscout.com/tx/0xdf511e0ef02bf138a27a188e498ede50b5a4fcd6f38eac7ba9abc21433e82ab6",
+      "bot_on": "https://robinhoodchain.blockscout.com/tx/0xa0c98a3b8b67ced788eaa87fda19d0db16b97579808abbd68617bc6707a65dbf",
+      "pull": "https://robinhoodchain.blockscout.com/tx/0x9c08fbd86ac0d28671568c920aa2e6f37c8d43e7941f14747b38562cd376288c",
+      "bot_off": "https://robinhoodchain.blockscout.com/tx/0x48b4378a9cc1af188f44a2771e82d1e248f7db2ed1d1b9b1a4030a8b35c379c5",
+      "bank_wallet": "https://robinhoodchain.blockscout.com/address/0xe8841e9dff76E63E9716faD4355b397AC9BDf69C"
+    },
+    "post": "https://x.com/DanxxDogs/status/2122065755999289722",
+    "img": "assets/alerts/aura_pull_1115.jpg",
+    "dd": "DD-068"
+  },
+  {
     "id": "AL-037",
     "title": "Rug relay on Robinhood Chain: 52 one-use wallets ran 50 LP pulls totalling 76.16 ETH, and 84 ETH was banked",
     "date": "2026-11-15",
