@@ -1,5 +1,36 @@
 [
   {
+    "id": "AL-040",
+    "title": "Rug relay hits older coins: 42 more LP pulls totalling 134.79 ETH, including Human Superinu (HSI, 699 holders), billie (583) and Star Inu (226)",
+    "date": "2026-11-16",
+    "project": "Liquidity pull · rug relay · Robinhood Chain",
+    "facts": [
+      "The same Robinhood Chain rug relay (AL-037 to AL-039) ran 42 more confirmed LP pulls totalling 134.7857 ETH between Nov 15 8:18 PM CT and Nov 16 7:23 AM CT",
+      "Overnight, 8:18:41 PM to 3:45:10 AM CT: 39 coins, each launched from its own throwaway deployer and LP pulled within minutes, 107.6081 ETH. Biggest: a Marvin The Martian coin 0x74e5474b35Ed91aFD028e09B9aC58AaeDc8e847f (deployer 0x4AA78B1Ec0407057C73a3d251B5Aa27232946749), LP pulled 12:03:13 AM CT for 8.8383 ETH: https://robinhoodchain.blockscout.com/tx/0x5e5b270ae880ef3c3bd4a3bcc18b395793d3be33881ac19f951d5fbb3364036e",
+      "Morning, older coins (22+ hours of trading): Star Inu (SI) 0xc9c26a63D75f6196CE05990f8733Cc871C6332cf, 226 holders, LP pulled 5:34:26 AM CT for 3.9761 ETH: https://robinhoodchain.blockscout.com/tx/0x0ff275b20afbf3cbeeeb1ee6df32207ca9cc5d2da9b7bc07f1ed223867f5c88b. Human Superinu (HSI) 0xe3bfB66d52773F68Be916D5e00f477C4faFFb6e8, 699 holders, DexScreener 24h volume about 2.35M USD, LP pulled 7:18:15 AM CT for 7.9583 ETH: https://robinhoodchain.blockscout.com/tx/0x85683b039b1270e179b33a8aa053d68515a8f6028676d16e33b43993e28cb1a9. billie 0x528DC819723b1729193Ea7130b6ed655C31D1B6E, 583 holders, LP pulled 7:23:08 AM CT for 15.2432 ETH: https://robinhoodchain.blockscout.com/tx/0xbafd3976146ac40cbb5d5acf58dc371f67e5c0b239df57d6f98d303faef3f20a",
+      "Money trail: the HSI deployer sent 10.1648 ETH to two-tx wallet 0xaF2b4201B61F07f8F2fE4945A16fBc7059dfdf54, which sent 10.0648 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773: https://robinhoodchain.blockscout.com/tx/0xacdb2e92eca817d6f49862c3e42039e5ab0c58ab68d7844c5e9acc0e8d4ff7b7. The billie deployer sent 15.395 ETH to two-tx wallet 0x6AABFf61FBb1a86c9952fEB95fF85678FeC6898D, which sent 15.295 ETH to the same hub about a minute after the pull: https://robinhoodchain.blockscout.com/tx/0xf21c5e6bad712a614e7d688c3356868118ee188e1dbded15f7c1f27a5c9b9117",
+      "Star Inu: the deployer sent 3.9 ETH to 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD (https://robinhoodchain.blockscout.com/tx/0x8ca81e1742484eef69867f1d2d37b3794c4adf705447a5d2bf98fba40bd13a1d); that wallet also got 15 ETH from hub 0x1e1519a26C35A4966eCc42e43147257932D01773 and sent 18 ETH to disperser 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C: https://robinhoodchain.blockscout.com/tx/0xc5bbdf9aaed83398d519c499428e3f831f7a2ef8af59fb3b11cb335bd81d16cd",
+      "Bank wallet 0xe8841e9dff76E63E9716faD4355b397AC9BDf69C (AL-037 to AL-039) kept funding the relay through disperser 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C, called setBuyableToken on crew contract 0x80114879f80d156C8003676557324c518BAbD194 overnight, and sent 15.8 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773 at 5:46:55 AM CT: https://robinhoodchain.blockscout.com/tx/0xd1efcf79e472d25dfa496f111b551500b79068434574338ee725745104faad0a. NFA/DYOR"
+    ],
+    "receipts": {
+      "hsi_token": "https://robinhoodchain.blockscout.com/address/0xe3bfB66d52773F68Be916D5e00f477C4faFFb6e8",
+      "hsi_pull": "https://robinhoodchain.blockscout.com/tx/0x85683b039b1270e179b33a8aa053d68515a8f6028676d16e33b43993e28cb1a9",
+      "hsi_to_hub": "https://robinhoodchain.blockscout.com/tx/0xacdb2e92eca817d6f49862c3e42039e5ab0c58ab68d7844c5e9acc0e8d4ff7b7",
+      "billie_token": "https://robinhoodchain.blockscout.com/address/0x528DC819723b1729193Ea7130b6ed655C31D1B6E",
+      "billie_pull": "https://robinhoodchain.blockscout.com/tx/0xbafd3976146ac40cbb5d5acf58dc371f67e5c0b239df57d6f98d303faef3f20a",
+      "billie_to_hub": "https://robinhoodchain.blockscout.com/tx/0xf21c5e6bad712a614e7d688c3356868118ee188e1dbded15f7c1f27a5c9b9117",
+      "starinu_token": "https://robinhoodchain.blockscout.com/address/0xc9c26a63D75f6196CE05990f8733Cc871C6332cf",
+      "starinu_pull": "https://robinhoodchain.blockscout.com/tx/0x0ff275b20afbf3cbeeeb1ee6df32207ca9cc5d2da9b7bc07f1ed223867f5c88b",
+      "starinu_to_disperser": "https://robinhoodchain.blockscout.com/tx/0xc5bbdf9aaed83398d519c499428e3f831f7a2ef8af59fb3b11cb335bd81d16cd",
+      "biggest_overnight_pull": "https://robinhoodchain.blockscout.com/tx/0x5e5b270ae880ef3c3bd4a3bcc18b395793d3be33881ac19f951d5fbb3364036e",
+      "hub_wallet": "https://robinhoodchain.blockscout.com/address/0x1e1519a26C35A4966eCc42e43147257932D01773",
+      "bank_to_hub": "https://robinhoodchain.blockscout.com/tx/0xd1efcf79e472d25dfa496f111b551500b79068434574338ee725745104faad0a"
+    },
+    "post": "https://x.com/DanxxDogs/status/2122338690974490634",
+    "img": "assets/alerts/rug_relay_1116.jpg",
+    "dd": "DD-070"
+  },
+  {
     "id": "AL-039",
     "title": "Rug relay keeps going: 22 more LP pulls totalling 47.28 ETH across 11 NVIDIA Cat (NCAT) and 11 Neil the lemur coins, one deployer funded by the AURA wallet",
     "date": "2026-11-15",
