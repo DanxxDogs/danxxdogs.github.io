@@ -1,5 +1,31 @@
 [
   {
+    "id": "AL-039",
+    "title": "Rug relay keeps going: 22 more LP pulls totalling 47.28 ETH across 11 NVIDIA Cat (NCAT) and 11 Neil the lemur coins, one deployer funded by the AURA wallet",
+    "date": "2026-11-15",
+    "project": "Liquidity pull · rug relay · Robinhood Chain",
+    "facts": [
+      "The same Robinhood Chain rug relay (AL-037, AL-038) kept going on Nov 15 from 4:04 PM to 8:17 PM CT: 22 more confirmed LP pulls totalling 47.2835 ETH, in two waves of 11 coins, each launched from its own deployer wallet",
+      "Wave 1: 11 \"NVIDIA Cat\" (NCAT) coins, LP pulls 4:04:59 to 4:33:59 PM CT, 23.6914 ETH. Biggest: 0xb09B0d901e818EbfECaF6B1346FC2be071CF771A (deployer 0x830Ad66F2Aa121997843e23dd61f3f4Ee2Da0c34), created 4:11:46 PM CT, LP pulled 4:24:51 PM CT for 10.3428 ETH: https://robinhoodchain.blockscout.com/tx/0x1da4fb46023fbae9c0dedc859de79993ff771bf80193a9a9afec8d4760a5405b",
+      "Wave 2: 11 \"Neil the lemur\" coins, LP pulls 7:43:21 to 8:17:34 PM CT, 23.5921 ETH. Biggest: 0x2480d9eFB0fd1F4459312Ed040E2CaC1da26b6Bf (deployer 0x7adcA311D7759eF2a520FCb6b9b7f24Ac0C6415C), created 7:48:45 PM CT, LP pulled 7:51:21 PM CT for 5.9122 ETH: https://robinhoodchain.blockscout.com/tx/0xd44923db061e23b3b4fe030c2cd06c10f607396f72b3615735b1159def59e872",
+      "Link to AURA: that wave 2 deployer 0x7adcA311D7759eF2a520FCb6b9b7f24Ac0C6415C was funded 3.6701 ETH by the AURA deployer 0xBe2FCc14437864Ca9DA28575A363D4042bA2B141 (AL-038) at 3:56:48 PM CT: https://robinhoodchain.blockscout.com/tx/0x51a4ae52cb44fcab4177dd22e54fe348333e315c368ec9e28cf33bbdf8a3709c",
+      "Bank wallets 0xe8841e9dff76E63E9716faD4355b397AC9BDf69C and 0x4eF046ddcD04e44Efc0535336f9532f0Ec62C24C call setBuyableToken on the crew contracts 0x80114879f80d156C8003676557324c518BAbD194 and 0xFc7241d4356564e32B16E8e4838C648efcEB8144. Funds loop via 0x71f9D8279A72AcdA61B6Ea4b3Ad0D26bEd7E1CB9 to 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C. NFA/DYOR"
+    ],
+    "receipts": {
+      "ncat_token": "https://robinhoodchain.blockscout.com/address/0xb09B0d901e818EbfECaF6B1346FC2be071CF771A",
+      "ncat_pull": "https://robinhoodchain.blockscout.com/tx/0x1da4fb46023fbae9c0dedc859de79993ff771bf80193a9a9afec8d4760a5405b",
+      "neil_token": "https://robinhoodchain.blockscout.com/address/0x2480d9eFB0fd1F4459312Ed040E2CaC1da26b6Bf",
+      "neil_pull": "https://robinhoodchain.blockscout.com/tx/0xd44923db061e23b3b4fe030c2cd06c10f607396f72b3615735b1159def59e872",
+      "aura_funding": "https://robinhoodchain.blockscout.com/tx/0x51a4ae52cb44fcab4177dd22e54fe348333e315c368ec9e28cf33bbdf8a3709c",
+      "bank_wallet": "https://robinhoodchain.blockscout.com/address/0xe8841e9dff76E63E9716faD4355b397AC9BDf69C",
+      "bank_wallet_2": "https://robinhoodchain.blockscout.com/address/0x4eF046ddcD04e44Efc0535336f9532f0Ec62C24C",
+      "bot_contract_2": "https://robinhoodchain.blockscout.com/address/0xFc7241d4356564e32B16E8e4838C648efcEB8144"
+    },
+    "post": "https://x.com/DanxxDogs/status/2122154130236195073",
+    "img": "assets/alerts/relay_waves_1115.jpg",
+    "dd": "DD-069"
+  },
+  {
     "id": "AL-038",
     "title": "Rug relay, last coin: Lord Aura (AURA) LP pulled for 3.07 ETH after 13h 40m live, and the crew switched off its trading contract the same second",
     "date": "2026-11-15",
