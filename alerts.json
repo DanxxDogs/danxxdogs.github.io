@@ -1,5 +1,36 @@
 [
  {
+  "id": "AL-042",
+  "title": "Rug relay caught live: PIPI LP pulled 25 minutes after launch; 214 LP pulls totalling 468.53 ETH since Monday",
+  "date": "2026-11-19",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "The Robinhood Chain rug relay (AL-037 to AL-040) is still running: from Mon Nov 16 2:15 PM CT to Thu Nov 19 8:06 AM CT we traced 214 LP pulls to its hubs, totalling 468.53 ETH",
+   "Caught live: PIPI 0x7E22DBF467Ba80d441FeF5D0d2B0E5baeA9221BB was created at 7:41 AM CT Nov 19 by dev wallet 0x6B54ceD7D18b103fA92BB10C235ee4Fd63C82269: https://robinhoodchain.blockscout.com/tx/0xa98ba2475d2e412ec09513654d4994440f07562f40b7370e6ee2ab65e03d5019. Its LP was pulled at 8:06 AM CT, 25 minutes later, for 8.688 ETH, with 290 holders in: https://robinhoodchain.blockscout.com/tx/0x2ce0bb777f8a3092b2723996c93f602349a123a5a6320bde7abfe5c13d436018",
+   "42 seconds after the pull the PIPI dev wallet sent 8.7879 ETH to 0x22CD6Fa5490254DCa7F29f027081Ee8F8aBaa8Ef: https://robinhoodchain.blockscout.com/tx/0xb4336294f46b4fb02e5f094447b3e0e9b97e18f683c9b66eadda224cb5ce9fb3. On Nov 18 at 12:24 PM CT the same wallet had sent 3.1649 ETH to relay hub 0x1e1519a26C35A4966eCc42e43147257932D01773: https://robinhoodchain.blockscout.com/tx/0xbbece403c98e8c0784bf374119b35d0dbeb76262f84445b166d0d6b50deefd6a",
+   "Overnight: MAGA CITY XLVII 0xb982A7aB9Aa15cf5D1a80A7ABC92e8482Db39d2F (dev 0x3b8E91cA74b86Ba3D5B3e6aC6168eEE9E97E9ca0) was created at 10:23 PM CT Nov 18 and had 984 holders and about 1.3M USD 24h volume on DexScreener. The dev sent 7.8 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773 at 1:34 AM CT (https://robinhoodchain.blockscout.com/tx/0xe37179f0e7aa5cbb0fc189bd1bc58d1d388829b24c7431b0d2e7b5621430ed69), the LP was pulled for 5.8497 ETH at 5:33 AM CT (https://robinhoodchain.blockscout.com/tx/0x3721f0e4bca77a5da965ce225cba3320166b36846bef3f40c65a3671798a0c50), and the dev sent 6.0428 ETH to 0x49438fc088210A5793b7504ab7efC7223976965d at 7:19 AM CT: https://robinhoodchain.blockscout.com/tx/0x6552ad104fc3d43f8de438a92627f53b1c0df23b3f8dd24d1fc91bdead8ca37d",
+   "Biggest pull since Monday: BaseToken 0x3a0B0682b2ecf1a1Ae0f8E5A2F70520a2B406fe1, 16.649 ETH, Tue Nov 17 4:33 PM CT: https://robinhoodchain.blockscout.com/tx/0xd5483d7dd0b58906ea37abaabd3f5d93a974badf840f4dade717fca2af29d402. Holders and volume are not protection; whoever controls the LP decides when it ends. NFA/DYOR"
+  ],
+  "receipts": {
+   "pipi_token": "https://robinhoodchain.blockscout.com/token/0x7E22DBF467Ba80d441FeF5D0d2B0E5baeA9221BB",
+   "pipi_create": "https://robinhoodchain.blockscout.com/tx/0xa98ba2475d2e412ec09513654d4994440f07562f40b7370e6ee2ab65e03d5019",
+   "pipi_pull": "https://robinhoodchain.blockscout.com/tx/0x2ce0bb777f8a3092b2723996c93f602349a123a5a6320bde7abfe5c13d436018",
+   "pipi_sweep": "https://robinhoodchain.blockscout.com/tx/0xb4336294f46b4fb02e5f094447b3e0e9b97e18f683c9b66eadda224cb5ce9fb3",
+   "pipi_dev_to_hub": "https://robinhoodchain.blockscout.com/tx/0xbbece403c98e8c0784bf374119b35d0dbeb76262f84445b166d0d6b50deefd6a",
+   "pipi_dev": "https://robinhoodchain.blockscout.com/address/0x6B54ceD7D18b103fA92BB10C235ee4Fd63C82269",
+   "maga_token": "https://robinhoodchain.blockscout.com/token/0xb982A7aB9Aa15cf5D1a80A7ABC92e8482Db39d2F",
+   "maga_pull": "https://robinhoodchain.blockscout.com/tx/0x3721f0e4bca77a5da965ce225cba3320166b36846bef3f40c65a3671798a0c50",
+   "maga_dev_to_hub": "https://robinhoodchain.blockscout.com/tx/0xe37179f0e7aa5cbb0fc189bd1bc58d1d388829b24c7431b0d2e7b5621430ed69",
+   "maga_sweep": "https://robinhoodchain.blockscout.com/tx/0x6552ad104fc3d43f8de438a92627f53b1c0df23b3f8dd24d1fc91bdead8ca37d",
+   "maga_dev": "https://robinhoodchain.blockscout.com/address/0x3b8E91cA74b86Ba3D5B3e6aC6168eEE9E97E9ca0",
+   "biggest_pull_basetoken": "https://robinhoodchain.blockscout.com/tx/0xd5483d7dd0b58906ea37abaabd3f5d93a974badf840f4dade717fca2af29d402",
+   "hub_wallet": "https://robinhoodchain.blockscout.com/address/0x1e1519a26C35A4966eCc42e43147257932D01773"
+  },
+  "post": "https://x.com/DanxxDogs/status/2123425434859942333",
+  "img": "assets/alerts/rug_relay_1119.jpg",
+  "dd": "DD-072"
+ },
+ {
   "id": "AL-041",
   "title": "Watchdog Report #4: Minimoon (Minimoon) LP pulled 24.4498 ETH",
   "date": "2026-11-16",
