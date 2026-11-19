@@ -1,5 +1,41 @@
 [
  {
+  "id": "AL-043",
+  "title": "Rugged twice: second PIPI LP pulled for 8.28 ETH, then 7 Cat Mario pulls in 23 minutes (Robinhood Chain)",
+  "date": "2026-11-19",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "Wallet 0x22CD6Fa5490254DCa7F29f027081Ee8F8aBaa8Ef received 8.7879 ETH from the first PIPI dev wallet 0x6B54ceD7D18b103fA92BB10C235ee4Fd63C82269 at 8:06 AM CT Nov 19, right after the first PIPI rug (AL-042): https://robinhoodchain.blockscout.com/tx/0xb4336294f46b4fb02e5f094447b3e0e9b97e18f683c9b66eadda224cb5ce9fb3. At 8:07 AM CT it sent 8.6878 ETH to relay hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD: https://robinhoodchain.blockscout.com/tx/0x225875da64bf71d53b77c34e30b1b08ec74ab0731696ac0cd482d5ced5c8aa4e",
+   "At 8:21 AM CT the same wallet created a second PIPI, 0x2f8b16A7188ec9a2Ef562Af1a1Ec374EA938cEc8: https://robinhoodchain.blockscout.com/tx/0x3a7a542cdbf9b19bf576da474b777a886723e7fb7357d48fc08de086c1a1048f. It reached 713 holders and about 900K USD 24h volume on DexScreener",
+   "At 1:33 PM CT its LP was pulled for 8.284 ETH to the deployer: https://robinhoodchain.blockscout.com/tx/0x4333b3b1079d08be52c4a074f1a338ac10fcee2fbf09b1c3921105faf29a7a6e. DexScreener liquidity afterwards: about 12 USD",
+   "8.3839 ETH moved to 0xceDF707D234Fc5125C35A7d1681a6d67362380F5 at 1:39 PM CT (https://robinhoodchain.blockscout.com/tx/0x389e49fa16d4342dc0ba2968a7e834b5e80ec056d22ea4e3637fea6b1d78a8d2), which sent 8.2838 ETH to hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD at 1:40 PM CT: https://robinhoodchain.blockscout.com/tx/0xb6060c23344621f5a2702d9567982c74d487ad78c6af0c1b206c72e3b01fd626",
+   "Speed run: 7 \"Cat Mario\" tokens were created from 1:47 to 2:09 PM CT, each LP pulled within 10 minutes, with the ETH forwarded dev wallet to dev wallet; 6.82 ETH pulled in total. Pulls: 0xf84f4AD5F3421CB9afd97315ec8e741D89119e7D 0.8566 ETH (https://robinhoodchain.blockscout.com/tx/0x30150bcba32624b920af956e4aecf398d6bbeb35b9692b1ae6bac2a2be23cac3); 0x2760145282c9355419eA24170be3919D357E1d40 1.0791 ETH (https://robinhoodchain.blockscout.com/tx/0xde839787cf62d71bb4b23d847028659e5b04b88b39637cbc40deb753ebcc5326); 0x82D6Ef97c7969aF738Fe4A0e1EBEb9D7273485e3 0.837 ETH (https://robinhoodchain.blockscout.com/tx/0x7a651a5230b4830cf6715205fe1917f829d437c3862c7cb4608bfe2d63d59898); 0xcA2B88c92CEACd33cD5e240C96c75c08669b3a07 0.8695 ETH (https://robinhoodchain.blockscout.com/tx/0x530fac1ea8024dfd390f5981f2c92ed7cfe8eac23096c2c0aa52b5cae50e2e54); 0xF4C5D333DE1E5817f1628321c9d75BB0b0D2da5D 0.9078 ETH (https://robinhoodchain.blockscout.com/tx/0x48fcfdb351ebfbf3a959a505c4d028f743a5981d0d0d98ba1c5f0c934b66d662); 0xC72638F32AD577182390c04f5f2887cc2eeefb38 0.0012 ETH (https://robinhoodchain.blockscout.com/tx/0xd218c9129cbeddcd0543281fe25852a0c4c2cab9bf445edbb94c4ae1a2ac0ad9); 0x56f6A99406ba839b4e65caEcE8345444e15A3A62 2.2663 ETH (https://robinhoodchain.blockscout.com/tx/0xbde99b8abaa7386cf916a1d6ecefcb48c37629f0847ea626778c143a77842bc6)",
+   "The last Cat Mario dev 0xa190eF064CD0715a7a5A8b86dAcCDF34ca7Ca18D sent 6.9162 ETH to 0x955E31D6b9fdD1F1ED440319cB627Cc08C32fbFc, which sent 6.8162 ETH to hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD at 2:10 PM CT: https://robinhoodchain.blockscout.com/tx/0x0d2ad01ebc70de932555f9b35a11c1c2a896db51c6844a30110e00dfe3c2279f. Since 8 AM CT: 8 LP pulls (PIPI #2 plus the 7 Cat Mario coins) totalling 15.10 ETH. Same name is not same coin. NFA/DYOR"
+  ],
+  "receipts": {
+   "pipi2_token": "https://robinhoodchain.blockscout.com/token/0x2f8b16A7188ec9a2Ef562Af1a1Ec374EA938cEc8",
+   "pipi1_dev_to_deployer": "https://robinhoodchain.blockscout.com/tx/0xb4336294f46b4fb02e5f094447b3e0e9b97e18f683c9b66eadda224cb5ce9fb3",
+   "deployer_to_hub_0807": "https://robinhoodchain.blockscout.com/tx/0x225875da64bf71d53b77c34e30b1b08ec74ab0731696ac0cd482d5ced5c8aa4e",
+   "pipi2_create": "https://robinhoodchain.blockscout.com/tx/0x3a7a542cdbf9b19bf576da474b777a886723e7fb7357d48fc08de086c1a1048f",
+   "pipi2_pull": "https://robinhoodchain.blockscout.com/tx/0x4333b3b1079d08be52c4a074f1a338ac10fcee2fbf09b1c3921105faf29a7a6e",
+   "pipi2_sweep": "https://robinhoodchain.blockscout.com/tx/0x389e49fa16d4342dc0ba2968a7e834b5e80ec056d22ea4e3637fea6b1d78a8d2",
+   "pipi2_to_hub": "https://robinhoodchain.blockscout.com/tx/0xb6060c23344621f5a2702d9567982c74d487ad78c6af0c1b206c72e3b01fd626",
+   "catmario1_pull": "https://robinhoodchain.blockscout.com/tx/0x30150bcba32624b920af956e4aecf398d6bbeb35b9692b1ae6bac2a2be23cac3",
+   "catmario2_pull": "https://robinhoodchain.blockscout.com/tx/0xde839787cf62d71bb4b23d847028659e5b04b88b39637cbc40deb753ebcc5326",
+   "catmario3_pull": "https://robinhoodchain.blockscout.com/tx/0x7a651a5230b4830cf6715205fe1917f829d437c3862c7cb4608bfe2d63d59898",
+   "catmario4_pull": "https://robinhoodchain.blockscout.com/tx/0x530fac1ea8024dfd390f5981f2c92ed7cfe8eac23096c2c0aa52b5cae50e2e54",
+   "catmario5_pull": "https://robinhoodchain.blockscout.com/tx/0x48fcfdb351ebfbf3a959a505c4d028f743a5981d0d0d98ba1c5f0c934b66d662",
+   "catmario6_pull": "https://robinhoodchain.blockscout.com/tx/0xd218c9129cbeddcd0543281fe25852a0c4c2cab9bf445edbb94c4ae1a2ac0ad9",
+   "catmario7_pull": "https://robinhoodchain.blockscout.com/tx/0xbde99b8abaa7386cf916a1d6ecefcb48c37629f0847ea626778c143a77842bc6",
+   "catmario_to_hub": "https://robinhoodchain.blockscout.com/tx/0x0d2ad01ebc70de932555f9b35a11c1c2a896db51c6844a30110e00dfe3c2279f",
+   "deployer": "https://robinhoodchain.blockscout.com/address/0x22CD6Fa5490254DCa7F29f027081Ee8F8aBaa8Ef",
+   "hub_wallet": "https://robinhoodchain.blockscout.com/address/0x88966B72Fc8333e401335C4DC92FA7300DCa33AD"
+  },
+  "post": "https://x.com/DanxxDogs/status/2123513669963456629",
+  "img": "assets/alerts/pipi_twice_1119.jpg",
+  "dd": "DD-073"
+ },
+ {
   "id": "AL-042",
   "title": "Rug relay caught live: PIPI LP pulled 25 minutes after launch; 214 LP pulls totalling 468.53 ETH since Monday",
   "date": "2026-11-19",
