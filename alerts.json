@@ -1,5 +1,27 @@
 [
  {
+  "id": "AL-045",
+  "title": "Apple Inu (AI) LP pulled for 3.80 ETH by a Cat Mario relay wallet (Robinhood Chain)",
+  "date": "2026-11-20",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "Apple Inu (ticker AI, not Artificial Inu) 0x549BfdCf781e614cD1a31682889Fd44C3baE0fa7 was created at 8:14 PM CT Nov 19 by 0x955E31D6b9fdD1F1ED440319cB627Cc08C32fbFc (https://robinhoodchain.blockscout.com/tx/0x207ed54b56dc9730fc9b3d4935328eb98fea3fcf16323d4946080df57f79fee8); LP added at 8:16 PM CT (https://robinhoodchain.blockscout.com/tx/0xb67edcf747e249672cf6d241ef3c1f336559877954abe46acc497cc8c166b77a)",
+   "LP pulled at 9:54 AM CT Nov 20, 13 h 40 min after launch: 3.8032 ETH and 482.6M AI went back to the deployer (https://robinhoodchain.blockscout.com/tx/0x7444eb2414d6f67dbcc271b5bb61c26514e6cd0303398cc2a48be03849800395). DexScreener showed ~$1.75M 24h volume and 527 holders (Blockscout) before liquidity fell to ~$8; the deployer still held the ETH as of 2 PM CT",
+   "Same deployer on Nov 19 at 2:10 PM CT: received 6.9162 ETH from 0xa190eF064CD0715a7a5A8b86dAcCDF34ca7Ca18D (https://robinhoodchain.blockscout.com/tx/0x276302274481192c0e2d443a18c9414b79939f7b5a6d0b552f25361170d11d4d) and 16 seconds later sent 6.8162 ETH to relay hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD (https://robinhoodchain.blockscout.com/tx/0x0d2ad01ebc70de932555f9b35a11c1c2a896db51c6844a30110e00dfe3c2279f), the hub that banked the Cat Mario LP pulls (DD-073)",
+   "Still loaded as of 2 PM CT, no LP pull seen: FIONA 0x4213…2f47 (DD-076) and AMC #5 0xf420…E1D6 (DD-074). NFA/DYOR"
+  ],
+  "receipts": {
+   "create": "https://robinhoodchain.blockscout.com/tx/0x207ed54b56dc9730fc9b3d4935328eb98fea3fcf16323d4946080df57f79fee8",
+   "lp_add": "https://robinhoodchain.blockscout.com/tx/0xb67edcf747e249672cf6d241ef3c1f336559877954abe46acc497cc8c166b77a",
+   "lp_pull": "https://robinhoodchain.blockscout.com/tx/0x7444eb2414d6f67dbcc271b5bb61c26514e6cd0303398cc2a48be03849800395",
+   "to_hub_nov19": "https://robinhoodchain.blockscout.com/tx/0x0d2ad01ebc70de932555f9b35a11c1c2a896db51c6844a30110e00dfe3c2279f",
+   "deployer": "https://robinhoodchain.blockscout.com/address/0x955E31D6b9fdD1F1ED440319cB627Cc08C32fbFc"
+  },
+  "post": "https://robinhoodchain.blockscout.com/tx/0x7444eb2414d6f67dbcc271b5bb61c26514e6cd0303398cc2a48be03849800395",
+  "img": "assets/alerts/apple_inu_rug_1120.jpg",
+  "dd": "DD-075"
+ },
+ {
   "id": "AL-044",
   "title": "Same relay, new costume: 4 \"A Mario Cat\" (AMC) LP pulls in 30 minutes, 10.37 ETH (Robinhood Chain)",
   "date": "2026-11-20",
