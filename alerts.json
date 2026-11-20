@@ -1,5 +1,32 @@
 [
  {
+  "id": "AL-046",
+  "title": "\"The Riemann Hypothesis\" rug relay: 15 launches, 15 LP pulls in 48 minutes, 7.24 ETH (Robinhood Chain)",
+  "date": "2026-11-20",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "On Fri Nov 20 between 12:51 and 1:39 PM CT, 15 tokens (DexScreener name \"The Riemann Hypothesis\") were launched one after another by a chain of throwaway wallets, and all 15 had their LP pulled, 7.24 ETH in total (lpcheck, ETH pulled to each deployer)",
+   "#1 0x01D6860DaA60854ce53b49AB3cEF16B7e28a79BD created 12:51 PM CT by 0x2B289eb0eB33a4bff8D916FAc47fc0Eba08dF624 (https://robinhoodchain.blockscout.com/tx/0xf1a5b221280389d7ee2017caebb3b432c7d157f44c940d1fd4550da23d39996b); LP pulled 12:54 PM CT for 1.2712 ETH: https://robinhoodchain.blockscout.com/tx/0xfd3d068dd5be26afe9c87fa0b25c145c8c08a18573d3059795d245d64fe63af9",
+   "#2 0xa25ba8aAAFF7C6FA82d8CdE3c3b0Cc6b859f2daE created 12:55 PM CT by 0xA8bd2E24Da55106dBC458aD12ff443158Ff48Fa0; DexScreener 61 buys, 2 sells; LP pulled 1:10 PM CT for 2.6007 ETH: https://robinhoodchain.blockscout.com/tx/0xa2bb798178322426d910a101eaaf752312802e76ef3ad24fa93cb80312c7edc3",
+   "#5 0xAf916B08e4345DC85dd25ab9080892aC33aF2814 created 1:14 PM CT by 0x97065154EB52c692b6D8fa323abD3Dc97E6F8D82; DexScreener 57 buys, 0 sells; LP pulled 1:16 PM CT for 2.6061 ETH: https://robinhoodchain.blockscout.com/tx/0x2693b64c1a0b8d907ca6b28fef01e5c9228097570f65f5abc301b4b4fc1c450f",
+   "The other 12 launches were pulled for 0.22 ETH or less each; each deployer forwarded its ETH to the next wallet, which launched the next copy",
+   "7.16 ETH from 5 hop wallets landed in 0x3cA10f6407a959eB491Ea3fcf10e9AC726244234 between 12:54 and 1:28 PM CT (e.g. https://robinhoodchain.blockscout.com/tx/0x2688be0d50fce0fc110055ed1b6a5f292a3f2531ac3f4db30f2c9ccb47b6d700), and each deposit was sent on via disperseEther to 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C within seconds (https://robinhoodchain.blockscout.com/tx/0xf55f7834db1a1da8a262d018a254f5ca0adb4f97b818a167ca271a8b6ed4c3cb). 0x3cA1 has moved ETH back and forth with hub 0x1e1519a26C35A4966eCc42e43147257932D01773 (AL-040, Nov 16) since Nov 17",
+   "Copy #16 0x749bCfa70647b666E6Db243C76A32603cD3ad28f was created 1:39 PM CT by the next wallet in the chain, 0x9e4335a0a49649F2Fb8A5329Eb71455cD489CBBa; at 2:32 PM CT it had no LP pull and about 6.7 WETH in its pool (DexScreener). Flagged, not confirmed. Same name is not same coin. NFA/DYOR"
+  ],
+  "receipts": {
+   "t1_create": "https://robinhoodchain.blockscout.com/tx/0xf1a5b221280389d7ee2017caebb3b432c7d157f44c940d1fd4550da23d39996b",
+   "t1_pull": "https://robinhoodchain.blockscout.com/tx/0xfd3d068dd5be26afe9c87fa0b25c145c8c08a18573d3059795d245d64fe63af9",
+   "t2_pull": "https://robinhoodchain.blockscout.com/tx/0xa2bb798178322426d910a101eaaf752312802e76ef3ad24fa93cb80312c7edc3",
+   "t5_pull": "https://robinhoodchain.blockscout.com/tx/0x2693b64c1a0b8d907ca6b28fef01e5c9228097570f65f5abc301b4b4fc1c450f",
+   "to_bank": "https://robinhoodchain.blockscout.com/tx/0x2688be0d50fce0fc110055ed1b6a5f292a3f2531ac3f4db30f2c9ccb47b6d700",
+   "bank_disperse": "https://robinhoodchain.blockscout.com/tx/0xf55f7834db1a1da8a262d018a254f5ca0adb4f97b818a167ca271a8b6ed4c3cb",
+   "bank_wallet": "https://robinhoodchain.blockscout.com/address/0x3cA10f6407a959eB491Ea3fcf10e9AC726244234"
+  },
+  "post": "https://x.com/DanxxDogs/status/2123878655483052113",
+  "img": "assets/alerts/riemann_relay_1120.jpg",
+  "dd": "DD-078"
+ },
+ {
   "id": "AL-045",
   "title": "Apple Inu (AI) LP pulled for 3.80 ETH by a Cat Mario relay wallet (Robinhood Chain)",
   "date": "2026-11-20",
