@@ -1,5 +1,36 @@
 [
  {
+  "id": "AL-044",
+  "title": "Same relay, new costume: 4 \"A Mario Cat\" (AMC) LP pulls in 30 minutes, 10.37 ETH (Robinhood Chain)",
+  "date": "2026-11-20",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "The Cat Mario rug relay (AL-043) came back on Fri Nov 20 as \"A Mario Cat\", ticker AMC. Between 7:48 and 8:18 AM CT four AMC tokens were launched and all four had their LP pulled, 10.37 ETH in total (lpcheck, ETH pulled to each deployer)",
+   "AMC #1 0xbc4a322fd26F1140a55cDF4Dc4ba321e1a7f8A6E was created at 7:48 AM CT by 0x97962611699d725386d4cAdaD78369223FF17182 (https://robinhoodchain.blockscout.com/tx/0x8cc2552208cac0f2cd96917e5ae5dbd268520a3d38a997cb96ffbb919f4d4f6d), which was funded with 3.931 ETH by 0x95c75661A2743f40856F04469EBb465c67deA607 at 7:23 AM CT (https://robinhoodchain.blockscout.com/tx/0xd955d3a052c5e95a02734acc34b8fa152628a5c2afa1344fe54e93b3b36803f0). DexScreener showed 318 buys. LP pulled at 8:06 AM CT for 7.121 ETH: https://robinhoodchain.blockscout.com/tx/0x0b5d87d9244c50ae1dfc710e50920d8798473377962045bb4a8cc49229554e80",
+   "At 8:07 AM CT the AMC #1 deployer sent 7.2209 ETH to 0x3d4dE4C12C80ecD5C93E4D829081e3EEC4a21DfC (https://robinhoodchain.blockscout.com/tx/0x24bd76e4b4738b21c0efc1fe780e40bced20e74f1fe9c765f77158b2a7b0c25e), which sent 7.1209 ETH to relay bank 0xe8841e9dff76E63E9716faD4355b397AC9BDf69C (https://robinhoodchain.blockscout.com/tx/0x70e7c8b84ed3f38e9c27df8871f20e7fc1e5b2ffee1b35e74ed11d90f0bd2f22) and then launched AMC #2",
+   "AMC #2 0x84Fb460668F546Ec241CEDFD8ae97072c0aEc067 created 8:10:52 AM CT, LP pulled 8:12:26 AM CT for 2.4545 ETH (https://robinhoodchain.blockscout.com/tx/0xbeb779ea453303aab46ada4ea3ebffa26866b83bc5c42fbab1a1adbf0ef554a8); next wallet 0x326D48E92dcB898171f17824246E8391d00879a9 sent 2.4543 ETH to the bank (https://robinhoodchain.blockscout.com/tx/0xe4cded8b48a69b116b489a598bd90c609f6e0f573a75f7b5bddec83ba29ff1ab)",
+   "AMC #3 0xA495525bBFfFA6a491b8E553B8CAdeB97ac0281F created 8:15:05 AM CT by 0x326D…79a9, LP pulled 8:16:10 AM CT for 0.1396 ETH (https://robinhoodchain.blockscout.com/tx/0xc772d55d43db9a54a99bcfa6464722d032e1465dfe0e360f316c3240cec06198); AMC #4 0x3741C11697Adf004BCa175fBC47B0FFE8Dc44e37 created 8:17:13 AM CT by 0x9911ae2F2673560003Fc6F15242902617a215Ba9, LP pulled 8:18:11 AM CT for 0.6553 ETH (https://robinhoodchain.blockscout.com/tx/0x4a2e30f88a2b68a3a4485d853e51932a4480c09a6fe954dcceab303c885e9ca1); 0.6551 ETH then reached the bank via 0x422337663c50b71A8b7103E68CD941841C712fca (https://robinhoodchain.blockscout.com/tx/0x09aa061c57da1978ca340f939ab8c4a74a9372d8a0cb56f5f680f06caa67dad7)",
+   "Bank 0xe884…f69C (first flagged Nov 15, AL-038) disperses ETH to 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C and calls setBuyableToken on 0x80114879f80d156C8003676557324c518BAbD194 as each new coin launches (https://robinhoodchain.blockscout.com/tx/0x6119bc381115624b4331881b2bb57aebb39d67729ba27a652cfbbb8a51515756)",
+   "A 5th AMC, 0xf42031F6D50cc52E148e67079585adD4e71CE1D6, was created at 8:19 AM CT by 0x4223…2fca, the next wallet in the chain (https://robinhoodchain.blockscout.com/tx/0x4568539f2a18d7b778802b5f02dd0a0f112b7a5d4fa9a6c3b3e9195a522439cd); no LP pull seen on it as of 8:31 AM CT. Same name is not same coin. NFA/DYOR"
+  ],
+  "receipts": {
+   "amc1_create": "https://robinhoodchain.blockscout.com/tx/0x8cc2552208cac0f2cd96917e5ae5dbd268520a3d38a997cb96ffbb919f4d4f6d",
+   "amc1_pull": "https://robinhoodchain.blockscout.com/tx/0x0b5d87d9244c50ae1dfc710e50920d8798473377962045bb4a8cc49229554e80",
+   "amc1_to_next": "https://robinhoodchain.blockscout.com/tx/0x24bd76e4b4738b21c0efc1fe780e40bced20e74f1fe9c765f77158b2a7b0c25e",
+   "to_bank_1": "https://robinhoodchain.blockscout.com/tx/0x70e7c8b84ed3f38e9c27df8871f20e7fc1e5b2ffee1b35e74ed11d90f0bd2f22",
+   "amc2_pull": "https://robinhoodchain.blockscout.com/tx/0xbeb779ea453303aab46ada4ea3ebffa26866b83bc5c42fbab1a1adbf0ef554a8",
+   "to_bank_2": "https://robinhoodchain.blockscout.com/tx/0xe4cded8b48a69b116b489a598bd90c609f6e0f573a75f7b5bddec83ba29ff1ab",
+   "amc3_pull": "https://robinhoodchain.blockscout.com/tx/0xc772d55d43db9a54a99bcfa6464722d032e1465dfe0e360f316c3240cec06198",
+   "amc4_pull": "https://robinhoodchain.blockscout.com/tx/0x4a2e30f88a2b68a3a4485d853e51932a4480c09a6fe954dcceab303c885e9ca1",
+   "to_bank_4": "https://robinhoodchain.blockscout.com/tx/0x09aa061c57da1978ca340f939ab8c4a74a9372d8a0cb56f5f680f06caa67dad7",
+   "amc5_create": "https://robinhoodchain.blockscout.com/tx/0x4568539f2a18d7b778802b5f02dd0a0f112b7a5d4fa9a6c3b3e9195a522439cd",
+   "bank_wallet": "https://robinhoodchain.blockscout.com/address/0xe8841e9dff76E63E9716faD4355b397AC9BDf69C"
+  },
+  "post": "https://x.com/DanxxDogs/status/2123787419065680255",
+  "img": "assets/alerts/amc_relay_1120.jpg",
+  "dd": "DD-074"
+ },
+ {
   "id": "AL-043",
   "title": "Rugged twice: second PIPI LP pulled for 8.28 ETH, then 7 Cat Mario pulls in 23 minutes (Robinhood Chain)",
   "date": "2026-11-19",
