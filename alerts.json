@@ -1,5 +1,31 @@
 [
  {
+  "id": "AL-048",
+  "title": "Caught live: AMC #5 and Riemann #16 LPs pulled 4 seconds apart; 8 LP pulls overnight, 38.42 ETH (Robinhood Chain)",
+  "date": "2026-11-21",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "Between 8:28 PM CT Fri Nov 20 and 7:44 AM CT Sat Nov 21, 8 Robinhood Chain tokens from the same relay network had their LP pulled, 38.4223 ETH in total (lpcheck, ETH pulled to each deployer)",
+   "AMC #5 (\"A Mario Cat\") 0xf42031F6D50cc52E148e67079585adD4e71CE1D6, deployer 0x422337663c50b71A8b7103E68CD941841C712fca, was flagged as still loaded in DD-074 (Nov 20, 8:35 AM and 2 PM CT). LP pulled 7:44:04 AM CT for 3.2362 ETH: https://robinhoodchain.blockscout.com/tx/0x9df34217b7e140c597ae505c1ec0133729cbff20efafb014275fb7b96c66d7e9. The deployer sent 3.3361 ETH to 0x9d529139fa236e7D2Ce4cD58a0F36E66Fa5A77E6 at 7:46 AM CT (https://robinhoodchain.blockscout.com/tx/0xd9cf770e6979cd815948eebface1594c1682d60bccd35451c84c38c5cb61fd51), which sent 3.236 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773 at 7:49 AM CT: https://robinhoodchain.blockscout.com/tx/0xa434d1cab9300e48e016c61614120dda3e50d0276ee3197f2e50e8d0c157fe99",
+   "Riemann copy #16 (\"The Riemann Hypothesis\") 0x749bCfa70647b666E6Db243C76A32603cD3ad28f, deployer 0x9e4335a0a49649F2Fb8A5329Eb71455cD489CBBa, was posted as still loaded in AL-046/DD-078 (Nov 20, ~6.4 WETH in the pool at 2:31 PM CT). LP pulled 7:44:00 AM CT for 3.5645 ETH, 4 seconds before AMC #5: https://robinhoodchain.blockscout.com/tx/0xd6a3ce71866453fa2de7167e5906230ecf7b26344328eefbe850b6a53c0127bc. The deployer sent 3.737 ETH to 0x9D5477317857F4300681B6311488D0Ee66d314F4 at 7:48 AM CT (https://robinhoodchain.blockscout.com/tx/0x7c0b2257f5e018e2067e5103cbbea29669be8e820df8c87fdc113d019aed423b), which sent 3.637 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773 at 7:48 AM CT: https://robinhoodchain.blockscout.com/tx/0xaf2d191c0273a60812e4371eeaf83f59823a34ec7a62559b6b788930500cb877",
+   "\"Gestalt\" relay continued from AL-047, 8:28 to 9:06 PM CT: 3 LP pulls, 23.1159 ETH. 0xE2Fb697E41D3F178C0213F0264E1B17a3DeECcC1 8.0697 ETH (https://robinhoodchain.blockscout.com/tx/0x66d9ada1053071f39559ad9f4c21fbbe3a28d029fead5c8cae7fa452357cb757), 0x2f7cA73df911DFCD88679f9c2B446b2898443D37 11.4552 ETH (https://robinhoodchain.blockscout.com/tx/0xa33174a2187444d34a47f16303565597cd6fa661f671c60d959b1b491fadb3f2), 0xD78353e61Db9b6A0FfCc550a0c3f6C5200dcE970 3.5910 ETH (https://robinhoodchain.blockscout.com/tx/0x9f23b2a21d58867254d0576c5d122e242e7a77159d27daed366e85f588b3da23; its deployer 0x27F79A5D602dA08226a3D976F8d8D19Ff76E9DFc is the fresh wallet FIONA's deployer funded with 9.19 ETH in AL-047). At 8:51 PM CT hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD sent 29 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773: https://robinhoodchain.blockscout.com/tx/0x0fdc01cf0b105db5a4b53cfc402d0b7d88704f56be07f21476929eb5c52c4ded",
+   "\"it only takes one win\" relay, 1:43 to 4:42 AM CT: 3 LP pulls, 8.5057 ETH. 0x3C5f0f12abe098f68ED2F66Ede3cBc37FFFbCD0A 2.8984 ETH (https://robinhoodchain.blockscout.com/tx/0x1ffc42d5abb32980696adee1a57095657c715086c1b52f06ef8241fe11e5497e), 0xf683A1cC92df93C0585C408e1713b4FdDc8C2602 3.9221 ETH (https://robinhoodchain.blockscout.com/tx/0x2b1c35e547b632b8d854f819fb33ef1c377ed1af063274ff7400dac054860933), 0x8105BB62eBbB4d358673c468C4D6150A3CA286fC 1.6852 ETH after about 267k USD of 24h volume (https://robinhoodchain.blockscout.com/tx/0x5b5f1f3919557c6c76d5744f952be26a30a0d3e1e4579952659290f3c7619a69). ETH went on to hubs 0x86218837b945D58b510F4f2beB4DbC3470ea194d (2.9) and 0x1e1519a26C35A4966eCc42e43147257932D01773 (5.6)",
+   "Hub flow: at 7:50:48 AM CT 0x1e1519a26C35A4966eCc42e43147257932D01773 sent 26 ETH to 0x86218837b945D58b510F4f2beB4DbC3470ea194d (https://robinhoodchain.blockscout.com/tx/0x1fdda1a9b80dfd41a4306150c6313b0b3d5d453bb6c88c482654e6c8a33f6c36), which sent 26 ETH via disperseEther to 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C six seconds later, the same disperser as AL-046 and AL-047: https://robinhoodchain.blockscout.com/tx/0x9a55c2fe4d47505a1c7a0526dc5c4c93c72abbe96bc310cf12ef64618d3d0ad1",
+   "Still loaded, no LP pull as of about 8:30 AM CT Nov 21 (lpcheck): Gestalt 0xf87698928aec39ce9b86Ff386c6bD81eEdCeACfe, launched by 0xeb4732076604D8f22FB4050dcD1D97842001EAE4, a wallet funded by the 0xD783 Gestalt deployer, about 35k USD liquidity (DexScreener); and Singularity 0x7B2F02ed41DEc24399B0f2c02C81C3107cDDB8F9 from AL-047, about 25k USD liquidity. Flagged, not confirmed. Same name is not same coin. NFA/DYOR"
+  ],
+  "receipts": {
+   "amc5_pull": "https://robinhoodchain.blockscout.com/tx/0x9df34217b7e140c597ae505c1ec0133729cbff20efafb014275fb7b96c66d7e9",
+   "amc5_to_hub": "https://robinhoodchain.blockscout.com/tx/0xa434d1cab9300e48e016c61614120dda3e50d0276ee3197f2e50e8d0c157fe99",
+   "riemann16_pull": "https://robinhoodchain.blockscout.com/tx/0xd6a3ce71866453fa2de7167e5906230ecf7b26344328eefbe850b6a53c0127bc",
+   "riemann16_to_hub": "https://robinhoodchain.blockscout.com/tx/0xaf2d191c0273a60812e4371eeaf83f59823a34ec7a62559b6b788930500cb877",
+   "gestalt_hub_29eth": "https://robinhoodchain.blockscout.com/tx/0x0fdc01cf0b105db5a4b53cfc402d0b7d88704f56be07f21476929eb5c52c4ded",
+   "hub_disperse": "https://robinhoodchain.blockscout.com/tx/0x9a55c2fe4d47505a1c7a0526dc5c4c93c72abbe96bc310cf12ef64618d3d0ad1"
+  },
+  "post": "https://x.com/DanxxDogs/status/2124152277238006269",
+  "img": "assets/alerts/relay_1121_am.jpg",
+  "dd": "DD-080"
+ },
+ {
   "id": "AL-047",
   "title": "FIONA, \"Singularity\" and \"Gestalt\": 18 LP pulls in 5.5 hours, 60.17 ETH (Robinhood Chain)",
   "date": "2026-11-20",
