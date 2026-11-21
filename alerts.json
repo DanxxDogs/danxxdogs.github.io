@@ -1,5 +1,30 @@
 [
  {
+  "id": "AL-047",
+  "title": "FIONA, \"Singularity\" and \"Gestalt\": 18 LP pulls in 5.5 hours, 60.17 ETH (Robinhood Chain)",
+  "date": "2026-11-20",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "On Fri Nov 20 between 2:45 and 8:15 PM CT, 18 Robinhood Chain tokens had their LP pulled, 60.17 ETH in total (lpcheck, ETH pulled to each deployer)",
+   "FIONA (Fiona the Hippo) 0x4213406AE9e84E64A2dd7E4BB4DA0C25f9842f47, deployer 0xC6b76228128E108543f11BB6C6acF825C3F9a9da, was on our DD-076 \"still loaded\" watch at 2:13 PM CT. LP pulled 2:45 PM CT for 8.8571 ETH after 4,800+ buys (DexScreener 24h): https://robinhoodchain.blockscout.com/tx/0xdf7eedb1b1218aca1b54a52e6865ff84816da5a6db86aa5445b7e60ca543338a. At 4:21 PM CT the deployer sent 9.19 ETH to fresh wallet 0x27F79A5D602dA08226a3D976F8d8D19Ff76E9DFc (https://robinhoodchain.blockscout.com/tx/0x67427f67dc73ec2201ff16135ea256d17124dce46b1e0abda9f6e018f0fd9d90), which sent 9.0 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773 (AL-040) a minute later: https://robinhoodchain.blockscout.com/tx/0x6dbe0999a15548b86cdbac3d684ffa6aa8363fb268ff16c81b0c8a42ddc8de76",
+   "\"Singularity\" relay, 4:23 to 4:59 PM CT: 14 launches by a chain of throwaway wallets, 14 LP pulls, 37.02 ETH. Biggest: 0xa1767A45F755F9a2a5AEd95877DDc093044Fe53D, 7.2064 ETH after 105 buys: https://robinhoodchain.blockscout.com/tx/0xca78b57e4437b1f0cd4c3715e16968250515201c7c48869f6b17cb076a336b3e; 0x000510668926104FeCC6Fb24582085E973F2efFF 6.0606 ETH: https://robinhoodchain.blockscout.com/tx/0xdfe1f6b9aa0bf75b2f93c0bf78a4f67092d19e4dd0ef5e9231053dd6b4ba9923; 0x132527D11b8AaF2A9e963731f749B870E55174af 5.6131 ETH: https://robinhoodchain.blockscout.com/tx/0xf340ddd63e90c7974ec27a19676cb2fe82cbf8256bbedb3c310f0bdb15a439a2",
+   "39 ETH from that chain landed in 0x71f9D8279A72AcdA61B6Ea4b3Ad0D26bEd7E1CB9 (21.0 ETH https://robinhoodchain.blockscout.com/tx/0x9a3ddf1acf7f1320669544d2d1a50a12c04a25ca4d5d5f55bb5551e176a86000, 18.0 ETH https://robinhoodchain.blockscout.com/tx/0xed5f7a9771e9e37ed718a53513493331767bb2aed82eb5c8ad1772c3e8125eed); 18 ETH went out 7 seconds later via disperseEther to 0xEf57ff79E0577B2e835614478FCCec5A49E17f2C, the same disperser as AL-046: https://robinhoodchain.blockscout.com/tx/0xb0a53202870a9e3a66bee612dd59a2b089fae9b159ebb273795c65afb1427b14",
+   "\"Gestalt\" relay, 7:59 to 8:15 PM CT: 3 launches, 3 LP pulls, 14.30 ETH. 0x06dc871CCad80c088D1F0A087878C2f6bB6497e4 3.4023 ETH (https://robinhoodchain.blockscout.com/tx/0x34484f42ea16223c25194c752a14f04ea180c12bf8946031213377460ae83db0), 0x6e31829eE5E6F22f8F11a4F5f8274D323Ac96677 1.8081 ETH (https://robinhoodchain.blockscout.com/tx/0x36b2de68cd7abcea087f73f2ad87fc42cb9b55a1d8e9cf2a093bf74440dbe097), 0xf0F1fef41165eeC9acE88308D78b43861528643d 9.0905 ETH after 204 buys (https://robinhoodchain.blockscout.com/tx/0xc480e609acc52e5a6eea6bbb44ea539ab1c408886c4b94ea93e70f2af9a3ed3b). At 8:16 PM CT 14 ETH reached hub 0x88966B72Fc8333e401335C4DC92FA7300DCa33AD (the Nov 19 Cat Mario hub): https://robinhoodchain.blockscout.com/tx/0x9f3a65088156f149b75304bb6b8a3d686a15c35ad65de1373bfe26b02d73cd11",
+   "Still loaded: Singularity 0x7B2F02ed41DEc24399B0f2c02C81C3107cDDB8F9, created by the last wallet in the chain 0x1B7DC09C387a11E868E630DB0D96cc01E0380342; no LP pull and about 51k USD liquidity (DexScreener) as of 8:20 PM CT. Flagged, not confirmed. Same name is not same coin. NFA/DYOR"
+  ],
+  "receipts": {
+   "fiona_pull": "https://robinhoodchain.blockscout.com/tx/0xdf7eedb1b1218aca1b54a52e6865ff84816da5a6db86aa5445b7e60ca543338a",
+   "fiona_to_hub": "https://robinhoodchain.blockscout.com/tx/0x6dbe0999a15548b86cdbac3d684ffa6aa8363fb268ff16c81b0c8a42ddc8de76",
+   "singularity_biggest": "https://robinhoodchain.blockscout.com/tx/0xca78b57e4437b1f0cd4c3715e16968250515201c7c48869f6b17cb076a336b3e",
+   "hub_disperse": "https://robinhoodchain.blockscout.com/tx/0xb0a53202870a9e3a66bee612dd59a2b089fae9b159ebb273795c65afb1427b14",
+   "gestalt_biggest": "https://robinhoodchain.blockscout.com/tx/0xc480e609acc52e5a6eea6bbb44ea539ab1c408886c4b94ea93e70f2af9a3ed3b",
+   "gestalt_to_hub": "https://robinhoodchain.blockscout.com/tx/0x9f3a65088156f149b75304bb6b8a3d686a15c35ad65de1373bfe26b02d73cd11"
+  },
+  "post": "https://x.com/DanxxDogs/status/2123966106927006154",
+  "img": "assets/alerts/relay_1120_pm.jpg",
+  "dd": "DD-079"
+ },
+ {
   "id": "AL-046",
   "title": "\"The Riemann Hypothesis\" rug relay: 15 launches, 15 LP pulls in 48 minutes, 7.24 ETH (Robinhood Chain)",
   "date": "2026-11-20",
