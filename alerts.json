@@ -1,5 +1,34 @@
 [
  {
+  "id": "AL-049",
+  "title": "45 LP pulls on Robinhood Chain from 8:12 AM to 2:07 PM CT, 87.22 ETH; 23 Bigfoot rugs (44.30 ETH) and a ni hao cat backdoor",
+  "date": "2026-11-21",
+  "project": "Liquidity pull · rug relay · backdoor · Robinhood Chain",
+  "facts": [
+   "Between 8:12 AM and 2:07 PM CT Sat Nov 21, 45 Robinhood Chain tokens had their LP pulled, 87.2222 ETH in total (lpcheck, ETH pulled to each deployer)",
+   "23 of them were named \"Bigfoot\", 44.2997 ETH, including a relay hop. Bigfoot 0x7dA012ADa45A24efF40fB290a664985fA80B3a26, deployer 0x3f6c7318efB897D4AB04fCc58a063b89e03520e4, LP pulled 12:55:25 PM CT for 6.5118 ETH: https://robinhoodchain.blockscout.com/tx/0xe80e161f39476fa4b313c635daf90330222b394500b8e24b018943f4b6ae3a04. The deployer sent 6.6166 ETH to 0x110B9B1626a22ca7a0fD501304E36d0B9D525F23 23 seconds later at 12:55:48 PM CT: https://robinhoodchain.blockscout.com/tx/0xcb9ed3e90237522fc0742bec0990e897af8b15b7442f481bc5d018dfb187bd27. That wallet launched Bigfoot 0x6f395589A423eFC0Db3502104Db99E91FE25c33e, pulled 12:58:24 PM CT for 3.4799 ETH: https://robinhoodchain.blockscout.com/tx/0x155baabf7b04739f24ec40bf0cb6b10e81f5dcee6648071f018e793c722cbdf4",
+   "Vulnpocalypse 0xbF07bbFd492708bbd6e35757fAf5aed7C9D7cF50, 156 holders, deployer 0x0bbB512C838594314cF33132C9fe232AcdC3f146, LP pulled 1:47:21 PM CT for 7.9103 ETH: https://robinhoodchain.blockscout.com/tx/0x5877b83f2d1ffad27546292f9aede8ce7a630c29468add8519f21c726aed8f28. At 1:48:00 PM CT the deployer sent 8 ETH to hub 0x1e1519a26C35A4966eCc42e43147257932D01773: https://robinhoodchain.blockscout.com/tx/0x3c13ff87561eced428f7220ef80c30996a0e853182c0fd345eb7084e9234a6ac. The hub held about 26.6 ETH as of the 2 PM CT check",
+   "\"1 share can change your life\" 0xf5871567fc19C7FE003642DEe754cdE7B137f370, LP pulled 12:22:03 PM CT for 1.2470 ETH: https://robinhoodchain.blockscout.com/tx/0x82d815e1367b571c39798a34d70d131647045e579c78d410fb708517b51b8cc2. Housecoin 0x807628f1923bC45D1e75a76BAE1f55cd94f58673, LP pulled 2:07:14 PM CT for 3.7915 ETH: https://robinhoodchain.blockscout.com/tx/0x3675531d6ebc189320738cdd2f59a7c7ecb67ecabbcd4dacfdb7a3abccd821f4",
+   "Still loaded, no LP pull as of the 2 PM CT check (lpcheck): Housecoin 0x82a6aD54008856E14708C3B1D41d3b44076E7eE6, launched at 2:08:05 PM CT by 0x9BAB00207ac53A060614bf116d3C2eBd99d7453D, which was funded with 3.9484 ETH by the 0x8076 deployer 17 seconds after that pull: https://robinhoodchain.blockscout.com/tx/0x7f3a9f5d5d56265b7a5ff6b1c4b6f36073f98ab3251512880ebe69623ae95d48. Flagged, not confirmed. Same name is not same coin. NFA/DYOR",
+   "\"ni hao cat\" (mihao) 0x1f9ed5E283C06b29732fe777AcAA84aed94FefF7 is a backdoor, not an LP pull (lpcheck: 0 pulls). Verified source lets the deployer move anyone's tokens without approval: transferFrom settles the transfer, then a deployer-only settlement index returns before allowance is spent. Deployer 0x3Ba5F37Aa75E500fc748d050Ab4b33D50B213ba7 used it in 12 transferFrom calls that sent 9 holders' tokens to the dead address, e.g. https://robinhoodchain.blockscout.com/tx/0x6a1e8999f43e76e9936c59d110bc69a46d12248c0f582ea6cb24f535faa85b64. At 1:35:48 PM CT, 0x370c1d930f5bE4C11c975849d2fC177839603de2 dumped 650.4M tokens (650,440,725.73): https://robinhoodchain.blockscout.com/tx/0xcfc8f8c1273f65fbfdb38f6b016a2c8258623a55b5813f92040c454f3d06d6c3. 1.8700 ETH from that swap went to 0xDF8B9B61318685a7D2775551CF1D680EE147bE72, a wallet the deployer has sent ETH to. Price fell 99.8% over 1 hour (DexScreener h1 -99.77%). NFA/DYOR"
+  ],
+  "receipts": {
+   "bigfoot_7da0_pull": "https://robinhoodchain.blockscout.com/tx/0xe80e161f39476fa4b313c635daf90330222b394500b8e24b018943f4b6ae3a04",
+   "bigfoot_hop": "https://robinhoodchain.blockscout.com/tx/0xcb9ed3e90237522fc0742bec0990e897af8b15b7442f481bc5d018dfb187bd27",
+   "bigfoot_6f39_pull": "https://robinhoodchain.blockscout.com/tx/0x155baabf7b04739f24ec40bf0cb6b10e81f5dcee6648071f018e793c722cbdf4",
+   "vuln_pull": "https://robinhoodchain.blockscout.com/tx/0x5877b83f2d1ffad27546292f9aede8ce7a630c29468add8519f21c726aed8f28",
+   "vuln_to_hub": "https://robinhoodchain.blockscout.com/tx/0x3c13ff87561eced428f7220ef80c30996a0e853182c0fd345eb7084e9234a6ac",
+   "share_pull": "https://robinhoodchain.blockscout.com/tx/0x82d815e1367b571c39798a34d70d131647045e579c78d410fb708517b51b8cc2",
+   "housecoin_8076_pull": "https://robinhoodchain.blockscout.com/tx/0x3675531d6ebc189320738cdd2f59a7c7ecb67ecabbcd4dacfdb7a3abccd821f4",
+   "housecoin_82a6_fund": "https://robinhoodchain.blockscout.com/tx/0x7f3a9f5d5d56265b7a5ff6b1c4b6f36073f98ab3251512880ebe69623ae95d48",
+   "mihao_transferFrom": "https://robinhoodchain.blockscout.com/tx/0x6a1e8999f43e76e9936c59d110bc69a46d12248c0f582ea6cb24f535faa85b64",
+   "mihao_dump": "https://robinhoodchain.blockscout.com/tx/0xcfc8f8c1273f65fbfdb38f6b016a2c8258623a55b5813f92040c454f3d06d6c3"
+  },
+  "post": "https://x.com/DanxxDogs/status/2124239189076213998",
+  "img": "assets/alerts/relay_1121_pm.jpg",
+  "dd": "DD-081"
+ },
+ {
   "id": "AL-048",
   "title": "Caught live: AMC #5 and Riemann #16 LPs pulled 4 seconds apart; 8 LP pulls overnight, 38.42 ETH (Robinhood Chain)",
   "date": "2026-11-21",
