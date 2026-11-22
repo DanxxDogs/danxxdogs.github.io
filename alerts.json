@@ -1,5 +1,39 @@
 [
  {
+  "id": "AL-050",
+  "title": "Rug relay: 20 LP pulls on Robinhood Chain from 3:32 to 7:10 PM CT, 63.88 ETH; 14 \"ину\" coins (40.50 ETH) and 6 ViceCoins (23.37 ETH)",
+  "date": "2026-11-21",
+  "project": "Liquidity pull · rug relay · Robinhood Chain",
+  "facts": [
+   "Between 3:32 and 7:10 PM CT Sat Nov 21, we traced 20 Robinhood Chain LP pulls to one relay, 63.8753 ETH in total (lpcheck, ETH pulled to each deployer). Each fresh wallet launches a coin, pulls its LP, and passes the ETH to the next fresh wallet, which launches the next copy",
+   "6 coins named ViceCoin were pulled from 6:48:58 to 7:10:57 PM CT, 23.3735 ETH. The chain started when 0xeb4732076604D8f22FB4050dcD1D97842001EAE4 (a Gestalt relay hop from Nov 20) sent 4.5351 ETH to 0xB2e2168A839Ef5A6d7C5eF2dC4F71a41a589feD5 at 6:45:40 PM CT: https://robinhoodchain.blockscout.com/tx/0x96d64b1a61d98c0eaca9d5fb92f68af447f964ab16cbf7929bf2a966765dc443. First ViceCoin 0x68E0D3E2778dB9db65708d73A04E8a85F271e0d2 pulled 6:48:58 PM for 2.0217 ETH: https://robinhoodchain.blockscout.com/tx/0x5f8aaf29452602826f676cab7f1d354a9d52223601ece272a3052dedcf3fc564",
+   "ViceCoin 0x7D551E1Cf9f8267b6C24353aE56b764D46e500a4 (deployer 0x619284fA868c80708D9103C49cF478454c879aF2) pulled 6:58:35 PM CT for 6.7273 ETH: https://robinhoodchain.blockscout.com/tx/0x054113741c2519b17ebccf00fd805c1db218bd8f259d27e5674f2069e78f01f9. 18 seconds later 13.1773 ETH went to the next wallet 0x7174e8baa9BbC2306638F891Eb3F96f9A3b6F9d4: https://robinhoodchain.blockscout.com/tx/0x693e201e0d796df445be4f30a47c7131eeb8a2e1a441dc6b9025a35d2be0a37e, which sent 13 ETH to hub 0x4eF046ddcD04e44Efc0535336f9532f0Ec62C24C at 6:59:32 PM: https://robinhoodchain.blockscout.com/tx/0xbc79e1fdaa9320868cfaf5a93a300bec2cf7bf0634355ac09a82e9dd32453eed",
+   "Last ViceCoin pull: 0x662efA1421353CeFdc1dCF4998B78A66D69A1C73 (deployer 0x8162A2eE964077bCfd8dDEa5F98c0F2a04042F0F) pulled 7:10:57 PM CT for 5.0837 ETH: https://robinhoodchain.blockscout.com/tx/0xb96d8a9b12ff3e81710efef6fd412068e6ca24a58d52ff94efebd99b03bb7042. At 7:11:32 PM the deployer sent 7.9073 ETH to 0x3E5680908aad4B5a3c9dF9D3C47B9B8EBcB94869: https://robinhoodchain.blockscout.com/tx/0x5534209cb39c932dfb107b95d858ae1337a8c7da35837e76b674c329984ba4b8. That wallet sent 7.8 ETH to hub 0x4eF0…C24C (https://robinhoodchain.blockscout.com/tx/0xbc04480070bb3b3041ab94ff96d1014c1b9c901e6f0a6483a5d79c282a6379ea) and launched ViceCoin #7 0x82a7F594929c3836c501A3D70b28aec0968a2976 at 7:12:23 PM CT: https://robinhoodchain.blockscout.com/tx/0x95024407345c836cd9e717115ffdf32e2661837db6f824f9b272b74753c7364d",
+   "14 coins named \"ину\" were pulled from 3:32 to 4:46 PM CT, 40.5018 ETH. Largest: ину 0x94d5b86E7D5a137FAf8f6B5a57e3799d03005f31 (deployer 0x916C39e9e5e7b0Fd61c3777f640Df8815A7C27A8) pulled 4:21:39 PM CT for 8.9779 ETH: https://robinhoodchain.blockscout.com/tx/0x8d853f0dd7eeb240b75b62fd4419bd2074efb7ac0030a2beaae23eec01b0d0cd; that deployer had sent 24 ETH to hub 0xe8841e9dff76E63E9716faD4355b397AC9BDf69C at 3:58 PM: https://robinhoodchain.blockscout.com/tx/0x961752ef79e9584267655d5d82878fa60720235eacf1e1e5165826b93d2987d9. ину 0x46b8855e1dc3f70dDC5D9D8Fa4E88807E5Db0126 pulled 3:46 PM CT for 8.9088 ETH: https://robinhoodchain.blockscout.com/tx/0x9495a75bc5da237ea3819c05c0e7da3830c78447a1d94963a5d0b5d20614c344; its deployer sent 16.0294 ETH to the next hop 0xB473D74d8cF6477E8cA354f21601fC1da9ea1115: https://robinhoodchain.blockscout.com/tx/0x461e88b7de48138098254e1ce16c00f5ba67ba310f761a03117576b7244a1bf5",
+   "Still loaded, no LP pull as of the 8 PM CT check (lpcheck 0 pulls), flagged not confirmed: ViceCoin #7 0x82a7F594929c3836c501A3D70b28aec0968a2976 (about 59k USD liquidity, up about 3,900% since launch per DexScreener) and ину 0x1a92d31439555c28Eac75dF0301f2e1CDa726DA3 (about 44k USD liquidity), launched 4:46:57 PM CT by 0xA92487b55ca1ECE4b2eE789e19E12Fc24f17A011, which was funded 16.5992 ETH by the previous hop (https://robinhoodchain.blockscout.com/tx/0x2620fa4f7706ef82f11c8cc7a23ebd5247318559f98b43517638fa65de8e7bff) and sent 16 ETH to hub 0xe884…f69C at 4:50:57 PM: https://robinhoodchain.blockscout.com/tx/0xcdf10ea76840d31907fc304beb8ce7267d1cfc939b31dec495e004c9dda889f5. Same name is not same coin. NFA/DYOR"
+  ],
+  "receipts": {
+   "v_seed": "https://robinhoodchain.blockscout.com/tx/0x96d64b1a61d98c0eaca9d5fb92f68af447f964ab16cbf7929bf2a966765dc443",
+   "v1": "https://robinhoodchain.blockscout.com/tx/0x5f8aaf29452602826f676cab7f1d354a9d52223601ece272a3052dedcf3fc564",
+   "v3": "https://robinhoodchain.blockscout.com/tx/0x054113741c2519b17ebccf00fd805c1db218bd8f259d27e5674f2069e78f01f9",
+   "v3_hop": "https://robinhoodchain.blockscout.com/tx/0x693e201e0d796df445be4f30a47c7131eeb8a2e1a441dc6b9025a35d2be0a37e",
+   "v4_hub": "https://robinhoodchain.blockscout.com/tx/0xbc79e1fdaa9320868cfaf5a93a300bec2cf7bf0634355ac09a82e9dd32453eed",
+   "v6": "https://robinhoodchain.blockscout.com/tx/0xb96d8a9b12ff3e81710efef6fd412068e6ca24a58d52ff94efebd99b03bb7042",
+   "v6_hop": "https://robinhoodchain.blockscout.com/tx/0x5534209cb39c932dfb107b95d858ae1337a8c7da35837e76b674c329984ba4b8",
+   "v7_hub": "https://robinhoodchain.blockscout.com/tx/0xbc04480070bb3b3041ab94ff96d1014c1b9c901e6f0a6483a5d79c282a6379ea",
+   "v7_create": "https://robinhoodchain.blockscout.com/tx/0x95024407345c836cd9e717115ffdf32e2661837db6f824f9b272b74753c7364d",
+   "i_big": "https://robinhoodchain.blockscout.com/tx/0x8d853f0dd7eeb240b75b62fd4419bd2074efb7ac0030a2beaae23eec01b0d0cd",
+   "i_hub24": "https://robinhoodchain.blockscout.com/tx/0x961752ef79e9584267655d5d82878fa60720235eacf1e1e5165826b93d2987d9",
+   "i_46b8": "https://robinhoodchain.blockscout.com/tx/0x9495a75bc5da237ea3819c05c0e7da3830c78447a1d94963a5d0b5d20614c344",
+   "i_hop": "https://robinhoodchain.blockscout.com/tx/0x461e88b7de48138098254e1ce16c00f5ba67ba310f761a03117576b7244a1bf5",
+   "i_last_fund": "https://robinhoodchain.blockscout.com/tx/0x2620fa4f7706ef82f11c8cc7a23ebd5247318559f98b43517638fa65de8e7bff",
+   "i_last_hub": "https://robinhoodchain.blockscout.com/tx/0xcdf10ea76840d31907fc304beb8ce7267d1cfc939b31dec495e004c9dda889f5"
+  },
+  "post": "https://x.com/DanxxDogs/status/2124329762260959531",
+  "img": "assets/alerts/relay_1121_eve.jpg",
+  "dd": "DD-082"
+ },
+ {
   "id": "AL-049",
   "title": "45 LP pulls on Robinhood Chain from 8:12 AM to 2:07 PM CT, 87.22 ETH; 23 Bigfoot rugs (44.30 ETH) and a ni hao cat backdoor",
   "date": "2026-11-21",
